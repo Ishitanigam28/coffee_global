@@ -1,0 +1,51 @@
+store_id,store_name,country,city,opened_date,store_type
+1,CoffeeHouse_1,Germany,StoreCity_191,7/27/2020,DriveThru
+2,CoffeeHouse_2,Kenya,StoreCity_156,12/29/2023,DriveThru
+3,CoffeeHouse_3,Kenya,StoreCity_163,2/17/2017,DriveThru
+4,CoffeeHouse_4,Vietnam,StoreCity_161,2/2/2016,Retail
+5,CoffeeHouse_5,Mexico,StoreCity_113,5/17/2015,DriveThru
+6,CoffeeHouse_6,Vietnam,StoreCity_24,3/14/2025,DriveThru
+7,CoffeeHouse_7,Peru,StoreCity_192,8/29/2019,Kiosk
+8,CoffeeHouse_8,India,StoreCity_34,10/27/2023,DriveThru
+9,CoffeeHouse_9,Australia,StoreCity_129,3/30/2025,DriveThru
+10,CoffeeHouse_10,Indonesia,StoreCity_66,4/1/2025,Airport
+11,CoffeeHouse_11,Mexico,StoreCity_192,10/5/2024,DriveThru
+12,CoffeeHouse_12,Ethiopia,StoreCity_120,10/19/2025,Retail
+13,CoffeeHouse_13,Vietnam,StoreCity_194,11/2/2025,Kiosk
+14,CoffeeHouse_14,Costa Rica,StoreCity_143,2/7/2019,Retail
+15,CoffeeHouse_15,Costa Rica,StoreCity_4,12/19/2017,Retail
+16,CoffeeHouse_16,France,StoreCity_95,7/18/2022,DriveThru
+17,CoffeeHouse_17,UK,StoreCity_98,3/22/2024,DriveThru
+18,CoffeeHouse_18,Ethiopia,StoreCity_173,8/15/2017,Airport
+19,CoffeeHouse_19,United States,StoreCity_159,11/30/2024,DriveThru
+20,CoffeeHouse_20,Germany,StoreCity_57,4/6/2022,Retail
+21,CoffeeHouse_21,France,StoreCity_180,5/22/2018,Airport
+22,CoffeeHouse_22,Ethiopia,StoreCity_36,7/5/2015,Retail
+23,CoffeeHouse_23,Mexico,StoreCity_127,4/20/2016,Retail
+24,CoffeeHouse_24,Kenya,StoreCity_138,7/9/2016,Airport
+25,CoffeeHouse_25,France,StoreCity_95,7/9/2022,Airport
+26,CoffeeHouse_26,UK,StoreCity_191,2/24/2023,Kiosk
+27,CoffeeHouse_27,Spain,StoreCity_168,2/10/2016,Airport
+28,CoffeeHouse_28,Germany,StoreCity_105,7/13/2025,DriveThru
+29,CoffeeHouse_29,Brazil,StoreCity_177,2/26/2019,Kiosk
+30,CoffeeHouse_30,France,StoreCity_114,8/29/2025,Kiosk
+31,CoffeeHouse_31,Honduras,StoreCity_26,9/9/2022,DriveThru
+32,CoffeeHouse_32,Canada,StoreCity_166,1/9/2019,Retail
+33,CoffeeHouse_33,Costa Rica,StoreCity_71,2/16/2017,Retail
+34,CoffeeHouse_34,France,StoreCity_24,6/7/2022,Kiosk
+35,CoffeeHouse_35,Germany,StoreCity_6,7/27/2015,DriveThru
+36,CoffeeHouse_36,Kenya,StoreCity_33,10/29/2023,Kiosk
+37,CoffeeHouse_37,Colombia,StoreCity_196,3/20/2021,Kiosk
+38,CoffeeHouse_38,UK,StoreCity_56,2/13/2024,Kiosk
+39,CoffeeHouse_39,Peru,StoreCity_199,8/27/2016,Retail
+40,CoffeeHouse_40,Guatemala,StoreCity_38,6/16/2016,DriveThru
+41,CoffeeHouse_41,Indonesia,StoreCity_29,5/31/2022,Retail
+42,CoffeeHouse_42,Vietnam,StoreCity_4,1/7/2019,Kiosk
+43,CoffeeHouse_43,UK,StoreCity_83,3/6/2015,Kiosk
+44,CoffeeHouse_44,Guatemala,StoreCity_14,6/3/2016,Airport
+45,CoffeeHouse_45,Australia,StoreCity_30,5/13/2023,Retail
+46,CoffeeHouse_46,Italy,StoreCity_115,9/22/2023,DriveThru
+47,CoffeeHouse_47,Australia,StoreCity_152,3/22/2016,Airport
+48,CoffeeHouse_48,Australia,StoreCity_57,8/8/2025,Retail
+49,CoffeeHouse_49,Australia,StoreCity_78,2/20/2020,Retail
+50,CoffeeHouse_50,Brazil,StoreCity_123,7/2/2024,Airport

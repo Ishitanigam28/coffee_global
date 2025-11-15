@@ -1,0 +1,389 @@
+🧩 STEP 2: Load & Inspect Data (Python)
+
+Goal → Load all 5 CSV files and quickly check their structure, size, and missing values.
+
+# ------------------------------
+# STEP 2: LOAD & INSPECT DATA
+# ------------------------------
+
+# Import libraries
+import pandas as pd
+
+# Load CSV files
+customers = pd.read_csv("customers.csv")
+products = pd.read_csv("products.csv")
+stores = pd.read_csv("stores.csv")
+orders = pd.read_csv("orders.csv")
+order_items = pd.read_csv("order_items.csv")
+
+# Quick look at data
+print("✅ Data Loaded Successfully!\n")
+
+print("Customers:", customers.shape)
+print("Products:", products.shape)
+print("Stores:", stores.shape)
+print("Orders:", orders.shape)
+print("Order Items:", order_items.shape)
+
+# Display first few rows of each dataset
+print("\n--- Customers ---")
+print(customers.head())
+
+print("\n--- Orders ---")
+print(orders.head())
+
+print("\n--- Order Items ---")
+print(order_items.head())
+
+# Check data types and missing values
+print("\n📋 Data Info:")
+print(orders.info())
+
+print("\n🔍 Missing Values:")
+for name, df in {"customers":customers,"products":products,"stores":stores,"orders":orders,"order_items":order_items}.items():
+    print(f"{name}: {df.isnull().sum().sum()} missing values")
+
+
+✅ What this does:
+
+Imports all CSVs into pandas DataFrames
+
+Checks number of rows and columns
+
+Prints first few records
+
+Checks data types (important for date & numeric fields)
+
+Detects missing values (for cleaning in next step)
+
+🧼 STEP 3: Data Cleaning & Preparation
+
+Goal → Fix data types, clean unwanted rows, handle duplicates, and create a ready-to-analyze master dataset.
+
+# ------------------------------
+# STEP 3: DATA CLEANING
+# ------------------------------
+
+# ✅ 1. Convert date & time columns
+orders['order_date'] = pd.to_datetime(orders['order_date'], errors='coerce')
+orders['order_time'] = pd.to_datetime(orders['order_time'], format='%H:%M:%S', errors='coerce').dt.time
+
+customers['signup_date'] = pd.to_datetime(customers['signup_date'], errors='coerce')
+stores['opened_date'] = pd.to_datetime(stores['opened_date'], errors='coerce')
+
+# ✅ 2. Ensure numeric columns are numeric
+order_items['quantity'] = pd.to_numeric(order_items['quantity'], errors='coerce')
+order_items['unit_price'] = pd.to_numeric(order_items['unit_price'], errors='coerce')
+order_items['total_price'] = pd.to_numeric(order_items['total_price'], errors='coerce')
+
+# ✅ 3. Remove cancelled / returned orders (optional filter)
+orders_cleaned = orders[orders['order_status'] == 'Completed']
+
+# ✅ 4. Remove duplicate rows (if any)
+customers.drop_duplicates(inplace=True)
+products.drop_duplicates(inplace=True)
+stores.drop_duplicates(inplace=True)
+orders_cleaned.drop_duplicates(inplace=True)
+order_items.drop_duplicates(inplace=True)
+
+# ✅ 5. Merge order_items with orders to get full transaction data
+merged_orders = pd.merge(order_items, orders_cleaned, on='order_id', how='inner')
+
+# ✅ 6. Merge with product & customer info (optional, for analysis)
+merged_orders = merged_orders.merge(products[['product_id','product_name','category','unit_price']], on='product_id', how='left')
+merged_orders = merged_orders.merge(customers[['customer_id','country','city','loyalty_member']], on='customer_id', how='left')
+merged_orders = merged_orders.merge(stores[['store_id','store_name','store_type','country']], on='store_id', how='left', suffixes=('_cust_country','_store_country'))
+
+# ✅ 7. Add total order value per order (aggregation)
+order_totals = order_items.groupby('order_id', as_index=False)['total_price'].sum().rename(columns={'total_price':'order_total'})
+orders_cleaned = orders_cleaned.merge(order_totals, on='order_id', how='left')
+
+# ✅ 8. Handle missing values (fill or drop)
+merged_orders.fillna({'shipping_delay_days':0, 'payment_method':'Unknown'}, inplace=True)
+
+# ✅ 9. Final shape check
+print("\n✅ Cleaned Orders:", orders_cleaned.shape)
+print("✅ Merged Orders (for analysis):", merged_orders.shape)
+
+# ✅ 10. Optional: Save cleaned data
+orders_cleaned.to_csv("cleaned_orders.csv", index=False)
+merged_orders.to_csv("coffee_sales_master.csv", index=False)
+
+print("\n☕ Cleaned files saved as 'cleaned_orders.csv' and 'coffee_sales_master.csv'")
+
+🎯 RESULT
+
+After running Step 3:
+
+You’ll get two new files ready for analysis:
+
+cleaned_orders.csv → one record per order
+
+coffee_sales_master.csv → fully joined table (customer + product + store + order info)
+
+These are the files you’ll use in SQL or Power BI for visualization.
+
+If you’d like, I can now give you the Step 4 SQL commands to:
+
+Create tables for all 5 CSVs
+
+Load the data (MySQL / PostgreSQL format)
+
+Run basic analysis queries (top-selling coffee, sales by country, etc.)
+
+🧱 STEP 4 — SQL DATABASE CREATION & DATA ANALYSIS (MySQL)
+
+We’ll do this in three parts:
+
+🗄️ Create database and tables
+
+📥 Import the CSV data
+
+📊 Run analytical queries
+
+🧩 1️⃣ CREATE DATABASE & TABLES
+
+Open MySQL Workbench or command prompt, then run:
+
+-- Create new database
+CREATE DATABASE coffee_sales;
+USE coffee_sales;
+
+-- CUSTOMERS TABLE
+CREATE TABLE customers (
+    customer_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(100),
+    country VARCHAR(100),
+    city VARCHAR(100),
+    signup_date DATE,
+    loyalty_member BOOLEAN
+);
+
+-- PRODUCTS TABLE
+CREATE TABLE products (
+    product_id INT PRIMARY KEY,
+    product_name VARCHAR(100),
+    category VARCHAR(50),
+    size_ml INT,
+    unit_price DECIMAL(6,2)
+);
+
+-- STORES TABLE
+CREATE TABLE stores (
+    store_id INT PRIMARY KEY,
+    store_name VARCHAR(100),
+    country VARCHAR(100),
+    city VARCHAR(100),
+    opened_date DATE,
+    store_type VARCHAR(50)
+);
+
+-- ORDERS TABLE
+CREATE TABLE orders (
+    order_id INT PRIMARY KEY,
+    customer_id INT,
+    store_id INT,
+    order_date DATE,
+    order_time TIME,
+    payment_method VARCHAR(50),
+    order_status VARCHAR(50),
+    shipping_country VARCHAR(100),
+    shipping_delay_days INT,
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
+    FOREIGN KEY (store_id) REFERENCES stores(store_id)
+);
+
+-- ORDER_ITEMS TABLE
+CREATE TABLE order_items (
+    order_item_id INT PRIMARY KEY,
+    order_id INT,
+    product_id INT,
+    product_name VARCHAR(100),
+    quantity INT,
+    unit_price DECIMAL(6,2),
+    total_price DECIMAL(10,2),
+    FOREIGN KEY (order_id) REFERENCES orders(order_id),
+    FOREIGN KEY (product_id) REFERENCES products(product_id)
+);
+
+-- Allow local file loading (if disabled)
+SET GLOBAL local_infile = 1;
+
+SHOW VARIABLES LIKE 'secure_file_priv';
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/customers.csv'
+INTO TABLE customers
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(customer_id, first_name, last_name, email, country, city, @signup_date, @loyalty_member)
+SET 
+signup_date = STR_TO_DATE(@signup_date, '%Y-%m-%d'),
+loyalty_member = CASE 
+    WHEN LOWER(@loyalty_member) IN ('true', 'yes', '1') THEN 1
+    WHEN LOWER(@loyalty_member) IN ('false', 'no', '0') THEN 0
+    ELSE NULL
+END;
+
+
+
+SET GLOBAL local_infile = 1;
+SHOW VARIABLES LIKE 'local_infile';
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/products.csv'
+INTO TABLE products
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(product_id, product_name, category, size_ml, unit_price);
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/stores.csv'
+INTO TABLE stores
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(store_id, store_name, country, city, @opened_date, store_type)
+SET opened_date = STR_TO_DATE(@opened_date, '%m/%d/%Y');
+
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/orders.csv'
+INTO TABLE orders
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(order_id, customer_id, store_id, @order_date, @order_time, payment_method, order_status, shipping_country, shipping_delay_days)
+SET 
+order_date = STR_TO_DATE(@order_date, '%Y-%m-%d'),
+order_time = STR_TO_DATE(@order_time, '%H:%i:%s');
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/order_items.csv'
+INTO TABLE order_items
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(order_item_id, order_id, product_id, product_name, quantity, unit_price, total_price);
+
+SELECT COUNT(*) FROM customers;
+SELECT COUNT(*) FROM products;
+SELECT COUNT(*) FROM stores;
+SELECT COUNT(*) FROM orders;
+SELECT COUNT(*) FROM order_items;
+
+SELECT * FROM customers;
+SELECT * FROM products;
+SELECT * FROM stores;
+SELECT * FROM orders;
+SELECT * FROM order_items;
+
+
+📊 STEP 2 — START DATA ANALYSIS (SQL QUERIES)
+
+Below are some real-world data analysis queries you can run for your portfolio or project report.
+
+🔹 1. Total Sales Revenue
+SELECT 
+    ROUND(SUM(total_price), 2) AS total_revenue
+FROM order_items;
+
+🔹 2. Monthly Sales Trend
+SELECT 
+    DATE_FORMAT(o.order_date, '%Y-%m') AS month,
+    ROUND(SUM(oi.total_price), 2) AS monthly_revenue
+FROM orders o
+JOIN order_items oi ON o.order_id = oi.order_id
+WHERE o.order_status = 'Completed'
+GROUP BY month
+ORDER BY month;
+
+🔹 3. Top 10 Best-Selling Products
+SELECT 
+    oi.product_name,
+    SUM(oi.quantity) AS total_sold,
+    ROUND(SUM(oi.total_price), 2) AS revenue
+FROM order_items oi
+JOIN orders o ON oi.order_id = o.order_id
+WHERE o.order_status = 'Completed'
+GROUP BY oi.product_name
+ORDER BY revenue DESC
+LIMIT 10;
+
+🔹 4. Sales by Country
+SELECT 
+    o.shipping_country AS country,
+    ROUND(SUM(oi.total_price), 2) AS total_revenue
+FROM orders o
+JOIN order_items oi ON o.order_id = oi.order_id
+WHERE o.order_status = 'Completed'
+GROUP BY o.shipping_country
+ORDER BY total_revenue DESC;
+
+🔹 5. Sales by Store
+SELECT 
+    s.store_name,
+    s.country,
+    ROUND(SUM(oi.total_price), 2) AS total_revenue
+FROM orders o
+JOIN order_items oi ON o.order_id = oi.order_id
+JOIN stores s ON o.store_id = s.store_id
+WHERE o.order_status = 'Completed'
+GROUP BY s.store_id
+ORDER BY total_revenue DESC
+LIMIT 10;
+
+🔹 6. Orders by Payment Method
+SELECT 
+    o.payment_method,
+    COUNT(o.order_id) AS total_orders,
+    ROUND(SUM(oi.total_price), 2) AS total_revenue
+FROM orders o
+JOIN order_items oi ON o.order_id = oi.order_id
+WHERE o.order_status = 'Completed'
+GROUP BY o.payment_method
+ORDER BY total_revenue DESC;
+
+🔹 7. Average Order Value (AOV)
+SELECT 
+    ROUND(SUM(oi.total_price) / COUNT(DISTINCT o.order_id), 2) AS avg_order_value
+FROM orders o
+JOIN order_items oi ON o.order_id = oi.order_id
+WHERE o.order_status = 'Completed';
+
+🔹 8. Repeat Customers (Loyalty Analysis)
+SELECT 
+    c.customer_id,
+    CONCAT(c.first_name, ' ', c.last_name) AS customer_name,
+    COUNT(o.order_id) AS total_orders
+FROM customers c
+JOIN orders o ON c.customer_id = o.customer_id
+WHERE o.order_status = 'Completed'
+GROUP BY c.customer_id
+HAVING total_orders > 1
+ORDER BY total_orders DESC;
+
+🔹 9. Delayed Shipments Analysis
+SELECT 
+    shipping_country,
+    COUNT(order_id) AS delayed_orders,
+    ROUND(AVG(shipping_delay_days), 2) AS avg_delay
+FROM orders
+WHERE shipping_delay_days > 0
+GROUP BY shipping_country
+ORDER BY avg_delay DESC;
+
+🔹 10. Category-wise Revenue
+SELECT 
+    p.category,
+    ROUND(SUM(oi.total_price), 2) AS total_revenue
+FROM order_items oi
+JOIN products p ON oi.product_id = p.product_id
+JOIN orders o ON oi.order_id = o.order_id
+WHERE o.order_status = 'Completed'
+GROUP BY p.category
+ORDER BY total_revenue DESC;

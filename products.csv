@@ -1,0 +1,11 @@
+product_id,product_name,category,size_ml,unit_price
+1,Espresso,Coffee,60,1.5
+2,Americano,Coffee,200,2.5
+3,Latte,Coffee,300,3.5
+4,Cappuccino,Coffee,250,3.25
+5,Flat White,Coffee,280,3.75
+6,Mocha,Coffee,320,4.0
+7,Cold Brew,Coffee,350,3.25
+8,Iced Latte,Coffee,350,3.75
+9,Frappuccino,Coffee,400,4.5
+10,Cortado,Coffee,120,2.0

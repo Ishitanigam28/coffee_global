@@ -1,0 +1,989 @@
+order_item_id,order_id,product_id,product_name_x,quantity,unit_price_x,total_price,customer_id,store_id,order_date,order_time,payment_method,order_status,shipping_country,shipping_delay_days,product_name_y,category,unit_price_y,country_cust_country,city,loyalty_member,store_name,store_type,country_store_country
+1,1,2,Americano,1,2.5,2.5,110,44,2021-08-10,10:59:00,Online,Completed,Colombia,0,Americano,Coffee,2.5,Colombia,City_220,True,CoffeeHouse_44,Airport,Guatemala
+2,2,10,Cortado,1,2.0,2.0,160,41,2024-04-13,15:29:00,Card,Completed,Spain,0,Cortado,Coffee,2.0,Peru,City_129,True,CoffeeHouse_41,Retail,Indonesia
+3,3,4,Cappuccino,1,3.25,3.25,180,8,2024-09-02,07:47:00,Mobile Wallet,Completed,France,0,Cappuccino,Coffee,3.25,Canada,City_279,False,CoffeeHouse_8,DriveThru,India
+6,6,7,Cold Brew,1,3.25,3.25,32,27,2022-12-26,20:29:00,Online,Completed,Ethiopia,0,Cold Brew,Coffee,3.25,Vietnam,City_244,False,CoffeeHouse_27,Airport,Spain
+7,6,1,Espresso,2,1.5,3.0,32,27,2022-12-26,20:29:00,Online,Completed,Ethiopia,0,Espresso,Coffee,1.5,Vietnam,City_244,False,CoffeeHouse_27,Airport,Spain
+8,7,6,Mocha,1,4.0,4.0,55,10,2024-09-06,12:32:00,Mobile Wallet,Completed,Guatemala,0,Mocha,Coffee,4.0,Guatemala,City_105,False,CoffeeHouse_10,Airport,Indonesia
+9,8,1,Espresso,1,1.5,1.5,110,36,2024-06-27,22:27:00,Cash,Completed,Guatemala,0,Espresso,Coffee,1.5,Colombia,City_220,True,CoffeeHouse_36,Kiosk,Kenya
+10,9,3,Latte,1,3.5,3.5,70,45,2022-09-25,02:22:00,Card,Completed,United States,0,Latte,Coffee,3.5,Honduras,City_108,False,CoffeeHouse_45,Retail,Australia
+11,9,10,Cortado,1,2.0,2.0,70,45,2022-09-25,02:22:00,Card,Completed,United States,0,Cortado,Coffee,2.0,Honduras,City_108,False,CoffeeHouse_45,Retail,Australia
+12,10,6,Mocha,1,4.0,4.0,136,14,2023-02-10,11:04:00,Card,Completed,UK,0,Mocha,Coffee,4.0,Guatemala,City_157,True,CoffeeHouse_14,Retail,Costa Rica
+13,11,2,Americano,1,2.5,2.5,14,10,2021-11-19,22:35:00,Card,Completed,Germany,0,Americano,Coffee,2.5,Canada,City_126,False,CoffeeHouse_10,Airport,Indonesia
+14,12,5,Flat White,1,3.75,3.75,70,14,2023-11-16,20:14:00,Card,Completed,Mexico,0,Flat White,Coffee,3.75,Honduras,City_108,False,CoffeeHouse_14,Retail,Costa Rica
+15,13,4,Cappuccino,1,3.25,3.25,102,39,2021-04-23,08:43:00,Card,Completed,Ethiopia,0,Cappuccino,Coffee,3.25,Costa Rica,City_79,False,CoffeeHouse_39,Retail,Peru
+16,14,4,Cappuccino,1,3.25,3.25,192,28,2021-12-26,22:48:00,Cash,Completed,Colombia,0,Cappuccino,Coffee,3.25,Vietnam,City_126,True,CoffeeHouse_28,DriveThru,Germany
+17,15,6,Mocha,1,4.0,4.0,190,3,2023-06-13,19:34:00,Online,Completed,Spain,0,Mocha,Coffee,4.0,France,City_86,True,CoffeeHouse_3,DriveThru,Kenya
+18,16,8,Iced Latte,1,3.75,3.75,104,2,2022-10-28,12:21:00,Online,Completed,Ethiopia,0,Iced Latte,Coffee,3.75,Spain,City_200,False,CoffeeHouse_2,DriveThru,Kenya
+19,17,6,Mocha,1,4.0,4.0,151,26,2023-12-10,05:44:00,Mobile Wallet,Completed,Ethiopia,0,Mocha,Coffee,4.0,Colombia,City_81,True,CoffeeHouse_26,Kiosk,UK
+20,18,3,Latte,1,3.5,3.5,50,50,2022-12-17,04:59:00,Online,Completed,Indonesia,1,Latte,Coffee,3.5,UK,City_278,True,CoffeeHouse_50,Airport,Brazil
+21,19,8,Iced Latte,1,3.75,3.75,195,49,2024-09-04,19:14:00,Online,Completed,France,1,Iced Latte,Coffee,3.75,Kenya,City_237,True,CoffeeHouse_49,Retail,Australia
+22,20,6,Mocha,1,4.0,4.0,145,42,2024-07-25,20:11:00,Card,Completed,Australia,0,Mocha,Coffee,4.0,Italy,City_38,True,CoffeeHouse_42,Kiosk,Vietnam
+23,20,2,Americano,1,2.5,2.5,145,42,2024-07-25,20:11:00,Card,Completed,Australia,0,Americano,Coffee,2.5,Italy,City_38,True,CoffeeHouse_42,Kiosk,Vietnam
+24,20,5,Flat White,1,3.75,3.75,145,42,2024-07-25,20:11:00,Card,Completed,Australia,0,Flat White,Coffee,3.75,Italy,City_38,True,CoffeeHouse_42,Kiosk,Vietnam
+25,21,2,Americano,1,2.5,2.5,119,29,2021-03-19,03:04:00,Mobile Wallet,Completed,Australia,0,Americano,Coffee,2.5,UK,City_193,True,CoffeeHouse_29,Kiosk,Brazil
+26,22,4,Cappuccino,1,3.25,3.25,149,36,2021-03-26,16:14:00,Mobile Wallet,Completed,Brazil,0,Cappuccino,Coffee,3.25,UK,City_220,True,CoffeeHouse_36,Kiosk,Kenya
+27,23,4,Cappuccino,1,3.25,3.25,88,46,2021-06-22,14:59:00,Card,Completed,Germany,0,Cappuccino,Coffee,3.25,France,City_227,False,CoffeeHouse_46,DriveThru,Italy
+28,24,10,Cortado,1,2.0,2.0,96,19,2023-03-05,21:32:00,Card,Completed,Colombia,0,Cortado,Coffee,2.0,France,City_69,False,CoffeeHouse_19,DriveThru,United States
+29,25,10,Cortado,1,2.0,2.0,143,44,2023-03-03,11:22:00,Mobile Wallet,Completed,Vietnam,3,Cortado,Coffee,2.0,Italy,City_226,True,CoffeeHouse_44,Airport,Guatemala
+30,26,2,Americano,1,2.5,2.5,80,42,2024-09-18,12:51:00,Cash,Completed,Peru,2,Americano,Coffee,2.5,Spain,City_262,True,CoffeeHouse_42,Kiosk,Vietnam
+31,27,9,Frappuccino,1,4.5,4.5,172,45,2023-12-15,12:22:00,Cash,Completed,India,0,Frappuccino,Coffee,4.5,Indonesia,City_160,False,CoffeeHouse_45,Retail,Australia
+32,28,2,Americano,1,2.5,2.5,197,32,2022-01-29,03:27:00,Card,Completed,Canada,2,Americano,Coffee,2.5,Honduras,City_154,False,CoffeeHouse_32,Retail,Canada
+33,29,3,Latte,1,3.5,3.5,135,3,2024-09-17,05:15:00,Mobile Wallet,Completed,Germany,2,Latte,Coffee,3.5,Spain,City_282,False,CoffeeHouse_3,DriveThru,Kenya
+34,30,4,Cappuccino,2,3.25,6.5,43,47,2023-06-16,20:50:00,Card,Completed,France,0,Cappuccino,Coffee,3.25,Kenya,City_99,True,CoffeeHouse_47,Airport,Australia
+35,31,10,Cortado,2,2.0,4.0,62,20,2023-08-19,13:02:00,Card,Completed,Spain,5,Cortado,Coffee,2.0,Ethiopia,City_55,False,CoffeeHouse_20,Retail,Germany
+36,31,8,Iced Latte,1,3.75,3.75,62,20,2023-08-19,13:02:00,Card,Completed,Spain,5,Iced Latte,Coffee,3.75,Ethiopia,City_55,False,CoffeeHouse_20,Retail,Germany
+41,34,4,Cappuccino,1,3.25,3.25,129,24,2022-04-28,03:22:00,Card,Completed,Peru,1,Cappuccino,Coffee,3.25,Italy,City_109,False,CoffeeHouse_24,Airport,Kenya
+44,36,5,Flat White,1,3.75,3.75,39,36,2024-05-31,04:09:00,Card,Completed,Spain,1,Flat White,Coffee,3.75,Canada,City_68,True,CoffeeHouse_36,Kiosk,Kenya
+45,37,10,Cortado,1,2.0,2.0,160,30,2021-05-09,21:34:00,Online,Completed,Kenya,1,Cortado,Coffee,2.0,Peru,City_129,True,CoffeeHouse_30,Kiosk,France
+46,38,7,Cold Brew,1,3.25,3.25,75,28,2021-01-04,22:48:00,Card,Completed,Honduras,0,Cold Brew,Coffee,3.25,Honduras,City_157,True,CoffeeHouse_28,DriveThru,Germany
+47,39,1,Espresso,1,1.5,1.5,135,35,2023-11-06,16:02:00,Cash,Completed,Costa Rica,7,Espresso,Coffee,1.5,Spain,City_282,False,CoffeeHouse_35,DriveThru,Germany
+48,40,4,Cappuccino,1,3.25,3.25,65,48,2021-02-03,21:26:00,Card,Completed,UK,1,Cappuccino,Coffee,3.25,Colombia,City_217,False,CoffeeHouse_48,Retail,Australia
+49,41,3,Latte,1,3.5,3.5,86,9,2021-04-01,23:22:00,Card,Completed,Italy,1,Latte,Coffee,3.5,Indonesia,City_292,True,CoffeeHouse_9,DriveThru,Australia
+52,44,7,Cold Brew,1,3.25,3.25,95,28,2023-03-31,06:22:00,Mobile Wallet,Completed,Italy,0,Cold Brew,Coffee,3.25,Brazil,City_286,True,CoffeeHouse_28,DriveThru,Germany
+53,45,10,Cortado,2,2.0,4.0,133,18,2021-06-19,06:09:00,Card,Completed,Peru,0,Cortado,Coffee,2.0,Mexico,City_114,False,CoffeeHouse_18,Airport,Ethiopia
+54,46,7,Cold Brew,1,3.25,3.25,84,43,2022-08-29,15:09:00,Cash,Completed,Brazil,1,Cold Brew,Coffee,3.25,Australia,City_159,False,CoffeeHouse_43,Kiosk,UK
+55,47,1,Espresso,1,1.5,1.5,91,40,2023-06-10,21:45:00,Online,Completed,Australia,2,Espresso,Coffee,1.5,Vietnam,City_13,True,CoffeeHouse_40,DriveThru,Guatemala
+56,48,8,Iced Latte,1,3.75,3.75,174,11,2021-03-05,02:17:00,Cash,Completed,Honduras,0,Iced Latte,Coffee,3.75,Vietnam,City_256,False,CoffeeHouse_11,DriveThru,Mexico
+57,49,6,Mocha,1,4.0,4.0,146,3,2024-05-24,02:37:00,Card,Completed,Australia,0,Mocha,Coffee,4.0,Vietnam,City_77,True,CoffeeHouse_3,DriveThru,Kenya
+62,53,2,Americano,2,2.5,5.0,180,41,2021-12-23,04:44:00,Cash,Completed,Italy,0,Americano,Coffee,2.5,Canada,City_279,False,CoffeeHouse_41,Retail,Indonesia
+63,54,3,Latte,1,3.5,3.5,142,37,2023-01-26,02:56:00,Online,Completed,Costa Rica,7,Latte,Coffee,3.5,Italy,City_53,False,CoffeeHouse_37,Kiosk,Colombia
+64,55,10,Cortado,1,2.0,2.0,185,31,2023-12-13,10:49:00,Card,Completed,France,0,Cortado,Coffee,2.0,United States,City_74,True,CoffeeHouse_31,DriveThru,Honduras
+65,56,10,Cortado,1,2.0,2.0,133,23,2021-09-20,01:53:00,Mobile Wallet,Completed,Australia,0,Cortado,Coffee,2.0,Mexico,City_114,False,CoffeeHouse_23,Retail,Mexico
+66,56,3,Latte,1,3.5,3.5,133,23,2021-09-20,01:53:00,Mobile Wallet,Completed,Australia,0,Latte,Coffee,3.5,Mexico,City_114,False,CoffeeHouse_23,Retail,Mexico
+69,58,10,Cortado,2,2.0,4.0,78,40,2023-12-29,05:15:00,Cash,Completed,Germany,1,Cortado,Coffee,2.0,United States,City_60,False,CoffeeHouse_40,DriveThru,Guatemala
+70,59,2,Americano,1,2.5,2.5,155,22,2024-02-29,21:53:00,Mobile Wallet,Completed,Guatemala,1,Americano,Coffee,2.5,Spain,City_59,True,CoffeeHouse_22,Retail,Ethiopia
+71,60,9,Frappuccino,1,4.5,4.5,197,37,2023-05-04,10:18:00,Card,Completed,Costa Rica,0,Frappuccino,Coffee,4.5,Honduras,City_154,False,CoffeeHouse_37,Kiosk,Colombia
+72,61,8,Iced Latte,1,3.75,3.75,19,45,2021-05-03,20:42:00,Card,Completed,Peru,1,Iced Latte,Coffee,3.75,Canada,City_276,False,CoffeeHouse_45,Retail,Australia
+73,62,2,Americano,1,2.5,2.5,89,26,2021-09-25,15:55:00,Cash,Completed,France,0,Americano,Coffee,2.5,Indonesia,City_44,False,CoffeeHouse_26,Kiosk,UK
+74,63,7,Cold Brew,1,3.25,3.25,25,4,2022-08-18,19:43:00,Mobile Wallet,Completed,India,1,Cold Brew,Coffee,3.25,Ethiopia,City_151,True,CoffeeHouse_4,Retail,Vietnam
+75,63,3,Latte,1,3.5,3.5,25,4,2022-08-18,19:43:00,Mobile Wallet,Completed,India,1,Latte,Coffee,3.5,Ethiopia,City_151,True,CoffeeHouse_4,Retail,Vietnam
+76,64,1,Espresso,1,1.5,1.5,128,33,2023-08-15,13:25:00,Card,Completed,Kenya,0,Espresso,Coffee,1.5,Peru,City_15,True,CoffeeHouse_33,Retail,Costa Rica
+77,65,8,Iced Latte,1,3.75,3.75,91,4,2021-04-14,00:16:00,Cash,Completed,Spain,0,Iced Latte,Coffee,3.75,Vietnam,City_13,True,CoffeeHouse_4,Retail,Vietnam
+78,66,7,Cold Brew,1,3.25,3.25,68,47,2023-01-20,19:10:00,Card,Completed,Canada,0,Cold Brew,Coffee,3.25,Canada,City_19,True,CoffeeHouse_47,Airport,Australia
+79,67,10,Cortado,1,2.0,2.0,99,33,2023-07-12,04:03:00,Card,Completed,Ethiopia,0,Cortado,Coffee,2.0,Guatemala,City_267,False,CoffeeHouse_33,Retail,Costa Rica
+80,68,9,Frappuccino,1,4.5,4.5,87,36,2023-01-19,01:22:00,Card,Completed,Vietnam,1,Frappuccino,Coffee,4.5,Mexico,City_147,False,CoffeeHouse_36,Kiosk,Kenya
+81,69,3,Latte,1,3.5,3.5,122,34,2023-07-25,20:55:00,Mobile Wallet,Completed,Costa Rica,7,Latte,Coffee,3.5,Canada,City_220,False,CoffeeHouse_34,Kiosk,France
+82,70,9,Frappuccino,1,4.5,4.5,190,20,2024-04-30,19:12:00,Mobile Wallet,Completed,United States,0,Frappuccino,Coffee,4.5,France,City_86,True,CoffeeHouse_20,Retail,Germany
+84,72,10,Cortado,1,2.0,2.0,185,4,2024-04-10,12:58:00,Cash,Completed,Kenya,0,Cortado,Coffee,2.0,United States,City_74,True,CoffeeHouse_4,Retail,Vietnam
+85,73,3,Latte,1,3.5,3.5,180,8,2022-01-26,06:57:00,Card,Completed,Germany,3,Latte,Coffee,3.5,Canada,City_279,False,CoffeeHouse_8,DriveThru,India
+86,74,9,Frappuccino,1,4.5,4.5,189,47,2021-05-08,22:36:00,Cash,Completed,Costa Rica,0,Frappuccino,Coffee,4.5,Mexico,City_117,True,CoffeeHouse_47,Airport,Australia
+88,76,8,Iced Latte,1,3.75,3.75,58,20,2022-08-15,11:54:00,Cash,Completed,Guatemala,0,Iced Latte,Coffee,3.75,Canada,City_110,False,CoffeeHouse_20,Retail,Germany
+89,77,6,Mocha,2,4.0,8.0,147,44,2024-01-18,04:59:00,Online,Completed,Mexico,5,Mocha,Coffee,4.0,Ethiopia,City_286,True,CoffeeHouse_44,Airport,Guatemala
+90,78,4,Cappuccino,1,3.25,3.25,21,23,2023-06-25,18:23:00,Mobile Wallet,Completed,Canada,1,Cappuccino,Coffee,3.25,Colombia,City_25,True,CoffeeHouse_23,Retail,Mexico
+91,79,1,Espresso,1,1.5,1.5,36,7,2024-06-14,18:07:00,Card,Completed,Kenya,0,Espresso,Coffee,1.5,UK,City_113,True,CoffeeHouse_7,Kiosk,Peru
+92,80,1,Espresso,2,1.5,3.0,106,22,2023-08-26,05:23:00,Mobile Wallet,Completed,Italy,0,Espresso,Coffee,1.5,Spain,City_276,True,CoffeeHouse_22,Retail,Ethiopia
+93,81,2,Americano,1,2.5,2.5,52,49,2022-08-12,07:55:00,Cash,Completed,Brazil,3,Americano,Coffee,2.5,Brazil,City_261,True,CoffeeHouse_49,Retail,Australia
+97,84,3,Latte,1,3.5,3.5,29,22,2021-11-29,11:30:00,Cash,Completed,UK,1,Latte,Coffee,3.5,Italy,City_10,False,CoffeeHouse_22,Retail,Ethiopia
+98,85,7,Cold Brew,1,3.25,3.25,50,12,2024-06-05,03:15:00,Mobile Wallet,Completed,Vietnam,0,Cold Brew,Coffee,3.25,UK,City_278,True,CoffeeHouse_12,Retail,Ethiopia
+99,85,2,Americano,1,2.5,2.5,50,12,2024-06-05,03:15:00,Mobile Wallet,Completed,Vietnam,0,Americano,Coffee,2.5,UK,City_278,True,CoffeeHouse_12,Retail,Ethiopia
+100,86,5,Flat White,2,3.75,7.5,64,1,2022-06-19,10:18:00,Card,Completed,UK,0,Flat White,Coffee,3.75,Australia,City_251,True,CoffeeHouse_1,DriveThru,Germany
+101,87,5,Flat White,1,3.75,3.75,168,24,2022-04-29,23:25:00,Card,Completed,Mexico,1,Flat White,Coffee,3.75,Canada,City_237,False,CoffeeHouse_24,Airport,Kenya
+102,88,3,Latte,1,3.5,3.5,164,19,2023-01-23,15:31:00,Card,Completed,Germany,0,Latte,Coffee,3.5,Spain,City_171,True,CoffeeHouse_19,DriveThru,United States
+103,89,4,Cappuccino,1,3.25,3.25,180,36,2023-08-23,23:13:00,Mobile Wallet,Completed,Colombia,0,Cappuccino,Coffee,3.25,Canada,City_279,False,CoffeeHouse_36,Kiosk,Kenya
+104,90,1,Espresso,1,1.5,1.5,136,46,2023-01-11,17:15:00,Cash,Completed,Canada,0,Espresso,Coffee,1.5,Guatemala,City_157,True,CoffeeHouse_46,DriveThru,Italy
+105,91,10,Cortado,1,2.0,2.0,84,34,2023-06-24,17:25:00,Card,Completed,Brazil,0,Cortado,Coffee,2.0,Australia,City_159,False,CoffeeHouse_34,Kiosk,France
+106,92,5,Flat White,1,3.75,3.75,132,27,2023-07-25,13:30:00,Cash,Completed,United States,1,Flat White,Coffee,3.75,Italy,City_252,True,CoffeeHouse_27,Airport,Spain
+108,94,7,Cold Brew,1,3.25,3.25,105,12,2021-10-05,13:03:00,Online,Completed,Costa Rica,0,Cold Brew,Coffee,3.25,Italy,City_4,False,CoffeeHouse_12,Retail,Ethiopia
+109,95,2,Americano,1,2.5,2.5,175,43,2024-01-10,18:20:00,Mobile Wallet,Completed,Vietnam,1,Americano,Coffee,2.5,Spain,City_248,True,CoffeeHouse_43,Kiosk,UK
+110,96,9,Frappuccino,1,4.5,4.5,58,1,2021-02-16,08:26:00,Card,Completed,Vietnam,0,Frappuccino,Coffee,4.5,Canada,City_110,False,CoffeeHouse_1,DriveThru,Germany
+111,96,7,Cold Brew,1,3.25,3.25,58,1,2021-02-16,08:26:00,Card,Completed,Vietnam,0,Cold Brew,Coffee,3.25,Canada,City_110,False,CoffeeHouse_1,DriveThru,Germany
+112,97,10,Cortado,1,2.0,2.0,186,49,2021-08-20,00:32:00,Cash,Completed,Colombia,0,Cortado,Coffee,2.0,Colombia,City_241,False,CoffeeHouse_49,Retail,Australia
+113,98,4,Cappuccino,1,3.25,3.25,9,29,2024-05-09,13:43:00,Mobile Wallet,Completed,Canada,0,Cappuccino,Coffee,3.25,Costa Rica,City_41,False,CoffeeHouse_29,Kiosk,Brazil
+114,99,10,Cortado,1,2.0,2.0,199,4,2021-10-14,20:24:00,Card,Completed,Peru,0,Cortado,Coffee,2.0,Kenya,City_196,False,CoffeeHouse_4,Retail,Vietnam
+116,101,7,Cold Brew,1,3.25,3.25,110,36,2023-10-13,10:52:00,Card,Completed,Spain,0,Cold Brew,Coffee,3.25,Colombia,City_220,True,CoffeeHouse_36,Kiosk,Kenya
+117,102,5,Flat White,1,3.75,3.75,97,12,2024-01-07,04:55:00,Mobile Wallet,Completed,Brazil,0,Flat White,Coffee,3.75,France,City_259,False,CoffeeHouse_12,Retail,Ethiopia
+119,104,10,Cortado,1,2.0,2.0,186,13,2021-04-16,02:29:00,Cash,Completed,UK,1,Cortado,Coffee,2.0,Colombia,City_241,False,CoffeeHouse_13,Kiosk,Vietnam
+120,105,5,Flat White,2,3.75,7.5,144,14,2023-09-09,00:31:00,Online,Completed,India,5,Flat White,Coffee,3.75,Guatemala,City_245,False,CoffeeHouse_14,Retail,Costa Rica
+121,106,4,Cappuccino,1,3.25,3.25,31,48,2023-09-08,09:39:00,Cash,Completed,Canada,1,Cappuccino,Coffee,3.25,Colombia,City_249,True,CoffeeHouse_48,Retail,Australia
+122,106,4,Cappuccino,1,3.25,3.25,31,48,2023-09-08,09:39:00,Cash,Completed,Canada,1,Cappuccino,Coffee,3.25,Colombia,City_249,True,CoffeeHouse_48,Retail,Australia
+123,107,2,Americano,1,2.5,2.5,79,17,2023-01-07,16:01:00,Card,Completed,Peru,3,Americano,Coffee,2.5,Brazil,City_56,False,CoffeeHouse_17,DriveThru,UK
+126,110,6,Mocha,1,4.0,4.0,126,47,2024-08-07,18:39:00,Card,Completed,Canada,7,Mocha,Coffee,4.0,Peru,City_126,False,CoffeeHouse_47,Airport,Australia
+127,111,1,Espresso,1,1.5,1.5,16,34,2021-03-11,21:31:00,Card,Completed,Vietnam,0,Espresso,Coffee,1.5,Kenya,City_17,True,CoffeeHouse_34,Kiosk,France
+128,111,7,Cold Brew,1,3.25,3.25,16,34,2021-03-11,21:31:00,Card,Completed,Vietnam,0,Cold Brew,Coffee,3.25,Kenya,City_17,True,CoffeeHouse_34,Kiosk,France
+129,112,10,Cortado,2,2.0,4.0,130,30,2023-02-04,22:30:00,Cash,Completed,United States,0,Cortado,Coffee,2.0,Guatemala,City_142,True,CoffeeHouse_30,Kiosk,France
+130,113,5,Flat White,1,3.75,3.75,106,1,2021-02-04,23:49:00,Card,Completed,Indonesia,0,Flat White,Coffee,3.75,Spain,City_276,True,CoffeeHouse_1,DriveThru,Germany
+131,114,5,Flat White,1,3.75,3.75,25,34,2021-11-01,09:07:00,Cash,Completed,Colombia,0,Flat White,Coffee,3.75,Ethiopia,City_151,True,CoffeeHouse_34,Kiosk,France
+132,115,5,Flat White,1,3.75,3.75,104,30,2024-03-03,02:45:00,Cash,Completed,Brazil,0,Flat White,Coffee,3.75,Spain,City_200,False,CoffeeHouse_30,Kiosk,France
+133,116,3,Latte,1,3.5,3.5,98,25,2024-02-06,14:48:00,Cash,Completed,Peru,0,Latte,Coffee,3.5,Indonesia,City_244,True,CoffeeHouse_25,Airport,France
+135,118,1,Espresso,2,1.5,3.0,145,43,2021-03-09,20:02:00,Mobile Wallet,Completed,Costa Rica,3,Espresso,Coffee,1.5,Italy,City_38,True,CoffeeHouse_43,Kiosk,UK
+136,119,7,Cold Brew,1,3.25,3.25,77,11,2024-02-29,18:27:00,Mobile Wallet,Completed,Vietnam,1,Cold Brew,Coffee,3.25,Honduras,City_261,False,CoffeeHouse_11,DriveThru,Mexico
+137,120,1,Espresso,1,1.5,1.5,177,47,2021-06-10,07:55:00,Online,Completed,Peru,1,Espresso,Coffee,1.5,Colombia,City_142,False,CoffeeHouse_47,Airport,Australia
+138,121,5,Flat White,1,3.75,3.75,158,39,2023-03-24,12:08:00,Card,Completed,Costa Rica,0,Flat White,Coffee,3.75,Mexico,City_207,False,CoffeeHouse_39,Retail,Peru
+139,121,8,Iced Latte,1,3.75,3.75,158,39,2023-03-24,12:08:00,Card,Completed,Costa Rica,0,Iced Latte,Coffee,3.75,Mexico,City_207,False,CoffeeHouse_39,Retail,Peru
+140,122,5,Flat White,1,3.75,3.75,175,38,2024-09-15,02:30:00,Mobile Wallet,Completed,Vietnam,0,Flat White,Coffee,3.75,Spain,City_248,True,CoffeeHouse_38,Kiosk,UK
+141,123,1,Espresso,2,1.5,3.0,163,10,2023-03-09,15:10:00,Card,Completed,Guatemala,0,Espresso,Coffee,1.5,UK,City_224,False,CoffeeHouse_10,Airport,Indonesia
+142,124,7,Cold Brew,1,3.25,3.25,23,12,2023-06-02,03:03:00,Cash,Completed,Colombia,0,Cold Brew,Coffee,3.25,Australia,City_129,True,CoffeeHouse_12,Retail,Ethiopia
+144,126,5,Flat White,1,3.75,3.75,44,44,2023-02-19,02:09:00,Card,Completed,Guatemala,0,Flat White,Coffee,3.75,Spain,City_94,True,CoffeeHouse_44,Airport,Guatemala
+145,127,8,Iced Latte,1,3.75,3.75,124,5,2023-01-10,06:40:00,Card,Completed,Vietnam,0,Iced Latte,Coffee,3.75,France,City_79,False,CoffeeHouse_5,DriveThru,Mexico
+147,129,7,Cold Brew,2,3.25,6.5,155,45,2022-02-16,09:56:00,Card,Completed,Italy,5,Cold Brew,Coffee,3.25,Spain,City_59,True,CoffeeHouse_45,Retail,Australia
+148,130,6,Mocha,1,4.0,4.0,63,21,2023-02-10,19:14:00,Mobile Wallet,Completed,Canada,0,Mocha,Coffee,4.0,Germany,City_108,False,CoffeeHouse_21,Airport,France
+149,131,4,Cappuccino,1,3.25,3.25,197,36,2021-02-25,02:21:00,Card,Completed,Spain,1,Cappuccino,Coffee,3.25,Honduras,City_154,False,CoffeeHouse_36,Kiosk,Kenya
+150,131,5,Flat White,1,3.75,3.75,197,36,2021-02-25,02:21:00,Card,Completed,Spain,1,Flat White,Coffee,3.75,Honduras,City_154,False,CoffeeHouse_36,Kiosk,Kenya
+151,132,7,Cold Brew,1,3.25,3.25,36,41,2022-09-13,02:31:00,Cash,Completed,Germany,0,Cold Brew,Coffee,3.25,UK,City_113,True,CoffeeHouse_41,Retail,Indonesia
+152,133,7,Cold Brew,1,3.25,3.25,103,35,2023-11-04,18:19:00,Mobile Wallet,Completed,Colombia,0,Cold Brew,Coffee,3.25,Peru,City_278,True,CoffeeHouse_35,DriveThru,Germany
+153,133,6,Mocha,1,4.0,4.0,103,35,2023-11-04,18:19:00,Mobile Wallet,Completed,Colombia,0,Mocha,Coffee,4.0,Peru,City_278,True,CoffeeHouse_35,DriveThru,Germany
+154,134,1,Espresso,1,1.5,1.5,64,43,2024-09-23,22:01:00,Cash,Completed,Costa Rica,5,Espresso,Coffee,1.5,Australia,City_251,True,CoffeeHouse_43,Kiosk,UK
+155,135,9,Frappuccino,1,4.5,4.5,85,28,2021-08-05,19:02:00,Card,Completed,UK,0,Frappuccino,Coffee,4.5,Canada,City_66,False,CoffeeHouse_28,DriveThru,Germany
+156,136,9,Frappuccino,1,4.5,4.5,96,26,2023-08-07,00:50:00,Cash,Completed,Mexico,0,Frappuccino,Coffee,4.5,France,City_69,False,CoffeeHouse_26,Kiosk,UK
+157,137,4,Cappuccino,1,3.25,3.25,22,8,2021-10-18,11:53:00,Card,Completed,France,1,Cappuccino,Coffee,3.25,Spain,City_33,False,CoffeeHouse_8,DriveThru,India
+158,138,2,Americano,1,2.5,2.5,116,21,2021-05-18,11:42:00,Mobile Wallet,Completed,Indonesia,3,Americano,Coffee,2.5,Kenya,City_65,True,CoffeeHouse_21,Airport,France
+159,139,9,Frappuccino,1,4.5,4.5,190,16,2023-11-23,15:46:00,Card,Completed,Costa Rica,1,Frappuccino,Coffee,4.5,France,City_86,True,CoffeeHouse_16,DriveThru,France
+160,140,10,Cortado,1,2.0,2.0,48,41,2024-09-08,15:20:00,Card,Completed,Costa Rica,0,Cortado,Coffee,2.0,Costa Rica,City_136,False,CoffeeHouse_41,Retail,Indonesia
+161,141,2,Americano,1,2.5,2.5,55,14,2022-07-25,18:19:00,Mobile Wallet,Completed,Peru,0,Americano,Coffee,2.5,Guatemala,City_105,False,CoffeeHouse_14,Retail,Costa Rica
+162,142,6,Mocha,1,4.0,4.0,30,17,2024-10-05,03:53:00,Cash,Completed,France,1,Mocha,Coffee,4.0,Kenya,City_30,True,CoffeeHouse_17,DriveThru,UK
+163,142,10,Cortado,1,2.0,2.0,30,17,2024-10-05,03:53:00,Cash,Completed,France,1,Cortado,Coffee,2.0,Kenya,City_30,True,CoffeeHouse_17,DriveThru,UK
+164,143,3,Latte,1,3.5,3.5,173,46,2022-09-02,06:14:00,Cash,Completed,Vietnam,0,Latte,Coffee,3.5,Colombia,City_116,True,CoffeeHouse_46,DriveThru,Italy
+165,143,4,Cappuccino,1,3.25,3.25,173,46,2022-09-02,06:14:00,Cash,Completed,Vietnam,0,Cappuccino,Coffee,3.25,Colombia,City_116,True,CoffeeHouse_46,DriveThru,Italy
+168,146,8,Iced Latte,1,3.75,3.75,99,36,2023-11-02,15:09:00,Card,Completed,Colombia,0,Iced Latte,Coffee,3.75,Guatemala,City_267,False,CoffeeHouse_36,Kiosk,Kenya
+169,147,5,Flat White,1,3.75,3.75,195,15,2022-08-22,15:36:00,Card,Completed,Italy,0,Flat White,Coffee,3.75,Kenya,City_237,True,CoffeeHouse_15,Retail,Costa Rica
+170,148,6,Mocha,1,4.0,4.0,29,37,2021-08-22,01:25:00,Cash,Completed,France,0,Mocha,Coffee,4.0,Italy,City_10,False,CoffeeHouse_37,Kiosk,Colombia
+172,150,6,Mocha,1,4.0,4.0,31,50,2022-05-01,20:49:00,Mobile Wallet,Completed,Indonesia,1,Mocha,Coffee,4.0,Colombia,City_249,True,CoffeeHouse_50,Airport,Brazil
+174,152,7,Cold Brew,2,3.25,6.5,69,33,2024-10-23,04:19:00,Card,Completed,Vietnam,0,Cold Brew,Coffee,3.25,Spain,City_66,True,CoffeeHouse_33,Retail,Costa Rica
+175,152,5,Flat White,1,3.75,3.75,69,33,2024-10-23,04:19:00,Card,Completed,Vietnam,0,Flat White,Coffee,3.75,Spain,City_66,True,CoffeeHouse_33,Retail,Costa Rica
+176,153,8,Iced Latte,1,3.75,3.75,183,21,2022-05-22,21:35:00,Cash,Completed,Spain,0,Iced Latte,Coffee,3.75,Costa Rica,City_78,False,CoffeeHouse_21,Airport,France
+177,154,6,Mocha,1,4.0,4.0,20,41,2021-07-10,16:39:00,Mobile Wallet,Completed,United States,2,Mocha,Coffee,4.0,UK,City_205,False,CoffeeHouse_41,Retail,Indonesia
+178,155,2,Americano,1,2.5,2.5,188,6,2023-07-28,13:34:00,Cash,Completed,Spain,2,Americano,Coffee,2.5,Italy,City_278,True,CoffeeHouse_6,DriveThru,Vietnam
+179,156,10,Cortado,1,2.0,2.0,127,18,2022-10-24,23:17:00,Card,Completed,Brazil,0,Cortado,Coffee,2.0,Kenya,City_238,False,CoffeeHouse_18,Airport,Ethiopia
+180,156,8,Iced Latte,1,3.75,3.75,127,18,2022-10-24,23:17:00,Card,Completed,Brazil,0,Iced Latte,Coffee,3.75,Kenya,City_238,False,CoffeeHouse_18,Airport,Ethiopia
+183,158,3,Latte,1,3.5,3.5,71,6,2024-09-02,21:21:00,Card,Completed,Kenya,0,Latte,Coffee,3.5,Canada,City_209,True,CoffeeHouse_6,DriveThru,Vietnam
+184,159,3,Latte,1,3.5,3.5,24,46,2021-07-14,17:43:00,Card,Completed,United States,0,Latte,Coffee,3.5,Ethiopia,City_275,False,CoffeeHouse_46,DriveThru,Italy
+185,160,4,Cappuccino,1,3.25,3.25,88,8,2023-05-15,03:29:00,Card,Completed,Honduras,2,Cappuccino,Coffee,3.25,France,City_227,False,CoffeeHouse_8,DriveThru,India
+186,161,2,Americano,1,2.5,2.5,36,25,2021-09-30,00:17:00,Cash,Completed,Indonesia,0,Americano,Coffee,2.5,UK,City_113,True,CoffeeHouse_25,Airport,France
+187,162,10,Cortado,1,2.0,2.0,185,14,2024-07-10,07:24:00,Online,Completed,Ethiopia,0,Cortado,Coffee,2.0,United States,City_74,True,CoffeeHouse_14,Retail,Costa Rica
+188,163,3,Latte,1,3.5,3.5,32,38,2023-02-26,22:00:00,Card,Completed,Canada,1,Latte,Coffee,3.5,Vietnam,City_244,False,CoffeeHouse_38,Kiosk,UK
+189,164,5,Flat White,1,3.75,3.75,185,39,2022-08-07,20:42:00,Cash,Completed,Costa Rica,0,Flat White,Coffee,3.75,United States,City_74,True,CoffeeHouse_39,Retail,Peru
+191,166,8,Iced Latte,2,3.75,7.5,146,27,2023-01-19,02:29:00,Card,Completed,Colombia,0,Iced Latte,Coffee,3.75,Vietnam,City_77,True,CoffeeHouse_27,Airport,Spain
+192,167,5,Flat White,1,3.75,3.75,56,3,2021-05-04,14:27:00,Card,Completed,Colombia,1,Flat White,Coffee,3.75,Vietnam,City_154,True,CoffeeHouse_3,DriveThru,Kenya
+193,167,9,Frappuccino,1,4.5,4.5,56,3,2021-05-04,14:27:00,Card,Completed,Colombia,1,Frappuccino,Coffee,4.5,Vietnam,City_154,True,CoffeeHouse_3,DriveThru,Kenya
+194,168,9,Frappuccino,2,4.5,9.0,138,40,2021-11-09,05:18:00,Card,Completed,Costa Rica,0,Frappuccino,Coffee,4.5,India,City_111,False,CoffeeHouse_40,DriveThru,Guatemala
+195,169,7,Cold Brew,1,3.25,3.25,196,42,2024-10-26,08:08:00,Card,Completed,Colombia,3,Cold Brew,Coffee,3.25,France,City_148,False,CoffeeHouse_42,Kiosk,Vietnam
+196,170,3,Latte,1,3.5,3.5,30,30,2024-06-07,04:41:00,Card,Completed,Indonesia,0,Latte,Coffee,3.5,Kenya,City_30,True,CoffeeHouse_30,Kiosk,France
+197,171,3,Latte,1,3.5,3.5,89,34,2023-11-26,09:10:00,Mobile Wallet,Completed,Ethiopia,1,Latte,Coffee,3.5,Indonesia,City_44,False,CoffeeHouse_34,Kiosk,France
+198,172,10,Cortado,1,2.0,2.0,8,22,2023-05-30,16:56:00,Card,Completed,Honduras,0,Cortado,Coffee,2.0,Germany,City_136,True,CoffeeHouse_22,Retail,Ethiopia
+199,173,10,Cortado,1,2.0,2.0,146,11,2023-01-24,03:56:00,Mobile Wallet,Completed,Australia,0,Cortado,Coffee,2.0,Vietnam,City_77,True,CoffeeHouse_11,DriveThru,Mexico
+200,174,3,Latte,1,3.5,3.5,4,16,2021-04-05,01:12:00,Card,Completed,Spain,0,Latte,Coffee,3.5,Canada,City_102,False,CoffeeHouse_16,DriveThru,France
+202,176,5,Flat White,1,3.75,3.75,133,3,2023-04-02,10:36:00,Card,Completed,Canada,0,Flat White,Coffee,3.75,Mexico,City_114,False,CoffeeHouse_3,DriveThru,Kenya
+203,177,10,Cortado,1,2.0,2.0,95,13,2022-08-21,12:34:00,Card,Completed,Italy,7,Cortado,Coffee,2.0,Brazil,City_286,True,CoffeeHouse_13,Kiosk,Vietnam
+204,178,1,Espresso,2,1.5,3.0,199,13,2024-01-25,00:48:00,Card,Completed,Honduras,1,Espresso,Coffee,1.5,Kenya,City_196,False,CoffeeHouse_13,Kiosk,Vietnam
+206,180,9,Frappuccino,1,4.5,4.5,16,10,2022-07-28,12:42:00,Online,Completed,Colombia,0,Frappuccino,Coffee,4.5,Kenya,City_17,True,CoffeeHouse_10,Airport,Indonesia
+209,182,4,Cappuccino,1,3.25,3.25,189,21,2022-10-14,19:57:00,Card,Completed,Ethiopia,0,Cappuccino,Coffee,3.25,Mexico,City_117,True,CoffeeHouse_21,Airport,France
+210,183,4,Cappuccino,1,3.25,3.25,120,21,2023-04-13,15:48:00,Card,Completed,Ethiopia,0,Cappuccino,Coffee,3.25,UK,City_125,False,CoffeeHouse_21,Airport,France
+212,185,7,Cold Brew,1,3.25,3.25,174,20,2022-06-17,08:31:00,Card,Completed,Ethiopia,2,Cold Brew,Coffee,3.25,Vietnam,City_256,False,CoffeeHouse_20,Retail,Germany
+213,185,9,Frappuccino,1,4.5,4.5,174,20,2022-06-17,08:31:00,Card,Completed,Ethiopia,2,Frappuccino,Coffee,4.5,Vietnam,City_256,False,CoffeeHouse_20,Retail,Germany
+214,186,4,Cappuccino,1,3.25,3.25,36,8,2021-01-25,13:40:00,Mobile Wallet,Completed,Colombia,0,Cappuccino,Coffee,3.25,UK,City_113,True,CoffeeHouse_8,DriveThru,India
+215,187,8,Iced Latte,1,3.75,3.75,67,5,2021-02-14,15:44:00,Card,Completed,UK,0,Iced Latte,Coffee,3.75,Canada,City_5,True,CoffeeHouse_5,DriveThru,Mexico
+216,187,2,Americano,2,2.5,5.0,67,5,2021-02-14,15:44:00,Card,Completed,UK,0,Americano,Coffee,2.5,Canada,City_5,True,CoffeeHouse_5,DriveThru,Mexico
+217,187,6,Mocha,1,4.0,4.0,67,5,2021-02-14,15:44:00,Card,Completed,UK,0,Mocha,Coffee,4.0,Canada,City_5,True,CoffeeHouse_5,DriveThru,Mexico
+218,188,3,Latte,1,3.5,3.5,186,26,2023-10-14,06:23:00,Cash,Completed,France,2,Latte,Coffee,3.5,Colombia,City_241,False,CoffeeHouse_26,Kiosk,UK
+219,189,8,Iced Latte,1,3.75,3.75,9,40,2024-06-22,18:47:00,Cash,Completed,Colombia,0,Iced Latte,Coffee,3.75,Costa Rica,City_41,False,CoffeeHouse_40,DriveThru,Guatemala
+220,190,4,Cappuccino,1,3.25,3.25,36,27,2022-02-13,18:33:00,Mobile Wallet,Completed,Costa Rica,1,Cappuccino,Coffee,3.25,UK,City_113,True,CoffeeHouse_27,Airport,Spain
+221,191,10,Cortado,1,2.0,2.0,92,31,2024-01-21,13:15:00,Card,Completed,United States,0,Cortado,Coffee,2.0,France,City_213,False,CoffeeHouse_31,DriveThru,Honduras
+223,193,1,Espresso,1,1.5,1.5,169,16,2022-06-30,07:29:00,Mobile Wallet,Completed,Costa Rica,0,Espresso,Coffee,1.5,Germany,City_256,True,CoffeeHouse_16,DriveThru,France
+224,194,6,Mocha,2,4.0,8.0,45,12,2022-04-30,00:57:00,Mobile Wallet,Completed,Honduras,3,Mocha,Coffee,4.0,France,City_282,True,CoffeeHouse_12,Retail,Ethiopia
+225,195,8,Iced Latte,1,3.75,3.75,145,10,2024-02-28,03:04:00,Mobile Wallet,Completed,Germany,0,Iced Latte,Coffee,3.75,Italy,City_38,True,CoffeeHouse_10,Airport,Indonesia
+226,195,3,Latte,1,3.5,3.5,145,10,2024-02-28,03:04:00,Mobile Wallet,Completed,Germany,0,Latte,Coffee,3.5,Italy,City_38,True,CoffeeHouse_10,Airport,Indonesia
+228,197,6,Mocha,2,4.0,8.0,38,38,2021-10-18,12:45:00,Mobile Wallet,Completed,Costa Rica,0,Mocha,Coffee,4.0,Australia,City_122,True,CoffeeHouse_38,Kiosk,UK
+229,198,7,Cold Brew,1,3.25,3.25,87,20,2022-10-23,16:37:00,Card,Completed,Indonesia,1,Cold Brew,Coffee,3.25,Mexico,City_147,False,CoffeeHouse_20,Retail,Germany
+230,199,10,Cortado,1,2.0,2.0,144,45,2024-06-10,12:54:00,Card,Completed,Mexico,0,Cortado,Coffee,2.0,Guatemala,City_245,False,CoffeeHouse_45,Retail,Australia
+231,200,10,Cortado,1,2.0,2.0,187,1,2024-03-19,20:33:00,Online,Completed,Germany,0,Cortado,Coffee,2.0,Colombia,City_169,False,CoffeeHouse_1,DriveThru,Germany
+232,201,4,Cappuccino,1,3.25,3.25,145,7,2023-10-14,10:54:00,Mobile Wallet,Completed,Colombia,2,Cappuccino,Coffee,3.25,Italy,City_38,True,CoffeeHouse_7,Kiosk,Peru
+233,202,4,Cappuccino,1,3.25,3.25,172,41,2022-11-19,11:57:00,Card,Completed,Ethiopia,1,Cappuccino,Coffee,3.25,Indonesia,City_160,False,CoffeeHouse_41,Retail,Indonesia
+234,203,7,Cold Brew,1,3.25,3.25,13,25,2023-06-17,12:55:00,Online,Completed,Costa Rica,0,Cold Brew,Coffee,3.25,India,City_137,True,CoffeeHouse_25,Airport,France
+235,204,8,Iced Latte,1,3.75,3.75,123,37,2024-08-26,01:08:00,Card,Completed,Peru,0,Iced Latte,Coffee,3.75,United States,City_216,False,CoffeeHouse_37,Kiosk,Colombia
+236,205,2,Americano,1,2.5,2.5,27,5,2022-12-02,03:10:00,Card,Completed,Germany,2,Americano,Coffee,2.5,Mexico,City_260,False,CoffeeHouse_5,DriveThru,Mexico
+237,206,7,Cold Brew,1,3.25,3.25,181,2,2023-06-03,06:29:00,Card,Completed,Canada,1,Cold Brew,Coffee,3.25,India,City_123,False,CoffeeHouse_2,DriveThru,Kenya
+238,206,2,Americano,1,2.5,2.5,181,2,2023-06-03,06:29:00,Card,Completed,Canada,1,Americano,Coffee,2.5,India,City_123,False,CoffeeHouse_2,DriveThru,Kenya
+239,207,2,Americano,1,2.5,2.5,187,35,2022-06-28,19:30:00,Card,Completed,Italy,0,Americano,Coffee,2.5,Colombia,City_169,False,CoffeeHouse_35,DriveThru,Germany
+240,208,10,Cortado,1,2.0,2.0,93,1,2023-05-26,03:18:00,Mobile Wallet,Completed,Indonesia,1,Cortado,Coffee,2.0,Italy,City_205,True,CoffeeHouse_1,DriveThru,Germany
+241,209,8,Iced Latte,1,3.75,3.75,21,31,2021-08-25,09:02:00,Card,Completed,Canada,0,Iced Latte,Coffee,3.75,Colombia,City_25,True,CoffeeHouse_31,DriveThru,Honduras
+242,210,8,Iced Latte,1,3.75,3.75,95,25,2023-01-27,07:43:00,Card,Completed,UK,0,Iced Latte,Coffee,3.75,Brazil,City_286,True,CoffeeHouse_25,Airport,France
+243,211,9,Frappuccino,1,4.5,4.5,193,45,2024-09-28,20:07:00,Cash,Completed,Brazil,2,Frappuccino,Coffee,4.5,Indonesia,City_90,False,CoffeeHouse_45,Retail,Australia
+244,212,10,Cortado,1,2.0,2.0,134,27,2024-01-02,16:15:00,Online,Completed,Costa Rica,3,Cortado,Coffee,2.0,UK,City_189,False,CoffeeHouse_27,Airport,Spain
+245,213,10,Cortado,1,2.0,2.0,183,3,2023-10-26,21:10:00,Cash,Completed,France,0,Cortado,Coffee,2.0,Costa Rica,City_78,False,CoffeeHouse_3,DriveThru,Kenya
+246,214,7,Cold Brew,1,3.25,3.25,43,14,2022-01-30,21:24:00,Card,Completed,Germany,0,Cold Brew,Coffee,3.25,Kenya,City_99,True,CoffeeHouse_14,Retail,Costa Rica
+247,215,6,Mocha,1,4.0,4.0,187,5,2021-06-28,17:44:00,Card,Completed,United States,1,Mocha,Coffee,4.0,Colombia,City_169,False,CoffeeHouse_5,DriveThru,Mexico
+248,216,3,Latte,1,3.5,3.5,160,38,2023-12-07,20:04:00,Card,Completed,Ethiopia,3,Latte,Coffee,3.5,Peru,City_129,True,CoffeeHouse_38,Kiosk,UK
+249,217,6,Mocha,1,4.0,4.0,145,50,2021-07-26,09:00:00,Mobile Wallet,Completed,Italy,0,Mocha,Coffee,4.0,Italy,City_38,True,CoffeeHouse_50,Airport,Brazil
+250,218,10,Cortado,1,2.0,2.0,122,3,2021-12-19,13:42:00,Card,Completed,Peru,1,Cortado,Coffee,2.0,Canada,City_220,False,CoffeeHouse_3,DriveThru,Kenya
+253,220,6,Mocha,1,4.0,4.0,59,9,2022-09-08,03:02:00,Card,Completed,India,3,Mocha,Coffee,4.0,Colombia,City_126,False,CoffeeHouse_9,DriveThru,Australia
+254,220,7,Cold Brew,1,3.25,3.25,59,9,2022-09-08,03:02:00,Card,Completed,India,3,Cold Brew,Coffee,3.25,Colombia,City_126,False,CoffeeHouse_9,DriveThru,Australia
+255,221,1,Espresso,1,1.5,1.5,105,48,2023-09-20,05:25:00,Mobile Wallet,Completed,Australia,0,Espresso,Coffee,1.5,Italy,City_4,False,CoffeeHouse_48,Retail,Australia
+256,222,4,Cappuccino,1,3.25,3.25,200,34,2024-03-10,08:30:00,Card,Completed,Brazil,3,Cappuccino,Coffee,3.25,Mexico,City_12,True,CoffeeHouse_34,Kiosk,France
+257,223,7,Cold Brew,1,3.25,3.25,181,13,2022-07-16,04:13:00,Card,Completed,Kenya,0,Cold Brew,Coffee,3.25,India,City_123,False,CoffeeHouse_13,Kiosk,Vietnam
+258,224,9,Frappuccino,1,4.5,4.5,153,29,2021-12-30,08:49:00,Card,Completed,Colombia,0,Frappuccino,Coffee,4.5,Mexico,City_17,False,CoffeeHouse_29,Kiosk,Brazil
+259,224,3,Latte,1,3.5,3.5,153,29,2021-12-30,08:49:00,Card,Completed,Colombia,0,Latte,Coffee,3.5,Mexico,City_17,False,CoffeeHouse_29,Kiosk,Brazil
+260,225,4,Cappuccino,1,3.25,3.25,99,4,2021-11-30,09:11:00,Mobile Wallet,Completed,Australia,0,Cappuccino,Coffee,3.25,Guatemala,City_267,False,CoffeeHouse_4,Retail,Vietnam
+261,225,4,Cappuccino,1,3.25,3.25,99,4,2021-11-30,09:11:00,Mobile Wallet,Completed,Australia,0,Cappuccino,Coffee,3.25,Guatemala,City_267,False,CoffeeHouse_4,Retail,Vietnam
+262,226,3,Latte,1,3.5,3.5,200,50,2024-10-29,00:17:00,Online,Completed,Germany,2,Latte,Coffee,3.5,Mexico,City_12,True,CoffeeHouse_50,Airport,Brazil
+263,227,6,Mocha,1,4.0,4.0,79,46,2024-08-09,07:26:00,Mobile Wallet,Completed,Australia,2,Mocha,Coffee,4.0,Brazil,City_56,False,CoffeeHouse_46,DriveThru,Italy
+264,228,6,Mocha,1,4.0,4.0,102,38,2021-07-29,20:16:00,Online,Completed,Mexico,1,Mocha,Coffee,4.0,Costa Rica,City_79,False,CoffeeHouse_38,Kiosk,UK
+265,229,5,Flat White,1,3.75,3.75,124,5,2022-11-20,01:56:00,Cash,Completed,Germany,0,Flat White,Coffee,3.75,France,City_79,False,CoffeeHouse_5,DriveThru,Mexico
+266,229,5,Flat White,1,3.75,3.75,124,5,2022-11-20,01:56:00,Cash,Completed,Germany,0,Flat White,Coffee,3.75,France,City_79,False,CoffeeHouse_5,DriveThru,Mexico
+267,229,9,Frappuccino,1,4.5,4.5,124,5,2022-11-20,01:56:00,Cash,Completed,Germany,0,Frappuccino,Coffee,4.5,France,City_79,False,CoffeeHouse_5,DriveThru,Mexico
+268,230,5,Flat White,1,3.75,3.75,82,44,2021-10-14,14:17:00,Cash,Completed,Brazil,0,Flat White,Coffee,3.75,Honduras,City_221,False,CoffeeHouse_44,Airport,Guatemala
+270,232,3,Latte,1,3.5,3.5,44,43,2024-02-18,19:04:00,Card,Completed,Indonesia,3,Latte,Coffee,3.5,Spain,City_94,True,CoffeeHouse_43,Kiosk,UK
+271,233,5,Flat White,1,3.75,3.75,86,42,2021-07-02,11:18:00,Card,Completed,UK,0,Flat White,Coffee,3.75,Indonesia,City_292,True,CoffeeHouse_42,Kiosk,Vietnam
+272,234,10,Cortado,1,2.0,2.0,31,31,2021-04-20,23:14:00,Cash,Completed,Mexico,0,Cortado,Coffee,2.0,Colombia,City_249,True,CoffeeHouse_31,DriveThru,Honduras
+273,234,4,Cappuccino,1,3.25,3.25,31,31,2021-04-20,23:14:00,Cash,Completed,Mexico,0,Cappuccino,Coffee,3.25,Colombia,City_249,True,CoffeeHouse_31,DriveThru,Honduras
+274,235,8,Iced Latte,1,3.75,3.75,39,9,2022-02-15,06:09:00,Online,Completed,Italy,0,Iced Latte,Coffee,3.75,Canada,City_68,True,CoffeeHouse_9,DriveThru,Australia
+275,236,4,Cappuccino,1,3.25,3.25,46,21,2024-07-23,05:45:00,Card,Completed,Indonesia,0,Cappuccino,Coffee,3.25,Colombia,City_122,False,CoffeeHouse_21,Airport,France
+276,237,7,Cold Brew,1,3.25,3.25,196,50,2021-06-30,16:17:00,Card,Completed,Brazil,0,Cold Brew,Coffee,3.25,France,City_148,False,CoffeeHouse_50,Airport,Brazil
+277,238,9,Frappuccino,1,4.5,4.5,188,24,2021-01-29,08:29:00,Mobile Wallet,Completed,Honduras,0,Frappuccino,Coffee,4.5,Italy,City_278,True,CoffeeHouse_24,Airport,Kenya
+278,238,1,Espresso,1,1.5,1.5,188,24,2021-01-29,08:29:00,Mobile Wallet,Completed,Honduras,0,Espresso,Coffee,1.5,Italy,City_278,True,CoffeeHouse_24,Airport,Kenya
+279,239,1,Espresso,1,1.5,1.5,27,25,2023-10-28,09:55:00,Card,Completed,Australia,0,Espresso,Coffee,1.5,Mexico,City_260,False,CoffeeHouse_25,Airport,France
+281,241,9,Frappuccino,1,4.5,4.5,58,47,2021-09-26,12:30:00,Card,Completed,Brazil,0,Frappuccino,Coffee,4.5,Canada,City_110,False,CoffeeHouse_47,Airport,Australia
+282,242,1,Espresso,1,1.5,1.5,164,17,2024-01-01,22:18:00,Cash,Completed,Brazil,1,Espresso,Coffee,1.5,Spain,City_171,True,CoffeeHouse_17,DriveThru,UK
+283,243,3,Latte,1,3.5,3.5,107,29,2023-02-18,23:24:00,Card,Completed,Mexico,0,Latte,Coffee,3.5,Italy,City_113,True,CoffeeHouse_29,Kiosk,Brazil
+284,244,3,Latte,1,3.5,3.5,26,43,2023-12-02,03:34:00,Cash,Completed,Germany,0,Latte,Coffee,3.5,Guatemala,City_257,True,CoffeeHouse_43,Kiosk,UK
+285,245,5,Flat White,1,3.75,3.75,30,7,2023-10-17,06:53:00,Card,Completed,Spain,0,Flat White,Coffee,3.75,Kenya,City_30,True,CoffeeHouse_7,Kiosk,Peru
+289,248,6,Mocha,1,4.0,4.0,13,7,2021-12-24,03:57:00,Mobile Wallet,Completed,Brazil,0,Mocha,Coffee,4.0,India,City_137,True,CoffeeHouse_7,Kiosk,Peru
+290,248,6,Mocha,1,4.0,4.0,13,7,2021-12-24,03:57:00,Mobile Wallet,Completed,Brazil,0,Mocha,Coffee,4.0,India,City_137,True,CoffeeHouse_7,Kiosk,Peru
+293,251,3,Latte,1,3.5,3.5,43,8,2021-09-29,20:09:00,Card,Completed,UK,1,Latte,Coffee,3.5,Kenya,City_99,True,CoffeeHouse_8,DriveThru,India
+294,252,3,Latte,1,3.5,3.5,47,40,2023-02-17,16:39:00,Cash,Completed,Spain,0,Latte,Coffee,3.5,India,City_206,True,CoffeeHouse_40,DriveThru,Guatemala
+295,253,9,Frappuccino,1,4.5,4.5,17,17,2024-09-03,19:40:00,Mobile Wallet,Completed,Kenya,5,Frappuccino,Coffee,4.5,India,City_291,False,CoffeeHouse_17,DriveThru,UK
+296,254,2,Americano,1,2.5,2.5,172,22,2023-11-30,08:29:00,Mobile Wallet,Completed,Costa Rica,0,Americano,Coffee,2.5,Indonesia,City_160,False,CoffeeHouse_22,Retail,Ethiopia
+298,256,4,Cappuccino,1,3.25,3.25,83,16,2022-11-09,08:01:00,Card,Completed,France,2,Cappuccino,Coffee,3.25,Germany,City_161,False,CoffeeHouse_16,DriveThru,France
+299,256,7,Cold Brew,1,3.25,3.25,83,16,2022-11-09,08:01:00,Card,Completed,France,2,Cold Brew,Coffee,3.25,Germany,City_161,False,CoffeeHouse_16,DriveThru,France
+300,257,8,Iced Latte,1,3.75,3.75,115,6,2023-10-18,00:36:00,Card,Completed,Spain,0,Iced Latte,Coffee,3.75,United States,City_127,True,CoffeeHouse_6,DriveThru,Vietnam
+301,258,5,Flat White,1,3.75,3.75,141,1,2021-07-06,19:11:00,Online,Completed,France,5,Flat White,Coffee,3.75,Brazil,City_284,True,CoffeeHouse_1,DriveThru,Germany
+302,259,10,Cortado,1,2.0,2.0,94,4,2022-04-02,03:53:00,Card,Completed,Kenya,0,Cortado,Coffee,2.0,Ethiopia,City_218,False,CoffeeHouse_4,Retail,Vietnam
+303,259,6,Mocha,1,4.0,4.0,94,4,2022-04-02,03:53:00,Card,Completed,Kenya,0,Mocha,Coffee,4.0,Ethiopia,City_218,False,CoffeeHouse_4,Retail,Vietnam
+304,260,2,Americano,1,2.5,2.5,91,41,2022-08-21,05:36:00,Card,Completed,Spain,0,Americano,Coffee,2.5,Vietnam,City_13,True,CoffeeHouse_41,Retail,Indonesia
+305,261,4,Cappuccino,1,3.25,3.25,157,13,2022-01-20,06:30:00,Mobile Wallet,Completed,Ethiopia,1,Cappuccino,Coffee,3.25,Germany,City_292,False,CoffeeHouse_13,Kiosk,Vietnam
+307,263,10,Cortado,1,2.0,2.0,2,34,2021-04-10,17:21:00,Card,Completed,Indonesia,1,Cortado,Coffee,2.0,Ethiopia,City_280,True,CoffeeHouse_34,Kiosk,France
+309,265,5,Flat White,1,3.75,3.75,178,49,2022-05-24,04:33:00,Online,Completed,Germany,1,Flat White,Coffee,3.75,United States,City_145,False,CoffeeHouse_49,Retail,Australia
+310,266,6,Mocha,1,4.0,4.0,192,33,2022-09-05,06:51:00,Cash,Completed,Mexico,1,Mocha,Coffee,4.0,Vietnam,City_126,True,CoffeeHouse_33,Retail,Costa Rica
+311,266,9,Frappuccino,1,4.5,4.5,192,33,2022-09-05,06:51:00,Cash,Completed,Mexico,1,Frappuccino,Coffee,4.5,Vietnam,City_126,True,CoffeeHouse_33,Retail,Costa Rica
+312,267,9,Frappuccino,1,4.5,4.5,173,9,2024-08-24,12:01:00,Card,Completed,UK,0,Frappuccino,Coffee,4.5,Colombia,City_116,True,CoffeeHouse_9,DriveThru,Australia
+313,267,6,Mocha,1,4.0,4.0,173,9,2024-08-24,12:01:00,Card,Completed,UK,0,Mocha,Coffee,4.0,Colombia,City_116,True,CoffeeHouse_9,DriveThru,Australia
+314,268,9,Frappuccino,1,4.5,4.5,171,46,2023-05-05,14:25:00,Mobile Wallet,Completed,Australia,0,Frappuccino,Coffee,4.5,Italy,City_63,True,CoffeeHouse_46,DriveThru,Italy
+315,269,3,Latte,2,3.5,7.0,98,10,2021-04-19,23:19:00,Card,Completed,Brazil,1,Latte,Coffee,3.5,Indonesia,City_244,True,CoffeeHouse_10,Airport,Indonesia
+316,270,2,Americano,1,2.5,2.5,76,14,2024-01-14,23:03:00,Mobile Wallet,Completed,Kenya,1,Americano,Coffee,2.5,Costa Rica,City_169,False,CoffeeHouse_14,Retail,Costa Rica
+318,272,4,Cappuccino,1,3.25,3.25,176,21,2024-02-05,15:07:00,Mobile Wallet,Completed,Honduras,1,Cappuccino,Coffee,3.25,Costa Rica,City_98,True,CoffeeHouse_21,Airport,France
+320,274,5,Flat White,1,3.75,3.75,45,48,2023-11-19,04:26:00,Card,Completed,Guatemala,0,Flat White,Coffee,3.75,France,City_282,True,CoffeeHouse_48,Retail,Australia
+321,275,10,Cortado,1,2.0,2.0,120,46,2021-11-14,21:20:00,Online,Completed,Mexico,0,Cortado,Coffee,2.0,UK,City_125,False,CoffeeHouse_46,DriveThru,Italy
+322,276,9,Frappuccino,1,4.5,4.5,147,36,2023-01-04,06:16:00,Mobile Wallet,Completed,Australia,0,Frappuccino,Coffee,4.5,Ethiopia,City_286,True,CoffeeHouse_36,Kiosk,Kenya
+323,277,4,Cappuccino,1,3.25,3.25,140,35,2023-04-07,11:18:00,Card,Completed,India,5,Cappuccino,Coffee,3.25,Mexico,City_8,True,CoffeeHouse_35,DriveThru,Germany
+327,279,9,Frappuccino,1,4.5,4.5,30,25,2022-06-10,12:47:00,Card,Completed,Australia,0,Frappuccino,Coffee,4.5,Kenya,City_30,True,CoffeeHouse_25,Airport,France
+328,280,2,Americano,1,2.5,2.5,12,19,2024-08-27,18:21:00,Cash,Completed,Colombia,0,Americano,Coffee,2.5,Guatemala,City_233,False,CoffeeHouse_19,DriveThru,United States
+329,281,2,Americano,1,2.5,2.5,162,50,2022-03-13,02:27:00,Card,Completed,Vietnam,0,Americano,Coffee,2.5,Italy,City_266,True,CoffeeHouse_50,Airport,Brazil
+330,281,7,Cold Brew,1,3.25,3.25,162,50,2022-03-13,02:27:00,Card,Completed,Vietnam,0,Cold Brew,Coffee,3.25,Italy,City_266,True,CoffeeHouse_50,Airport,Brazil
+331,282,5,Flat White,1,3.75,3.75,184,22,2021-03-19,19:37:00,Card,Completed,Guatemala,0,Flat White,Coffee,3.75,Ethiopia,City_226,False,CoffeeHouse_22,Retail,Ethiopia
+332,283,2,Americano,1,2.5,2.5,116,41,2023-04-09,21:53:00,Card,Completed,Colombia,1,Americano,Coffee,2.5,Kenya,City_65,True,CoffeeHouse_41,Retail,Indonesia
+333,284,5,Flat White,1,3.75,3.75,150,3,2021-05-29,10:17:00,Cash,Completed,Mexico,1,Flat White,Coffee,3.75,Germany,City_51,False,CoffeeHouse_3,DriveThru,Kenya
+334,285,3,Latte,1,3.5,3.5,113,25,2023-03-21,18:37:00,Card,Completed,Vietnam,0,Latte,Coffee,3.5,Guatemala,City_42,True,CoffeeHouse_25,Airport,France
+335,285,3,Latte,1,3.5,3.5,113,25,2023-03-21,18:37:00,Card,Completed,Vietnam,0,Latte,Coffee,3.5,Guatemala,City_42,True,CoffeeHouse_25,Airport,France
+336,286,9,Frappuccino,1,4.5,4.5,187,42,2023-02-04,20:21:00,Card,Completed,Canada,3,Frappuccino,Coffee,4.5,Colombia,City_169,False,CoffeeHouse_42,Kiosk,Vietnam
+337,286,1,Espresso,1,1.5,1.5,187,42,2023-02-04,20:21:00,Card,Completed,Canada,3,Espresso,Coffee,1.5,Colombia,City_169,False,CoffeeHouse_42,Kiosk,Vietnam
+338,287,9,Frappuccino,1,4.5,4.5,79,14,2022-12-06,06:16:00,Online,Completed,Guatemala,0,Frappuccino,Coffee,4.5,Brazil,City_56,False,CoffeeHouse_14,Retail,Costa Rica
+339,288,9,Frappuccino,1,4.5,4.5,47,43,2024-03-07,22:55:00,Mobile Wallet,Completed,Ethiopia,0,Frappuccino,Coffee,4.5,India,City_206,True,CoffeeHouse_43,Kiosk,UK
+340,288,9,Frappuccino,1,4.5,4.5,47,43,2024-03-07,22:55:00,Mobile Wallet,Completed,Ethiopia,0,Frappuccino,Coffee,4.5,India,City_206,True,CoffeeHouse_43,Kiosk,UK
+341,289,4,Cappuccino,1,3.25,3.25,149,32,2022-11-09,21:08:00,Cash,Completed,India,0,Cappuccino,Coffee,3.25,UK,City_220,True,CoffeeHouse_32,Retail,Canada
+342,290,3,Latte,1,3.5,3.5,116,22,2024-06-16,12:26:00,Cash,Completed,Spain,0,Latte,Coffee,3.5,Kenya,City_65,True,CoffeeHouse_22,Retail,Ethiopia
+343,291,5,Flat White,1,3.75,3.75,81,16,2022-03-30,04:35:00,Cash,Completed,Peru,2,Flat White,Coffee,3.75,Guatemala,City_23,True,CoffeeHouse_16,DriveThru,France
+344,292,2,Americano,1,2.5,2.5,119,29,2023-01-05,20:42:00,Card,Completed,Guatemala,2,Americano,Coffee,2.5,UK,City_193,True,CoffeeHouse_29,Kiosk,Brazil
+345,293,2,Americano,1,2.5,2.5,36,35,2022-02-07,00:38:00,Mobile Wallet,Completed,United States,2,Americano,Coffee,2.5,UK,City_113,True,CoffeeHouse_35,DriveThru,Germany
+346,294,5,Flat White,1,3.75,3.75,149,26,2024-04-23,18:25:00,Card,Completed,Vietnam,0,Flat White,Coffee,3.75,UK,City_220,True,CoffeeHouse_26,Kiosk,UK
+347,295,8,Iced Latte,1,3.75,3.75,58,50,2024-04-22,03:05:00,Card,Completed,Australia,0,Iced Latte,Coffee,3.75,Canada,City_110,False,CoffeeHouse_50,Airport,Brazil
+348,296,3,Latte,1,3.5,3.5,62,40,2021-12-06,19:18:00,Card,Completed,Vietnam,1,Latte,Coffee,3.5,Ethiopia,City_55,False,CoffeeHouse_40,DriveThru,Guatemala
+349,297,2,Americano,1,2.5,2.5,124,23,2021-03-24,07:59:00,Card,Completed,India,0,Americano,Coffee,2.5,France,City_79,False,CoffeeHouse_23,Retail,Mexico
+350,298,1,Espresso,2,1.5,3.0,93,25,2023-08-20,17:47:00,Mobile Wallet,Completed,Guatemala,2,Espresso,Coffee,1.5,Italy,City_205,True,CoffeeHouse_25,Airport,France
+351,298,6,Mocha,1,4.0,4.0,93,25,2023-08-20,17:47:00,Mobile Wallet,Completed,Guatemala,2,Mocha,Coffee,4.0,Italy,City_205,True,CoffeeHouse_25,Airport,France
+354,301,5,Flat White,1,3.75,3.75,36,29,2021-12-06,06:22:00,Cash,Completed,Germany,1,Flat White,Coffee,3.75,UK,City_113,True,CoffeeHouse_29,Kiosk,Brazil
+355,302,2,Americano,1,2.5,2.5,31,43,2022-04-17,16:20:00,Card,Completed,UK,0,Americano,Coffee,2.5,Colombia,City_249,True,CoffeeHouse_43,Kiosk,UK
+356,303,3,Latte,1,3.5,3.5,106,2,2022-05-15,17:29:00,Cash,Completed,UK,0,Latte,Coffee,3.5,Spain,City_276,True,CoffeeHouse_2,DriveThru,Kenya
+357,304,10,Cortado,1,2.0,2.0,43,17,2022-01-04,22:35:00,Card,Completed,Colombia,0,Cortado,Coffee,2.0,Kenya,City_99,True,CoffeeHouse_17,DriveThru,UK
+358,305,10,Cortado,1,2.0,2.0,156,31,2023-09-14,19:53:00,Mobile Wallet,Completed,Indonesia,1,Cortado,Coffee,2.0,Guatemala,City_73,False,CoffeeHouse_31,DriveThru,Honduras
+359,306,8,Iced Latte,1,3.75,3.75,131,17,2021-12-10,02:20:00,Card,Completed,Costa Rica,0,Iced Latte,Coffee,3.75,Colombia,City_124,True,CoffeeHouse_17,DriveThru,UK
+363,309,8,Iced Latte,1,3.75,3.75,95,3,2023-12-22,13:00:00,Online,Completed,UK,0,Iced Latte,Coffee,3.75,Brazil,City_286,True,CoffeeHouse_3,DriveThru,Kenya
+364,310,2,Americano,1,2.5,2.5,35,17,2023-09-05,18:33:00,Online,Completed,India,0,Americano,Coffee,2.5,Kenya,City_33,True,CoffeeHouse_17,DriveThru,UK
+365,311,7,Cold Brew,1,3.25,3.25,191,1,2024-03-29,23:28:00,Cash,Completed,Spain,0,Cold Brew,Coffee,3.25,Peru,City_29,False,CoffeeHouse_1,DriveThru,Germany
+366,312,9,Frappuccino,1,4.5,4.5,40,28,2024-08-27,12:28:00,Card,Completed,Costa Rica,1,Frappuccino,Coffee,4.5,Italy,City_209,False,CoffeeHouse_28,DriveThru,Germany
+367,313,9,Frappuccino,1,4.5,4.5,106,36,2024-02-16,10:28:00,Card,Completed,Costa Rica,1,Frappuccino,Coffee,4.5,Spain,City_276,True,CoffeeHouse_36,Kiosk,Kenya
+368,314,3,Latte,1,3.5,3.5,169,8,2022-04-16,17:21:00,Cash,Completed,Peru,2,Latte,Coffee,3.5,Germany,City_256,True,CoffeeHouse_8,DriveThru,India
+369,315,1,Espresso,1,1.5,1.5,158,45,2021-04-17,04:57:00,Online,Completed,Germany,0,Espresso,Coffee,1.5,Mexico,City_207,False,CoffeeHouse_45,Retail,Australia
+370,316,7,Cold Brew,2,3.25,6.5,17,17,2022-03-31,13:40:00,Cash,Completed,Australia,0,Cold Brew,Coffee,3.25,India,City_291,False,CoffeeHouse_17,DriveThru,UK
+371,317,4,Cappuccino,1,3.25,3.25,153,4,2021-12-25,17:41:00,Card,Completed,Brazil,1,Cappuccino,Coffee,3.25,Mexico,City_17,False,CoffeeHouse_4,Retail,Vietnam
+374,320,4,Cappuccino,1,3.25,3.25,144,38,2022-12-14,06:38:00,Mobile Wallet,Completed,Costa Rica,0,Cappuccino,Coffee,3.25,Guatemala,City_245,False,CoffeeHouse_38,Kiosk,UK
+375,321,9,Frappuccino,1,4.5,4.5,67,12,2023-04-14,03:59:00,Cash,Completed,Guatemala,2,Frappuccino,Coffee,4.5,Canada,City_5,True,CoffeeHouse_12,Retail,Ethiopia
+379,324,6,Mocha,1,4.0,4.0,180,17,2022-05-24,06:05:00,Card,Completed,Honduras,0,Mocha,Coffee,4.0,Canada,City_279,False,CoffeeHouse_17,DriveThru,UK
+382,326,2,Americano,1,2.5,2.5,64,40,2022-12-31,22:38:00,Card,Completed,United States,1,Americano,Coffee,2.5,Australia,City_251,True,CoffeeHouse_40,DriveThru,Guatemala
+383,327,10,Cortado,1,2.0,2.0,139,3,2023-09-15,16:45:00,Card,Completed,Australia,0,Cortado,Coffee,2.0,Ethiopia,City_100,True,CoffeeHouse_3,DriveThru,Kenya
+384,328,7,Cold Brew,1,3.25,3.25,57,49,2024-03-27,18:27:00,Cash,Completed,Honduras,0,Cold Brew,Coffee,3.25,United States,City_235,True,CoffeeHouse_49,Retail,Australia
+385,329,9,Frappuccino,1,4.5,4.5,176,50,2021-12-24,23:31:00,Card,Completed,India,0,Frappuccino,Coffee,4.5,Costa Rica,City_98,True,CoffeeHouse_50,Airport,Brazil
+386,330,9,Frappuccino,1,4.5,4.5,26,21,2023-01-11,09:11:00,Card,Completed,Germany,0,Frappuccino,Coffee,4.5,Guatemala,City_257,True,CoffeeHouse_21,Airport,France
+387,331,6,Mocha,1,4.0,4.0,48,32,2023-05-19,13:40:00,Mobile Wallet,Completed,Indonesia,0,Mocha,Coffee,4.0,Costa Rica,City_136,False,CoffeeHouse_32,Retail,Canada
+388,332,4,Cappuccino,1,3.25,3.25,148,44,2022-04-14,05:06:00,Mobile Wallet,Completed,United States,0,Cappuccino,Coffee,3.25,Australia,City_195,False,CoffeeHouse_44,Airport,Guatemala
+389,332,7,Cold Brew,1,3.25,3.25,148,44,2022-04-14,05:06:00,Mobile Wallet,Completed,United States,0,Cold Brew,Coffee,3.25,Australia,City_195,False,CoffeeHouse_44,Airport,Guatemala
+391,334,2,Americano,1,2.5,2.5,177,11,2021-05-03,11:25:00,Card,Completed,Honduras,0,Americano,Coffee,2.5,Colombia,City_142,False,CoffeeHouse_11,DriveThru,Mexico
+392,335,10,Cortado,1,2.0,2.0,66,23,2021-02-10,19:39:00,Card,Completed,Canada,0,Cortado,Coffee,2.0,Vietnam,City_135,False,CoffeeHouse_23,Retail,Mexico
+393,336,8,Iced Latte,1,3.75,3.75,200,19,2022-12-29,13:00:00,Cash,Completed,France,1,Iced Latte,Coffee,3.75,Mexico,City_12,True,CoffeeHouse_19,DriveThru,United States
+394,337,10,Cortado,1,2.0,2.0,38,11,2024-08-04,11:43:00,Card,Completed,Peru,1,Cortado,Coffee,2.0,Australia,City_122,True,CoffeeHouse_11,DriveThru,Mexico
+395,337,2,Americano,1,2.5,2.5,38,11,2024-08-04,11:43:00,Card,Completed,Peru,1,Americano,Coffee,2.5,Australia,City_122,True,CoffeeHouse_11,DriveThru,Mexico
+396,338,8,Iced Latte,1,3.75,3.75,182,18,2024-05-24,12:23:00,Card,Completed,Australia,5,Iced Latte,Coffee,3.75,Brazil,City_163,False,CoffeeHouse_18,Airport,Ethiopia
+397,339,4,Cappuccino,1,3.25,3.25,106,11,2022-01-12,13:33:00,Card,Completed,Colombia,3,Cappuccino,Coffee,3.25,Spain,City_276,True,CoffeeHouse_11,DriveThru,Mexico
+398,339,2,Americano,1,2.5,2.5,106,11,2022-01-12,13:33:00,Card,Completed,Colombia,3,Americano,Coffee,2.5,Spain,City_276,True,CoffeeHouse_11,DriveThru,Mexico
+399,340,2,Americano,1,2.5,2.5,122,36,2021-04-21,21:05:00,Card,Completed,Costa Rica,0,Americano,Coffee,2.5,Canada,City_220,False,CoffeeHouse_36,Kiosk,Kenya
+400,341,9,Frappuccino,1,4.5,4.5,64,48,2022-08-05,00:58:00,Card,Completed,Honduras,2,Frappuccino,Coffee,4.5,Australia,City_251,True,CoffeeHouse_48,Retail,Australia
+401,342,5,Flat White,1,3.75,3.75,84,31,2023-08-15,23:48:00,Cash,Completed,UK,0,Flat White,Coffee,3.75,Australia,City_159,False,CoffeeHouse_31,DriveThru,Honduras
+402,342,3,Latte,2,3.5,7.0,84,31,2023-08-15,23:48:00,Cash,Completed,UK,0,Latte,Coffee,3.5,Australia,City_159,False,CoffeeHouse_31,DriveThru,Honduras
+403,343,9,Frappuccino,1,4.5,4.5,162,48,2024-07-26,07:45:00,Card,Completed,France,0,Frappuccino,Coffee,4.5,Italy,City_266,True,CoffeeHouse_48,Retail,Australia
+404,343,6,Mocha,1,4.0,4.0,162,48,2024-07-26,07:45:00,Card,Completed,France,0,Mocha,Coffee,4.0,Italy,City_266,True,CoffeeHouse_48,Retail,Australia
+405,344,3,Latte,1,3.5,3.5,106,17,2021-11-15,16:00:00,Card,Completed,Italy,3,Latte,Coffee,3.5,Spain,City_276,True,CoffeeHouse_17,DriveThru,UK
+406,345,10,Cortado,1,2.0,2.0,123,20,2021-01-19,00:14:00,Mobile Wallet,Completed,India,0,Cortado,Coffee,2.0,United States,City_216,False,CoffeeHouse_20,Retail,Germany
+407,346,7,Cold Brew,1,3.25,3.25,144,28,2023-03-20,07:31:00,Mobile Wallet,Completed,Spain,1,Cold Brew,Coffee,3.25,Guatemala,City_245,False,CoffeeHouse_28,DriveThru,Germany
+408,347,5,Flat White,1,3.75,3.75,133,49,2024-06-09,14:05:00,Cash,Completed,Colombia,0,Flat White,Coffee,3.75,Mexico,City_114,False,CoffeeHouse_49,Retail,Australia
+409,347,9,Frappuccino,1,4.5,4.5,133,49,2024-06-09,14:05:00,Cash,Completed,Colombia,0,Frappuccino,Coffee,4.5,Mexico,City_114,False,CoffeeHouse_49,Retail,Australia
+410,348,10,Cortado,1,2.0,2.0,75,8,2024-07-28,10:56:00,Card,Completed,Brazil,5,Cortado,Coffee,2.0,Honduras,City_157,True,CoffeeHouse_8,DriveThru,India
+411,349,8,Iced Latte,1,3.75,3.75,6,12,2021-07-29,07:56:00,Card,Completed,United States,0,Iced Latte,Coffee,3.75,Spain,City_175,False,CoffeeHouse_12,Retail,Ethiopia
+412,350,6,Mocha,1,4.0,4.0,88,27,2022-10-01,01:04:00,Card,Completed,Vietnam,0,Mocha,Coffee,4.0,France,City_227,False,CoffeeHouse_27,Airport,Spain
+413,351,5,Flat White,1,3.75,3.75,199,26,2021-05-27,00:25:00,Card,Completed,Kenya,0,Flat White,Coffee,3.75,Kenya,City_196,False,CoffeeHouse_26,Kiosk,UK
+414,352,2,Americano,1,2.5,2.5,114,16,2021-03-10,07:06:00,Mobile Wallet,Completed,Mexico,3,Americano,Coffee,2.5,Honduras,City_115,True,CoffeeHouse_16,DriveThru,France
+415,353,2,Americano,1,2.5,2.5,41,41,2021-03-28,21:47:00,Cash,Completed,Honduras,2,Americano,Coffee,2.5,Honduras,City_217,True,CoffeeHouse_41,Retail,Indonesia
+416,354,1,Espresso,1,1.5,1.5,171,14,2021-08-20,09:25:00,Card,Completed,Costa Rica,1,Espresso,Coffee,1.5,Italy,City_63,True,CoffeeHouse_14,Retail,Costa Rica
+417,355,10,Cortado,1,2.0,2.0,3,3,2024-04-05,03:03:00,Card,Completed,Italy,0,Cortado,Coffee,2.0,United States,City_48,True,CoffeeHouse_3,DriveThru,Kenya
+418,356,3,Latte,1,3.5,3.5,159,22,2024-07-04,03:39:00,Card,Completed,Kenya,0,Latte,Coffee,3.5,France,City_42,False,CoffeeHouse_22,Retail,Ethiopia
+419,357,4,Cappuccino,1,3.25,3.25,143,42,2022-12-13,04:35:00,Card,Completed,Brazil,0,Cappuccino,Coffee,3.25,Italy,City_226,True,CoffeeHouse_42,Kiosk,Vietnam
+420,357,7,Cold Brew,1,3.25,3.25,143,42,2022-12-13,04:35:00,Card,Completed,Brazil,0,Cold Brew,Coffee,3.25,Italy,City_226,True,CoffeeHouse_42,Kiosk,Vietnam
+421,358,10,Cortado,1,2.0,2.0,113,36,2022-08-27,11:52:00,Card,Completed,France,0,Cortado,Coffee,2.0,Guatemala,City_42,True,CoffeeHouse_36,Kiosk,Kenya
+422,359,5,Flat White,1,3.75,3.75,154,36,2021-11-25,18:29:00,Card,Completed,United States,1,Flat White,Coffee,3.75,France,City_37,True,CoffeeHouse_36,Kiosk,Kenya
+423,360,6,Mocha,1,4.0,4.0,130,25,2022-01-15,02:09:00,Cash,Completed,Canada,2,Mocha,Coffee,4.0,Guatemala,City_142,True,CoffeeHouse_25,Airport,France
+424,360,4,Cappuccino,1,3.25,3.25,130,25,2022-01-15,02:09:00,Cash,Completed,Canada,2,Cappuccino,Coffee,3.25,Guatemala,City_142,True,CoffeeHouse_25,Airport,France
+425,361,10,Cortado,1,2.0,2.0,49,34,2024-10-31,13:59:00,Cash,Completed,Ethiopia,0,Cortado,Coffee,2.0,Vietnam,City_98,True,CoffeeHouse_34,Kiosk,France
+426,362,1,Espresso,1,1.5,1.5,169,5,2021-03-31,01:05:00,Card,Completed,Costa Rica,1,Espresso,Coffee,1.5,Germany,City_256,True,CoffeeHouse_5,DriveThru,Mexico
+427,362,8,Iced Latte,1,3.75,3.75,169,5,2021-03-31,01:05:00,Card,Completed,Costa Rica,1,Iced Latte,Coffee,3.75,Germany,City_256,True,CoffeeHouse_5,DriveThru,Mexico
+429,364,7,Cold Brew,1,3.25,3.25,21,30,2024-08-01,01:59:00,Cash,Completed,Guatemala,0,Cold Brew,Coffee,3.25,Colombia,City_25,True,CoffeeHouse_30,Kiosk,France
+430,365,9,Frappuccino,1,4.5,4.5,188,5,2022-09-15,07:53:00,Card,Completed,India,0,Frappuccino,Coffee,4.5,Italy,City_278,True,CoffeeHouse_5,DriveThru,Mexico
+431,366,9,Frappuccino,1,4.5,4.5,169,16,2024-03-13,03:36:00,Card,Completed,UK,0,Frappuccino,Coffee,4.5,Germany,City_256,True,CoffeeHouse_16,DriveThru,France
+432,367,3,Latte,1,3.5,3.5,118,45,2024-09-24,17:13:00,Card,Completed,Indonesia,0,Latte,Coffee,3.5,Indonesia,City_160,False,CoffeeHouse_45,Retail,Australia
+433,368,6,Mocha,1,4.0,4.0,154,29,2022-12-23,14:41:00,Cash,Completed,Peru,1,Mocha,Coffee,4.0,France,City_37,True,CoffeeHouse_29,Kiosk,Brazil
+434,368,7,Cold Brew,1,3.25,3.25,154,29,2022-12-23,14:41:00,Cash,Completed,Peru,1,Cold Brew,Coffee,3.25,France,City_37,True,CoffeeHouse_29,Kiosk,Brazil
+435,369,5,Flat White,1,3.75,3.75,145,35,2022-03-15,15:26:00,Cash,Completed,Costa Rica,0,Flat White,Coffee,3.75,Italy,City_38,True,CoffeeHouse_35,DriveThru,Germany
+436,370,5,Flat White,1,3.75,3.75,9,19,2024-05-05,07:34:00,Card,Completed,Peru,0,Flat White,Coffee,3.75,Costa Rica,City_41,False,CoffeeHouse_19,DriveThru,United States
+437,371,10,Cortado,1,2.0,2.0,177,18,2024-02-08,01:17:00,Cash,Completed,Vietnam,0,Cortado,Coffee,2.0,Colombia,City_142,False,CoffeeHouse_18,Airport,Ethiopia
+439,373,10,Cortado,1,2.0,2.0,124,12,2023-09-27,10:15:00,Cash,Completed,UK,0,Cortado,Coffee,2.0,France,City_79,False,CoffeeHouse_12,Retail,Ethiopia
+440,373,2,Americano,1,2.5,2.5,124,12,2023-09-27,10:15:00,Cash,Completed,UK,0,Americano,Coffee,2.5,France,City_79,False,CoffeeHouse_12,Retail,Ethiopia
+442,375,5,Flat White,1,3.75,3.75,155,1,2024-07-22,10:53:00,Card,Completed,Vietnam,0,Flat White,Coffee,3.75,Spain,City_59,True,CoffeeHouse_1,DriveThru,Germany
+443,376,7,Cold Brew,2,3.25,6.5,179,15,2021-11-10,20:18:00,Mobile Wallet,Completed,Colombia,0,Cold Brew,Coffee,3.25,Vietnam,City_229,False,CoffeeHouse_15,Retail,Costa Rica
+444,377,10,Cortado,1,2.0,2.0,75,26,2021-10-31,18:42:00,Card,Completed,Colombia,0,Cortado,Coffee,2.0,Honduras,City_157,True,CoffeeHouse_26,Kiosk,UK
+445,378,4,Cappuccino,1,3.25,3.25,112,50,2021-09-25,22:15:00,Card,Completed,Canada,1,Cappuccino,Coffee,3.25,Peru,City_173,False,CoffeeHouse_50,Airport,Brazil
+446,379,7,Cold Brew,1,3.25,3.25,189,34,2022-05-20,19:39:00,Card,Completed,Spain,0,Cold Brew,Coffee,3.25,Mexico,City_117,True,CoffeeHouse_34,Kiosk,France
+447,380,5,Flat White,1,3.75,3.75,90,13,2022-10-19,11:56:00,Cash,Completed,France,1,Flat White,Coffee,3.75,Colombia,City_121,True,CoffeeHouse_13,Kiosk,Vietnam
+448,381,2,Americano,1,2.5,2.5,113,3,2022-04-24,01:51:00,Card,Completed,Germany,3,Americano,Coffee,2.5,Guatemala,City_42,True,CoffeeHouse_3,DriveThru,Kenya
+449,382,8,Iced Latte,1,3.75,3.75,74,1,2022-12-05,11:19:00,Card,Completed,Canada,0,Iced Latte,Coffee,3.75,Costa Rica,City_20,False,CoffeeHouse_1,DriveThru,Germany
+450,383,3,Latte,1,3.5,3.5,140,34,2022-06-14,22:48:00,Cash,Completed,UK,3,Latte,Coffee,3.5,Mexico,City_8,True,CoffeeHouse_34,Kiosk,France
+451,384,10,Cortado,1,2.0,2.0,135,3,2022-06-08,15:52:00,Card,Completed,United States,0,Cortado,Coffee,2.0,Spain,City_282,False,CoffeeHouse_3,DriveThru,Kenya
+452,385,2,Americano,1,2.5,2.5,170,18,2024-09-19,12:59:00,Cash,Completed,Ethiopia,3,Americano,Coffee,2.5,Guatemala,City_282,False,CoffeeHouse_18,Airport,Ethiopia
+453,385,7,Cold Brew,1,3.25,3.25,170,18,2024-09-19,12:59:00,Cash,Completed,Ethiopia,3,Cold Brew,Coffee,3.25,Guatemala,City_282,False,CoffeeHouse_18,Airport,Ethiopia
+454,386,8,Iced Latte,1,3.75,3.75,125,39,2023-12-25,00:44:00,Card,Completed,Australia,0,Iced Latte,Coffee,3.75,Germany,City_276,False,CoffeeHouse_39,Retail,Peru
+458,389,4,Cappuccino,1,3.25,3.25,98,34,2024-10-20,19:33:00,Cash,Completed,Mexico,3,Cappuccino,Coffee,3.25,Indonesia,City_244,True,CoffeeHouse_34,Kiosk,France
+463,392,7,Cold Brew,2,3.25,6.5,38,47,2021-03-02,10:21:00,Mobile Wallet,Completed,Guatemala,0,Cold Brew,Coffee,3.25,Australia,City_122,True,CoffeeHouse_47,Airport,Australia
+464,393,10,Cortado,1,2.0,2.0,49,7,2021-09-27,20:40:00,Mobile Wallet,Completed,Kenya,0,Cortado,Coffee,2.0,Vietnam,City_98,True,CoffeeHouse_7,Kiosk,Peru
+465,394,8,Iced Latte,1,3.75,3.75,60,44,2021-02-23,20:38:00,Cash,Completed,Honduras,0,Iced Latte,Coffee,3.75,Canada,City_155,True,CoffeeHouse_44,Airport,Guatemala
+467,396,8,Iced Latte,1,3.75,3.75,172,13,2022-02-23,16:43:00,Online,Completed,France,2,Iced Latte,Coffee,3.75,Indonesia,City_160,False,CoffeeHouse_13,Kiosk,Vietnam
+468,397,6,Mocha,1,4.0,4.0,110,26,2021-03-27,19:31:00,Mobile Wallet,Completed,Australia,1,Mocha,Coffee,4.0,Colombia,City_220,True,CoffeeHouse_26,Kiosk,UK
+469,398,1,Espresso,1,1.5,1.5,181,3,2023-12-03,08:23:00,Card,Completed,Costa Rica,7,Espresso,Coffee,1.5,India,City_123,False,CoffeeHouse_3,DriveThru,Kenya
+470,399,1,Espresso,1,1.5,1.5,11,36,2023-03-05,15:00:00,Cash,Completed,Mexico,1,Espresso,Coffee,1.5,Mexico,City_41,False,CoffeeHouse_36,Kiosk,Kenya
+471,400,1,Espresso,1,1.5,1.5,74,30,2021-12-07,04:51:00,Cash,Completed,France,0,Espresso,Coffee,1.5,Costa Rica,City_20,False,CoffeeHouse_30,Kiosk,France
+472,401,9,Frappuccino,1,4.5,4.5,129,8,2022-01-04,14:06:00,Online,Completed,United States,0,Frappuccino,Coffee,4.5,Italy,City_109,False,CoffeeHouse_8,DriveThru,India
+473,402,6,Mocha,1,4.0,4.0,152,46,2022-02-18,04:13:00,Card,Completed,France,1,Mocha,Coffee,4.0,Indonesia,City_2,False,CoffeeHouse_46,DriveThru,Italy
+474,402,3,Latte,1,3.5,3.5,152,46,2022-02-18,04:13:00,Card,Completed,France,1,Latte,Coffee,3.5,Indonesia,City_2,False,CoffeeHouse_46,DriveThru,Italy
+475,403,10,Cortado,2,2.0,4.0,22,34,2023-02-26,12:55:00,Online,Completed,Brazil,1,Cortado,Coffee,2.0,Spain,City_33,False,CoffeeHouse_34,Kiosk,France
+476,404,3,Latte,1,3.5,3.5,86,37,2024-09-12,10:33:00,Card,Completed,France,0,Latte,Coffee,3.5,Indonesia,City_292,True,CoffeeHouse_37,Kiosk,Colombia
+477,404,1,Espresso,1,1.5,1.5,86,37,2024-09-12,10:33:00,Card,Completed,France,0,Espresso,Coffee,1.5,Indonesia,City_292,True,CoffeeHouse_37,Kiosk,Colombia
+478,405,5,Flat White,1,3.75,3.75,47,8,2021-09-27,18:33:00,Card,Completed,Germany,2,Flat White,Coffee,3.75,India,City_206,True,CoffeeHouse_8,DriveThru,India
+479,405,8,Iced Latte,1,3.75,3.75,47,8,2021-09-27,18:33:00,Card,Completed,Germany,2,Iced Latte,Coffee,3.75,India,City_206,True,CoffeeHouse_8,DriveThru,India
+480,406,8,Iced Latte,1,3.75,3.75,61,14,2024-04-20,20:29:00,Card,Completed,Canada,0,Iced Latte,Coffee,3.75,Canada,City_154,False,CoffeeHouse_14,Retail,Costa Rica
+481,407,6,Mocha,1,4.0,4.0,161,36,2022-03-02,01:06:00,Card,Completed,Germany,0,Mocha,Coffee,4.0,Guatemala,City_296,True,CoffeeHouse_36,Kiosk,Kenya
+482,408,5,Flat White,1,3.75,3.75,23,4,2021-08-12,23:36:00,Card,Completed,UK,1,Flat White,Coffee,3.75,Australia,City_129,True,CoffeeHouse_4,Retail,Vietnam
+483,409,5,Flat White,1,3.75,3.75,46,30,2024-03-31,12:56:00,Card,Completed,Spain,2,Flat White,Coffee,3.75,Colombia,City_122,False,CoffeeHouse_30,Kiosk,France
+484,410,5,Flat White,1,3.75,3.75,17,19,2023-08-23,14:07:00,Cash,Completed,India,1,Flat White,Coffee,3.75,India,City_291,False,CoffeeHouse_19,DriveThru,United States
+485,411,10,Cortado,2,2.0,4.0,28,37,2024-07-12,09:48:00,Card,Completed,Peru,0,Cortado,Coffee,2.0,Indonesia,City_277,False,CoffeeHouse_37,Kiosk,Colombia
+488,413,2,Americano,1,2.5,2.5,50,1,2021-08-31,07:04:00,Cash,Completed,Spain,0,Americano,Coffee,2.5,UK,City_278,True,CoffeeHouse_1,DriveThru,Germany
+489,414,4,Cappuccino,1,3.25,3.25,86,23,2024-02-22,10:30:00,Card,Completed,Canada,0,Cappuccino,Coffee,3.25,Indonesia,City_292,True,CoffeeHouse_23,Retail,Mexico
+490,414,5,Flat White,1,3.75,3.75,86,23,2024-02-22,10:30:00,Card,Completed,Canada,0,Flat White,Coffee,3.75,Indonesia,City_292,True,CoffeeHouse_23,Retail,Mexico
+491,415,10,Cortado,2,2.0,4.0,2,8,2022-11-14,05:59:00,Mobile Wallet,Completed,Peru,3,Cortado,Coffee,2.0,Ethiopia,City_280,True,CoffeeHouse_8,DriveThru,India
+493,417,6,Mocha,1,4.0,4.0,106,48,2021-04-25,23:23:00,Card,Completed,Honduras,0,Mocha,Coffee,4.0,Spain,City_276,True,CoffeeHouse_48,Retail,Australia
+494,417,1,Espresso,1,1.5,1.5,106,48,2021-04-25,23:23:00,Card,Completed,Honduras,0,Espresso,Coffee,1.5,Spain,City_276,True,CoffeeHouse_48,Retail,Australia
+495,418,9,Frappuccino,1,4.5,4.5,39,18,2021-03-05,19:29:00,Card,Completed,Indonesia,0,Frappuccino,Coffee,4.5,Canada,City_68,True,CoffeeHouse_18,Airport,Ethiopia
+496,419,2,Americano,1,2.5,2.5,193,20,2022-10-07,08:06:00,Card,Completed,Mexico,0,Americano,Coffee,2.5,Indonesia,City_90,False,CoffeeHouse_20,Retail,Germany
+497,420,4,Cappuccino,2,3.25,6.5,78,12,2021-08-18,15:08:00,Card,Completed,Italy,3,Cappuccino,Coffee,3.25,United States,City_60,False,CoffeeHouse_12,Retail,Ethiopia
+498,421,9,Frappuccino,1,4.5,4.5,40,13,2022-11-28,03:21:00,Mobile Wallet,Completed,Australia,1,Frappuccino,Coffee,4.5,Italy,City_209,False,CoffeeHouse_13,Kiosk,Vietnam
+499,421,6,Mocha,1,4.0,4.0,40,13,2022-11-28,03:21:00,Mobile Wallet,Completed,Australia,1,Mocha,Coffee,4.0,Italy,City_209,False,CoffeeHouse_13,Kiosk,Vietnam
+501,423,5,Flat White,1,3.75,3.75,86,30,2021-04-05,10:39:00,Mobile Wallet,Completed,India,0,Flat White,Coffee,3.75,Indonesia,City_292,True,CoffeeHouse_30,Kiosk,France
+502,424,2,Americano,1,2.5,2.5,50,19,2022-07-21,05:22:00,Mobile Wallet,Completed,United States,5,Americano,Coffee,2.5,UK,City_278,True,CoffeeHouse_19,DriveThru,United States
+503,425,6,Mocha,1,4.0,4.0,144,33,2021-07-29,09:40:00,Card,Completed,Indonesia,0,Mocha,Coffee,4.0,Guatemala,City_245,False,CoffeeHouse_33,Retail,Costa Rica
+504,426,8,Iced Latte,2,3.75,7.5,157,22,2024-01-13,01:43:00,Card,Completed,Brazil,0,Iced Latte,Coffee,3.75,Germany,City_292,False,CoffeeHouse_22,Retail,Ethiopia
+505,427,8,Iced Latte,1,3.75,3.75,101,12,2024-05-05,06:45:00,Cash,Completed,Canada,0,Iced Latte,Coffee,3.75,Peru,City_277,True,CoffeeHouse_12,Retail,Ethiopia
+506,427,5,Flat White,1,3.75,3.75,101,12,2024-05-05,06:45:00,Cash,Completed,Canada,0,Flat White,Coffee,3.75,Peru,City_277,True,CoffeeHouse_12,Retail,Ethiopia
+507,428,8,Iced Latte,1,3.75,3.75,194,49,2023-08-12,10:35:00,Card,Completed,France,0,Iced Latte,Coffee,3.75,Germany,City_124,True,CoffeeHouse_49,Retail,Australia
+508,429,3,Latte,1,3.5,3.5,58,10,2024-06-17,22:42:00,Card,Completed,Peru,0,Latte,Coffee,3.5,Canada,City_110,False,CoffeeHouse_10,Airport,Indonesia
+509,430,3,Latte,1,3.5,3.5,8,5,2023-09-01,11:53:00,Card,Completed,Vietnam,0,Latte,Coffee,3.5,Germany,City_136,True,CoffeeHouse_5,DriveThru,Mexico
+510,431,5,Flat White,1,3.75,3.75,104,46,2021-08-08,13:40:00,Cash,Completed,Kenya,1,Flat White,Coffee,3.75,Spain,City_200,False,CoffeeHouse_46,DriveThru,Italy
+511,432,10,Cortado,1,2.0,2.0,141,11,2023-09-15,14:51:00,Card,Completed,Peru,0,Cortado,Coffee,2.0,Brazil,City_284,True,CoffeeHouse_11,DriveThru,Mexico
+512,433,10,Cortado,1,2.0,2.0,61,12,2024-09-19,03:54:00,Mobile Wallet,Completed,France,0,Cortado,Coffee,2.0,Canada,City_154,False,CoffeeHouse_12,Retail,Ethiopia
+513,434,10,Cortado,1,2.0,2.0,25,29,2021-12-27,20:21:00,Card,Completed,Costa Rica,0,Cortado,Coffee,2.0,Ethiopia,City_151,True,CoffeeHouse_29,Kiosk,Brazil
+514,435,10,Cortado,2,2.0,4.0,166,43,2021-05-06,21:42:00,Mobile Wallet,Completed,Vietnam,1,Cortado,Coffee,2.0,Canada,City_19,False,CoffeeHouse_43,Kiosk,UK
+515,436,4,Cappuccino,1,3.25,3.25,116,35,2022-08-20,10:48:00,Cash,Completed,Mexico,3,Cappuccino,Coffee,3.25,Kenya,City_65,True,CoffeeHouse_35,DriveThru,Germany
+519,438,10,Cortado,1,2.0,2.0,92,8,2022-08-01,13:51:00,Card,Completed,Canada,0,Cortado,Coffee,2.0,France,City_213,False,CoffeeHouse_8,DriveThru,India
+520,438,6,Mocha,1,4.0,4.0,92,8,2022-08-01,13:51:00,Card,Completed,Canada,0,Mocha,Coffee,4.0,France,City_213,False,CoffeeHouse_8,DriveThru,India
+521,439,6,Mocha,1,4.0,4.0,45,31,2021-10-12,05:15:00,Card,Completed,Vietnam,0,Mocha,Coffee,4.0,France,City_282,True,CoffeeHouse_31,DriveThru,Honduras
+522,440,7,Cold Brew,2,3.25,6.5,19,42,2021-02-02,04:38:00,Mobile Wallet,Completed,Spain,2,Cold Brew,Coffee,3.25,Canada,City_276,False,CoffeeHouse_42,Kiosk,Vietnam
+523,441,7,Cold Brew,1,3.25,3.25,179,39,2023-05-22,15:21:00,Card,Completed,Kenya,0,Cold Brew,Coffee,3.25,Vietnam,City_229,False,CoffeeHouse_39,Retail,Peru
+524,442,9,Frappuccino,1,4.5,4.5,155,1,2024-03-29,18:38:00,Mobile Wallet,Completed,Brazil,5,Frappuccino,Coffee,4.5,Spain,City_59,True,CoffeeHouse_1,DriveThru,Germany
+526,444,2,Americano,1,2.5,2.5,21,34,2024-06-03,18:24:00,Card,Completed,Mexico,1,Americano,Coffee,2.5,Colombia,City_25,True,CoffeeHouse_34,Kiosk,France
+527,445,8,Iced Latte,1,3.75,3.75,88,35,2021-01-23,11:18:00,Cash,Completed,Mexico,0,Iced Latte,Coffee,3.75,France,City_227,False,CoffeeHouse_35,DriveThru,Germany
+528,446,10,Cortado,1,2.0,2.0,10,45,2024-05-08,21:28:00,Mobile Wallet,Completed,Indonesia,0,Cortado,Coffee,2.0,UK,City_99,True,CoffeeHouse_45,Retail,Australia
+529,447,3,Latte,1,3.5,3.5,169,19,2024-07-02,09:29:00,Card,Completed,Germany,0,Latte,Coffee,3.5,Germany,City_256,True,CoffeeHouse_19,DriveThru,United States
+530,448,3,Latte,1,3.5,3.5,66,1,2021-08-17,12:37:00,Online,Completed,Guatemala,1,Latte,Coffee,3.5,Vietnam,City_135,False,CoffeeHouse_1,DriveThru,Germany
+531,449,6,Mocha,2,4.0,8.0,61,32,2022-01-06,04:57:00,Mobile Wallet,Completed,Vietnam,2,Mocha,Coffee,4.0,Canada,City_154,False,CoffeeHouse_32,Retail,Canada
+532,450,3,Latte,1,3.5,3.5,193,27,2023-02-24,11:46:00,Card,Completed,Guatemala,1,Latte,Coffee,3.5,Indonesia,City_90,False,CoffeeHouse_27,Airport,Spain
+533,451,8,Iced Latte,1,3.75,3.75,30,4,2021-12-10,18:10:00,Card,Completed,Costa Rica,0,Iced Latte,Coffee,3.75,Kenya,City_30,True,CoffeeHouse_4,Retail,Vietnam
+535,453,5,Flat White,1,3.75,3.75,137,41,2022-12-26,08:42:00,Card,Completed,Costa Rica,0,Flat White,Coffee,3.75,Peru,City_62,True,CoffeeHouse_41,Retail,Indonesia
+536,453,5,Flat White,1,3.75,3.75,137,41,2022-12-26,08:42:00,Card,Completed,Costa Rica,0,Flat White,Coffee,3.75,Peru,City_62,True,CoffeeHouse_41,Retail,Indonesia
+537,454,4,Cappuccino,1,3.25,3.25,173,48,2022-05-11,23:07:00,Cash,Completed,Indonesia,0,Cappuccino,Coffee,3.25,Colombia,City_116,True,CoffeeHouse_48,Retail,Australia
+538,455,2,Americano,1,2.5,2.5,3,44,2021-01-18,09:40:00,Card,Completed,Brazil,0,Americano,Coffee,2.5,United States,City_48,True,CoffeeHouse_44,Airport,Guatemala
+539,455,8,Iced Latte,1,3.75,3.75,3,44,2021-01-18,09:40:00,Card,Completed,Brazil,0,Iced Latte,Coffee,3.75,United States,City_48,True,CoffeeHouse_44,Airport,Guatemala
+540,456,10,Cortado,1,2.0,2.0,24,4,2024-05-01,04:05:00,Mobile Wallet,Completed,Germany,0,Cortado,Coffee,2.0,Ethiopia,City_275,False,CoffeeHouse_4,Retail,Vietnam
+541,457,2,Americano,1,2.5,2.5,169,49,2024-08-19,08:38:00,Online,Completed,Colombia,1,Americano,Coffee,2.5,Germany,City_256,True,CoffeeHouse_49,Retail,Australia
+542,458,6,Mocha,1,4.0,4.0,71,50,2023-05-25,02:31:00,Cash,Completed,Brazil,0,Mocha,Coffee,4.0,Canada,City_209,True,CoffeeHouse_50,Airport,Brazil
+543,459,8,Iced Latte,1,3.75,3.75,86,4,2022-06-13,06:05:00,Card,Completed,Ethiopia,0,Iced Latte,Coffee,3.75,Indonesia,City_292,True,CoffeeHouse_4,Retail,Vietnam
+544,459,4,Cappuccino,1,3.25,3.25,86,4,2022-06-13,06:05:00,Card,Completed,Ethiopia,0,Cappuccino,Coffee,3.25,Indonesia,City_292,True,CoffeeHouse_4,Retail,Vietnam
+545,460,8,Iced Latte,1,3.75,3.75,197,28,2022-03-24,03:31:00,Card,Completed,Colombia,0,Iced Latte,Coffee,3.75,Honduras,City_154,False,CoffeeHouse_28,DriveThru,Germany
+546,461,1,Espresso,2,1.5,3.0,65,50,2023-07-03,22:41:00,Card,Completed,Vietnam,1,Espresso,Coffee,1.5,Colombia,City_217,False,CoffeeHouse_50,Airport,Brazil
+547,462,8,Iced Latte,1,3.75,3.75,101,37,2021-01-08,13:47:00,Online,Completed,Colombia,0,Iced Latte,Coffee,3.75,Peru,City_277,True,CoffeeHouse_37,Kiosk,Colombia
+548,463,6,Mocha,1,4.0,4.0,1,25,2023-09-15,10:20:00,Cash,Completed,Colombia,0,Mocha,Coffee,4.0,Ethiopia,City_13,True,CoffeeHouse_25,Airport,France
+550,465,8,Iced Latte,1,3.75,3.75,100,7,2024-07-15,04:46:00,Card,Completed,United States,1,Iced Latte,Coffee,3.75,France,City_40,False,CoffeeHouse_7,Kiosk,Peru
+553,468,1,Espresso,1,1.5,1.5,149,15,2021-05-28,21:06:00,Card,Completed,Vietnam,0,Espresso,Coffee,1.5,UK,City_220,True,CoffeeHouse_15,Retail,Costa Rica
+554,469,10,Cortado,1,2.0,2.0,162,4,2022-09-22,03:37:00,Card,Completed,Germany,1,Cortado,Coffee,2.0,Italy,City_266,True,CoffeeHouse_4,Retail,Vietnam
+555,469,10,Cortado,1,2.0,2.0,162,4,2022-09-22,03:37:00,Card,Completed,Germany,1,Cortado,Coffee,2.0,Italy,City_266,True,CoffeeHouse_4,Retail,Vietnam
+556,470,7,Cold Brew,1,3.25,3.25,57,5,2022-02-20,23:21:00,Mobile Wallet,Completed,Vietnam,0,Cold Brew,Coffee,3.25,United States,City_235,True,CoffeeHouse_5,DriveThru,Mexico
+557,471,2,Americano,1,2.5,2.5,55,49,2021-04-04,14:10:00,Card,Completed,Honduras,0,Americano,Coffee,2.5,Guatemala,City_105,False,CoffeeHouse_49,Retail,Australia
+558,472,10,Cortado,1,2.0,2.0,113,16,2024-04-06,05:23:00,Card,Completed,Italy,0,Cortado,Coffee,2.0,Guatemala,City_42,True,CoffeeHouse_16,DriveThru,France
+559,473,5,Flat White,1,3.75,3.75,2,12,2021-07-02,16:14:00,Cash,Completed,India,0,Flat White,Coffee,3.75,Ethiopia,City_280,True,CoffeeHouse_12,Retail,Ethiopia
+560,474,10,Cortado,1,2.0,2.0,70,34,2023-07-12,20:21:00,Online,Completed,Italy,1,Cortado,Coffee,2.0,Honduras,City_108,False,CoffeeHouse_34,Kiosk,France
+562,476,4,Cappuccino,1,3.25,3.25,195,35,2023-11-06,06:36:00,Mobile Wallet,Completed,Vietnam,1,Cappuccino,Coffee,3.25,Kenya,City_237,True,CoffeeHouse_35,DriveThru,Germany
+563,477,1,Espresso,1,1.5,1.5,122,32,2021-12-28,09:43:00,Online,Completed,Guatemala,0,Espresso,Coffee,1.5,Canada,City_220,False,CoffeeHouse_32,Retail,Canada
+564,478,9,Frappuccino,1,4.5,4.5,195,30,2021-03-30,00:59:00,Card,Completed,Ethiopia,0,Frappuccino,Coffee,4.5,Kenya,City_237,True,CoffeeHouse_30,Kiosk,France
+565,479,4,Cappuccino,1,3.25,3.25,61,47,2023-06-30,11:07:00,Card,Completed,Ethiopia,0,Cappuccino,Coffee,3.25,Canada,City_154,False,CoffeeHouse_47,Airport,Australia
+566,480,4,Cappuccino,1,3.25,3.25,26,16,2023-04-25,14:52:00,Card,Completed,Germany,0,Cappuccino,Coffee,3.25,Guatemala,City_257,True,CoffeeHouse_16,DriveThru,France
+567,480,10,Cortado,1,2.0,2.0,26,16,2023-04-25,14:52:00,Card,Completed,Germany,0,Cortado,Coffee,2.0,Guatemala,City_257,True,CoffeeHouse_16,DriveThru,France
+568,481,6,Mocha,2,4.0,8.0,100,24,2021-10-07,06:54:00,Card,Completed,Brazil,1,Mocha,Coffee,4.0,France,City_40,False,CoffeeHouse_24,Airport,Kenya
+569,482,7,Cold Brew,1,3.25,3.25,16,18,2021-10-07,11:43:00,Card,Completed,Mexico,1,Cold Brew,Coffee,3.25,Kenya,City_17,True,CoffeeHouse_18,Airport,Ethiopia
+570,483,4,Cappuccino,1,3.25,3.25,164,40,2021-12-15,17:48:00,Cash,Completed,India,0,Cappuccino,Coffee,3.25,Spain,City_171,True,CoffeeHouse_40,DriveThru,Guatemala
+571,484,4,Cappuccino,1,3.25,3.25,119,18,2021-01-30,14:49:00,Mobile Wallet,Completed,UK,3,Cappuccino,Coffee,3.25,UK,City_193,True,CoffeeHouse_18,Airport,Ethiopia
+572,485,8,Iced Latte,1,3.75,3.75,147,1,2023-05-06,23:46:00,Card,Completed,France,0,Iced Latte,Coffee,3.75,Ethiopia,City_286,True,CoffeeHouse_1,DriveThru,Germany
+573,485,9,Frappuccino,1,4.5,4.5,147,1,2023-05-06,23:46:00,Card,Completed,France,0,Frappuccino,Coffee,4.5,Ethiopia,City_286,True,CoffeeHouse_1,DriveThru,Germany
+574,485,9,Frappuccino,1,4.5,4.5,147,1,2023-05-06,23:46:00,Card,Completed,France,0,Frappuccino,Coffee,4.5,Ethiopia,City_286,True,CoffeeHouse_1,DriveThru,Germany
+575,486,4,Cappuccino,1,3.25,3.25,22,36,2021-01-26,10:05:00,Card,Completed,Colombia,0,Cappuccino,Coffee,3.25,Spain,City_33,False,CoffeeHouse_36,Kiosk,Kenya
+576,487,10,Cortado,1,2.0,2.0,172,20,2021-11-28,15:31:00,Mobile Wallet,Completed,Vietnam,2,Cortado,Coffee,2.0,Indonesia,City_160,False,CoffeeHouse_20,Retail,Germany
+577,488,1,Espresso,1,1.5,1.5,104,12,2023-01-29,02:24:00,Mobile Wallet,Completed,Peru,0,Espresso,Coffee,1.5,Spain,City_200,False,CoffeeHouse_12,Retail,Ethiopia
+578,489,10,Cortado,1,2.0,2.0,76,28,2022-07-07,23:22:00,Cash,Completed,Peru,1,Cortado,Coffee,2.0,Costa Rica,City_169,False,CoffeeHouse_28,DriveThru,Germany
+579,490,7,Cold Brew,1,3.25,3.25,15,33,2024-10-13,21:07:00,Card,Completed,Honduras,0,Cold Brew,Coffee,3.25,Canada,City_113,True,CoffeeHouse_33,Retail,Costa Rica
+580,491,3,Latte,2,3.5,7.0,144,46,2021-05-18,08:08:00,Mobile Wallet,Completed,Italy,1,Latte,Coffee,3.5,Guatemala,City_245,False,CoffeeHouse_46,DriveThru,Italy
+581,492,6,Mocha,1,4.0,4.0,193,38,2022-03-06,09:07:00,Mobile Wallet,Completed,Spain,0,Mocha,Coffee,4.0,Indonesia,City_90,False,CoffeeHouse_38,Kiosk,UK
+582,493,2,Americano,1,2.5,2.5,17,24,2022-12-09,18:09:00,Cash,Completed,Canada,2,Americano,Coffee,2.5,India,City_291,False,CoffeeHouse_24,Airport,Kenya
+583,494,2,Americano,1,2.5,2.5,116,40,2023-01-24,15:37:00,Online,Completed,Costa Rica,2,Americano,Coffee,2.5,Kenya,City_65,True,CoffeeHouse_40,DriveThru,Guatemala
+584,495,3,Latte,1,3.5,3.5,74,5,2021-08-12,06:58:00,Card,Completed,United States,0,Latte,Coffee,3.5,Costa Rica,City_20,False,CoffeeHouse_5,DriveThru,Mexico
+585,496,1,Espresso,1,1.5,1.5,175,35,2021-09-28,02:08:00,Card,Completed,Kenya,2,Espresso,Coffee,1.5,Spain,City_248,True,CoffeeHouse_35,DriveThru,Germany
+586,497,6,Mocha,1,4.0,4.0,134,42,2022-11-19,22:43:00,Card,Completed,Canada,0,Mocha,Coffee,4.0,UK,City_189,False,CoffeeHouse_42,Kiosk,Vietnam
+587,498,5,Flat White,1,3.75,3.75,78,37,2021-09-28,01:36:00,Card,Completed,Mexico,0,Flat White,Coffee,3.75,United States,City_60,False,CoffeeHouse_37,Kiosk,Colombia
+588,498,6,Mocha,2,4.0,8.0,78,37,2021-09-28,01:36:00,Card,Completed,Mexico,0,Mocha,Coffee,4.0,United States,City_60,False,CoffeeHouse_37,Kiosk,Colombia
+590,500,6,Mocha,1,4.0,4.0,30,3,2022-10-11,19:11:00,Card,Completed,Peru,5,Mocha,Coffee,4.0,Kenya,City_30,True,CoffeeHouse_3,DriveThru,Kenya
+591,501,5,Flat White,1,3.75,3.75,38,24,2023-07-08,00:51:00,Card,Completed,Italy,1,Flat White,Coffee,3.75,Australia,City_122,True,CoffeeHouse_24,Airport,Kenya
+592,502,9,Frappuccino,1,4.5,4.5,118,21,2021-11-16,10:05:00,Mobile Wallet,Completed,Mexico,5,Frappuccino,Coffee,4.5,Indonesia,City_160,False,CoffeeHouse_21,Airport,France
+593,503,8,Iced Latte,1,3.75,3.75,194,37,2024-09-27,03:50:00,Cash,Completed,Brazil,0,Iced Latte,Coffee,3.75,Germany,City_124,True,CoffeeHouse_37,Kiosk,Colombia
+594,504,4,Cappuccino,1,3.25,3.25,142,8,2022-09-23,03:09:00,Cash,Completed,Germany,1,Cappuccino,Coffee,3.25,Italy,City_53,False,CoffeeHouse_8,DriveThru,India
+595,505,4,Cappuccino,1,3.25,3.25,150,34,2022-03-31,18:22:00,Mobile Wallet,Completed,Colombia,5,Cappuccino,Coffee,3.25,Germany,City_51,False,CoffeeHouse_34,Kiosk,France
+596,506,1,Espresso,2,1.5,3.0,101,13,2023-10-02,12:19:00,Cash,Completed,Spain,0,Espresso,Coffee,1.5,Peru,City_277,True,CoffeeHouse_13,Kiosk,Vietnam
+597,507,8,Iced Latte,1,3.75,3.75,96,1,2022-08-06,02:59:00,Card,Completed,France,1,Iced Latte,Coffee,3.75,France,City_69,False,CoffeeHouse_1,DriveThru,Germany
+598,508,7,Cold Brew,1,3.25,3.25,107,29,2022-08-15,14:08:00,Mobile Wallet,Completed,UK,0,Cold Brew,Coffee,3.25,Italy,City_113,True,CoffeeHouse_29,Kiosk,Brazil
+599,509,6,Mocha,1,4.0,4.0,37,14,2022-09-14,20:09:00,Mobile Wallet,Completed,Colombia,0,Mocha,Coffee,4.0,Kenya,City_35,True,CoffeeHouse_14,Retail,Costa Rica
+600,510,10,Cortado,1,2.0,2.0,164,18,2023-04-29,04:40:00,Card,Completed,Costa Rica,0,Cortado,Coffee,2.0,Spain,City_171,True,CoffeeHouse_18,Airport,Ethiopia
+601,511,9,Frappuccino,1,4.5,4.5,126,3,2022-09-11,00:05:00,Card,Completed,Mexico,5,Frappuccino,Coffee,4.5,Peru,City_126,False,CoffeeHouse_3,DriveThru,Kenya
+602,511,4,Cappuccino,1,3.25,3.25,126,3,2022-09-11,00:05:00,Card,Completed,Mexico,5,Cappuccino,Coffee,3.25,Peru,City_126,False,CoffeeHouse_3,DriveThru,Kenya
+603,512,7,Cold Brew,1,3.25,3.25,163,31,2021-09-12,23:28:00,Mobile Wallet,Completed,United States,0,Cold Brew,Coffee,3.25,UK,City_224,False,CoffeeHouse_31,DriveThru,Honduras
+604,513,8,Iced Latte,1,3.75,3.75,71,32,2021-05-17,08:48:00,Card,Completed,Italy,5,Iced Latte,Coffee,3.75,Canada,City_209,True,CoffeeHouse_32,Retail,Canada
+605,514,5,Flat White,1,3.75,3.75,31,24,2023-11-16,01:59:00,Card,Completed,France,2,Flat White,Coffee,3.75,Colombia,City_249,True,CoffeeHouse_24,Airport,Kenya
+606,515,6,Mocha,1,4.0,4.0,35,23,2021-12-01,09:57:00,Card,Completed,Colombia,0,Mocha,Coffee,4.0,Kenya,City_33,True,CoffeeHouse_23,Retail,Mexico
+607,516,3,Latte,1,3.5,3.5,197,41,2022-01-11,10:47:00,Cash,Completed,Mexico,0,Latte,Coffee,3.5,Honduras,City_154,False,CoffeeHouse_41,Retail,Indonesia
+608,517,3,Latte,1,3.5,3.5,179,45,2023-01-13,17:41:00,Cash,Completed,Italy,0,Latte,Coffee,3.5,Vietnam,City_229,False,CoffeeHouse_45,Retail,Australia
+609,518,4,Cappuccino,1,3.25,3.25,42,7,2022-03-23,19:04:00,Card,Completed,Australia,2,Cappuccino,Coffee,3.25,Ethiopia,City_32,True,CoffeeHouse_7,Kiosk,Peru
+610,519,2,Americano,1,2.5,2.5,183,36,2021-08-22,00:35:00,Online,Completed,Mexico,1,Americano,Coffee,2.5,Costa Rica,City_78,False,CoffeeHouse_36,Kiosk,Kenya
+611,520,3,Latte,1,3.5,3.5,36,29,2024-05-08,00:58:00,Online,Completed,Ethiopia,0,Latte,Coffee,3.5,UK,City_113,True,CoffeeHouse_29,Kiosk,Brazil
+612,521,2,Americano,1,2.5,2.5,178,10,2022-04-10,03:48:00,Card,Completed,Italy,1,Americano,Coffee,2.5,United States,City_145,False,CoffeeHouse_10,Airport,Indonesia
+614,523,4,Cappuccino,1,3.25,3.25,171,1,2021-07-17,06:49:00,Online,Completed,Honduras,0,Cappuccino,Coffee,3.25,Italy,City_63,True,CoffeeHouse_1,DriveThru,Germany
+615,524,3,Latte,1,3.5,3.5,38,48,2022-07-23,19:27:00,Card,Completed,UK,1,Latte,Coffee,3.5,Australia,City_122,True,CoffeeHouse_48,Retail,Australia
+616,524,10,Cortado,1,2.0,2.0,38,48,2022-07-23,19:27:00,Card,Completed,UK,1,Cortado,Coffee,2.0,Australia,City_122,True,CoffeeHouse_48,Retail,Australia
+619,526,6,Mocha,2,4.0,8.0,151,12,2023-06-20,14:28:00,Card,Completed,Kenya,0,Mocha,Coffee,4.0,Colombia,City_81,True,CoffeeHouse_12,Retail,Ethiopia
+620,527,8,Iced Latte,1,3.75,3.75,195,21,2021-09-11,09:50:00,Cash,Completed,Brazil,0,Iced Latte,Coffee,3.75,Kenya,City_237,True,CoffeeHouse_21,Airport,France
+621,528,5,Flat White,1,3.75,3.75,127,8,2023-02-28,15:09:00,Cash,Completed,Spain,0,Flat White,Coffee,3.75,Kenya,City_238,False,CoffeeHouse_8,DriveThru,India
+622,529,6,Mocha,1,4.0,4.0,110,13,2021-05-23,13:31:00,Mobile Wallet,Completed,Colombia,0,Mocha,Coffee,4.0,Colombia,City_220,True,CoffeeHouse_13,Kiosk,Vietnam
+623,529,8,Iced Latte,1,3.75,3.75,110,13,2021-05-23,13:31:00,Mobile Wallet,Completed,Colombia,0,Iced Latte,Coffee,3.75,Colombia,City_220,True,CoffeeHouse_13,Kiosk,Vietnam
+624,530,3,Latte,1,3.5,3.5,102,26,2024-04-24,20:18:00,Mobile Wallet,Completed,Costa Rica,0,Latte,Coffee,3.5,Costa Rica,City_79,False,CoffeeHouse_26,Kiosk,UK
+625,530,4,Cappuccino,1,3.25,3.25,102,26,2024-04-24,20:18:00,Mobile Wallet,Completed,Costa Rica,0,Cappuccino,Coffee,3.25,Costa Rica,City_79,False,CoffeeHouse_26,Kiosk,UK
+627,532,8,Iced Latte,1,3.75,3.75,155,26,2023-09-20,08:33:00,Card,Completed,Kenya,1,Iced Latte,Coffee,3.75,Spain,City_59,True,CoffeeHouse_26,Kiosk,UK
+628,533,8,Iced Latte,1,3.75,3.75,35,2,2021-07-23,06:06:00,Mobile Wallet,Completed,Peru,0,Iced Latte,Coffee,3.75,Kenya,City_33,True,CoffeeHouse_2,DriveThru,Kenya
+629,534,9,Frappuccino,1,4.5,4.5,160,40,2021-07-17,15:54:00,Cash,Completed,Italy,0,Frappuccino,Coffee,4.5,Peru,City_129,True,CoffeeHouse_40,DriveThru,Guatemala
+630,535,1,Espresso,2,1.5,3.0,67,35,2022-12-05,04:03:00,Cash,Completed,Peru,2,Espresso,Coffee,1.5,Canada,City_5,True,CoffeeHouse_35,DriveThru,Germany
+631,535,1,Espresso,2,1.5,3.0,67,35,2022-12-05,04:03:00,Cash,Completed,Peru,2,Espresso,Coffee,1.5,Canada,City_5,True,CoffeeHouse_35,DriveThru,Germany
+632,536,5,Flat White,1,3.75,3.75,114,30,2021-03-15,05:36:00,Cash,Completed,Vietnam,0,Flat White,Coffee,3.75,Honduras,City_115,True,CoffeeHouse_30,Kiosk,France
+633,537,9,Frappuccino,1,4.5,4.5,100,32,2021-08-13,19:31:00,Card,Completed,Canada,2,Frappuccino,Coffee,4.5,France,City_40,False,CoffeeHouse_32,Retail,Canada
+634,538,7,Cold Brew,1,3.25,3.25,130,4,2023-03-13,12:02:00,Cash,Completed,Mexico,0,Cold Brew,Coffee,3.25,Guatemala,City_142,True,CoffeeHouse_4,Retail,Vietnam
+635,539,10,Cortado,1,2.0,2.0,8,38,2021-04-03,21:20:00,Card,Completed,Ethiopia,0,Cortado,Coffee,2.0,Germany,City_136,True,CoffeeHouse_38,Kiosk,UK
+636,540,4,Cappuccino,1,3.25,3.25,92,27,2022-12-21,20:13:00,Card,Completed,Colombia,2,Cappuccino,Coffee,3.25,France,City_213,False,CoffeeHouse_27,Airport,Spain
+637,541,8,Iced Latte,1,3.75,3.75,30,22,2021-12-14,14:25:00,Card,Completed,Spain,0,Iced Latte,Coffee,3.75,Kenya,City_30,True,CoffeeHouse_22,Retail,Ethiopia
+638,542,10,Cortado,1,2.0,2.0,179,31,2024-04-19,19:32:00,Card,Completed,Italy,0,Cortado,Coffee,2.0,Vietnam,City_229,False,CoffeeHouse_31,DriveThru,Honduras
+639,543,6,Mocha,1,4.0,4.0,173,14,2022-11-20,10:13:00,Mobile Wallet,Completed,Spain,0,Mocha,Coffee,4.0,Colombia,City_116,True,CoffeeHouse_14,Retail,Costa Rica
+640,544,5,Flat White,2,3.75,7.5,163,5,2024-01-03,13:43:00,Card,Completed,Germany,1,Flat White,Coffee,3.75,UK,City_224,False,CoffeeHouse_5,DriveThru,Mexico
+641,545,2,Americano,1,2.5,2.5,24,46,2024-03-30,18:07:00,Card,Completed,India,0,Americano,Coffee,2.5,Ethiopia,City_275,False,CoffeeHouse_46,DriveThru,Italy
+642,546,9,Frappuccino,1,4.5,4.5,20,42,2022-09-11,14:08:00,Card,Completed,Germany,0,Frappuccino,Coffee,4.5,UK,City_205,False,CoffeeHouse_42,Kiosk,Vietnam
+643,547,9,Frappuccino,1,4.5,4.5,172,49,2024-01-27,19:41:00,Card,Completed,France,0,Frappuccino,Coffee,4.5,Indonesia,City_160,False,CoffeeHouse_49,Retail,Australia
+644,548,10,Cortado,1,2.0,2.0,164,35,2024-06-12,12:26:00,Online,Completed,Kenya,0,Cortado,Coffee,2.0,Spain,City_171,True,CoffeeHouse_35,DriveThru,Germany
+645,548,1,Espresso,1,1.5,1.5,164,35,2024-06-12,12:26:00,Online,Completed,Kenya,0,Espresso,Coffee,1.5,Spain,City_171,True,CoffeeHouse_35,DriveThru,Germany
+646,549,2,Americano,1,2.5,2.5,176,49,2022-09-07,09:47:00,Card,Completed,Guatemala,1,Americano,Coffee,2.5,Costa Rica,City_98,True,CoffeeHouse_49,Retail,Australia
+647,549,7,Cold Brew,1,3.25,3.25,176,49,2022-09-07,09:47:00,Card,Completed,Guatemala,1,Cold Brew,Coffee,3.25,Costa Rica,City_98,True,CoffeeHouse_49,Retail,Australia
+648,550,4,Cappuccino,1,3.25,3.25,61,26,2022-05-04,10:35:00,Card,Completed,Canada,7,Cappuccino,Coffee,3.25,Canada,City_154,False,CoffeeHouse_26,Kiosk,UK
+649,551,1,Espresso,1,1.5,1.5,109,42,2021-03-17,09:28:00,Card,Completed,Indonesia,1,Espresso,Coffee,1.5,Vietnam,City_274,True,CoffeeHouse_42,Kiosk,Vietnam
+651,553,3,Latte,1,3.5,3.5,172,43,2021-07-04,19:29:00,Mobile Wallet,Completed,Ethiopia,0,Latte,Coffee,3.5,Indonesia,City_160,False,CoffeeHouse_43,Kiosk,UK
+652,554,4,Cappuccino,1,3.25,3.25,149,50,2023-12-12,10:41:00,Mobile Wallet,Completed,UK,1,Cappuccino,Coffee,3.25,UK,City_220,True,CoffeeHouse_50,Airport,Brazil
+655,556,4,Cappuccino,2,3.25,6.5,96,45,2021-08-20,04:56:00,Card,Completed,Honduras,2,Cappuccino,Coffee,3.25,France,City_69,False,CoffeeHouse_45,Retail,Australia
+656,557,1,Espresso,1,1.5,1.5,6,42,2024-05-25,22:55:00,Mobile Wallet,Completed,Canada,0,Espresso,Coffee,1.5,Spain,City_175,False,CoffeeHouse_42,Kiosk,Vietnam
+659,559,8,Iced Latte,1,3.75,3.75,194,16,2022-09-02,21:59:00,Mobile Wallet,Completed,Brazil,0,Iced Latte,Coffee,3.75,Germany,City_124,True,CoffeeHouse_16,DriveThru,France
+660,560,6,Mocha,1,4.0,4.0,21,50,2023-10-04,03:25:00,Card,Completed,Guatemala,0,Mocha,Coffee,4.0,Colombia,City_25,True,CoffeeHouse_50,Airport,Brazil
+661,561,6,Mocha,1,4.0,4.0,91,27,2024-05-18,00:56:00,Cash,Completed,Indonesia,1,Mocha,Coffee,4.0,Vietnam,City_13,True,CoffeeHouse_27,Airport,Spain
+662,562,6,Mocha,1,4.0,4.0,165,9,2021-01-07,03:46:00,Cash,Completed,Australia,1,Mocha,Coffee,4.0,Peru,City_211,False,CoffeeHouse_9,DriveThru,Australia
+663,563,6,Mocha,1,4.0,4.0,197,42,2021-09-24,23:27:00,Cash,Completed,Peru,1,Mocha,Coffee,4.0,Honduras,City_154,False,CoffeeHouse_42,Kiosk,Vietnam
+664,563,3,Latte,1,3.5,3.5,197,42,2021-09-24,23:27:00,Cash,Completed,Peru,1,Latte,Coffee,3.5,Honduras,City_154,False,CoffeeHouse_42,Kiosk,Vietnam
+665,564,7,Cold Brew,2,3.25,6.5,51,6,2023-04-29,19:28:00,Card,Completed,United States,3,Cold Brew,Coffee,3.25,Brazil,City_300,True,CoffeeHouse_6,DriveThru,Vietnam
+667,566,3,Latte,2,3.5,7.0,110,39,2022-06-17,04:00:00,Online,Completed,Australia,0,Latte,Coffee,3.5,Colombia,City_220,True,CoffeeHouse_39,Retail,Peru
+668,567,4,Cappuccino,2,3.25,6.5,117,44,2023-10-10,09:05:00,Mobile Wallet,Completed,Italy,0,Cappuccino,Coffee,3.25,France,City_132,True,CoffeeHouse_44,Airport,Guatemala
+669,568,4,Cappuccino,1,3.25,3.25,111,14,2024-05-13,13:56:00,Mobile Wallet,Completed,United States,0,Cappuccino,Coffee,3.25,Brazil,City_134,False,CoffeeHouse_14,Retail,Costa Rica
+670,569,10,Cortado,1,2.0,2.0,68,16,2024-06-19,15:38:00,Card,Completed,Italy,0,Cortado,Coffee,2.0,Canada,City_19,True,CoffeeHouse_16,DriveThru,France
+671,570,7,Cold Brew,1,3.25,3.25,83,45,2023-03-26,08:44:00,Mobile Wallet,Completed,Canada,0,Cold Brew,Coffee,3.25,Germany,City_161,False,CoffeeHouse_45,Retail,Australia
+672,571,10,Cortado,1,2.0,2.0,86,16,2023-08-23,17:13:00,Online,Completed,Mexico,5,Cortado,Coffee,2.0,Indonesia,City_292,True,CoffeeHouse_16,DriveThru,France
+673,571,1,Espresso,1,1.5,1.5,86,16,2023-08-23,17:13:00,Online,Completed,Mexico,5,Espresso,Coffee,1.5,Indonesia,City_292,True,CoffeeHouse_16,DriveThru,France
+678,575,8,Iced Latte,1,3.75,3.75,126,49,2021-11-06,05:04:00,Online,Completed,Indonesia,0,Iced Latte,Coffee,3.75,Peru,City_126,False,CoffeeHouse_49,Retail,Australia
+680,577,5,Flat White,1,3.75,3.75,127,8,2021-10-31,05:44:00,Card,Completed,Guatemala,0,Flat White,Coffee,3.75,Kenya,City_238,False,CoffeeHouse_8,DriveThru,India
+681,578,9,Frappuccino,1,4.5,4.5,170,38,2022-03-11,06:09:00,Online,Completed,Colombia,0,Frappuccino,Coffee,4.5,Guatemala,City_282,False,CoffeeHouse_38,Kiosk,UK
+682,579,2,Americano,1,2.5,2.5,128,44,2021-07-13,03:37:00,Card,Completed,Vietnam,0,Americano,Coffee,2.5,Peru,City_15,True,CoffeeHouse_44,Airport,Guatemala
+683,579,10,Cortado,2,2.0,4.0,128,44,2021-07-13,03:37:00,Card,Completed,Vietnam,0,Cortado,Coffee,2.0,Peru,City_15,True,CoffeeHouse_44,Airport,Guatemala
+684,580,5,Flat White,1,3.75,3.75,118,46,2024-09-12,00:11:00,Cash,Completed,Brazil,1,Flat White,Coffee,3.75,Indonesia,City_160,False,CoffeeHouse_46,DriveThru,Italy
+685,581,5,Flat White,1,3.75,3.75,116,21,2024-03-11,01:53:00,Mobile Wallet,Completed,Canada,5,Flat White,Coffee,3.75,Kenya,City_65,True,CoffeeHouse_21,Airport,France
+686,582,7,Cold Brew,1,3.25,3.25,98,6,2023-03-28,07:06:00,Card,Completed,Costa Rica,0,Cold Brew,Coffee,3.25,Indonesia,City_244,True,CoffeeHouse_6,DriveThru,Vietnam
+688,584,7,Cold Brew,1,3.25,3.25,171,7,2023-01-23,19:13:00,Card,Completed,Colombia,1,Cold Brew,Coffee,3.25,Italy,City_63,True,CoffeeHouse_7,Kiosk,Peru
+689,585,1,Espresso,1,1.5,1.5,95,40,2022-01-17,15:49:00,Card,Completed,Vietnam,3,Espresso,Coffee,1.5,Brazil,City_286,True,CoffeeHouse_40,DriveThru,Guatemala
+690,586,7,Cold Brew,1,3.25,3.25,135,41,2024-08-18,16:18:00,Card,Completed,Vietnam,1,Cold Brew,Coffee,3.25,Spain,City_282,False,CoffeeHouse_41,Retail,Indonesia
+691,587,9,Frappuccino,1,4.5,4.5,77,16,2023-12-08,01:32:00,Cash,Completed,Australia,0,Frappuccino,Coffee,4.5,Honduras,City_261,False,CoffeeHouse_16,DriveThru,France
+692,588,6,Mocha,1,4.0,4.0,25,30,2024-09-15,02:47:00,Mobile Wallet,Completed,United States,0,Mocha,Coffee,4.0,Ethiopia,City_151,True,CoffeeHouse_30,Kiosk,France
+693,589,1,Espresso,1,1.5,1.5,170,30,2022-01-03,10:09:00,Mobile Wallet,Completed,France,1,Espresso,Coffee,1.5,Guatemala,City_282,False,CoffeeHouse_30,Kiosk,France
+694,590,3,Latte,1,3.5,3.5,116,40,2022-06-27,02:40:00,Online,Completed,Germany,0,Latte,Coffee,3.5,Kenya,City_65,True,CoffeeHouse_40,DriveThru,Guatemala
+695,591,2,Americano,1,2.5,2.5,173,7,2023-06-08,22:23:00,Card,Completed,Costa Rica,2,Americano,Coffee,2.5,Colombia,City_116,True,CoffeeHouse_7,Kiosk,Peru
+698,594,9,Frappuccino,1,4.5,4.5,38,42,2022-05-11,10:16:00,Cash,Completed,Vietnam,0,Frappuccino,Coffee,4.5,Australia,City_122,True,CoffeeHouse_42,Kiosk,Vietnam
+699,595,8,Iced Latte,2,3.75,7.5,6,8,2021-12-07,15:20:00,Mobile Wallet,Completed,India,0,Iced Latte,Coffee,3.75,Spain,City_175,False,CoffeeHouse_8,DriveThru,India
+700,595,8,Iced Latte,1,3.75,3.75,6,8,2021-12-07,15:20:00,Mobile Wallet,Completed,India,0,Iced Latte,Coffee,3.75,Spain,City_175,False,CoffeeHouse_8,DriveThru,India
+701,596,7,Cold Brew,2,3.25,6.5,101,4,2022-11-15,16:55:00,Cash,Completed,Germany,1,Cold Brew,Coffee,3.25,Peru,City_277,True,CoffeeHouse_4,Retail,Vietnam
+702,597,10,Cortado,2,2.0,4.0,75,3,2023-09-26,16:39:00,Cash,Completed,Brazil,0,Cortado,Coffee,2.0,Honduras,City_157,True,CoffeeHouse_3,DriveThru,Kenya
+703,598,7,Cold Brew,1,3.25,3.25,109,37,2022-10-09,03:59:00,Card,Completed,Honduras,0,Cold Brew,Coffee,3.25,Vietnam,City_274,True,CoffeeHouse_37,Kiosk,Colombia
+704,599,6,Mocha,1,4.0,4.0,112,2,2021-11-27,17:19:00,Card,Completed,Peru,3,Mocha,Coffee,4.0,Peru,City_173,False,CoffeeHouse_2,DriveThru,Kenya
+705,600,7,Cold Brew,2,3.25,6.5,184,43,2023-08-18,22:58:00,Card,Completed,Honduras,1,Cold Brew,Coffee,3.25,Ethiopia,City_226,False,CoffeeHouse_43,Kiosk,UK
+706,601,8,Iced Latte,1,3.75,3.75,42,40,2022-03-01,06:48:00,Mobile Wallet,Completed,Italy,0,Iced Latte,Coffee,3.75,Ethiopia,City_32,True,CoffeeHouse_40,DriveThru,Guatemala
+707,602,1,Espresso,1,1.5,1.5,107,32,2022-09-14,08:54:00,Cash,Completed,Indonesia,0,Espresso,Coffee,1.5,Italy,City_113,True,CoffeeHouse_32,Retail,Canada
+708,603,4,Cappuccino,1,3.25,3.25,129,3,2021-05-11,07:38:00,Card,Completed,Peru,1,Cappuccino,Coffee,3.25,Italy,City_109,False,CoffeeHouse_3,DriveThru,Kenya
+709,604,9,Frappuccino,1,4.5,4.5,197,3,2024-02-15,03:33:00,Card,Completed,France,1,Frappuccino,Coffee,4.5,Honduras,City_154,False,CoffeeHouse_3,DriveThru,Kenya
+710,605,2,Americano,1,2.5,2.5,194,8,2021-08-05,01:25:00,Cash,Completed,Indonesia,1,Americano,Coffee,2.5,Germany,City_124,True,CoffeeHouse_8,DriveThru,India
+711,606,9,Frappuccino,1,4.5,4.5,53,24,2021-11-18,03:23:00,Mobile Wallet,Completed,Honduras,0,Frappuccino,Coffee,4.5,Germany,City_35,True,CoffeeHouse_24,Airport,Kenya
+712,607,1,Espresso,1,1.5,1.5,36,8,2022-02-18,16:10:00,Card,Completed,Australia,0,Espresso,Coffee,1.5,UK,City_113,True,CoffeeHouse_8,DriveThru,India
+713,608,3,Latte,1,3.5,3.5,69,24,2023-04-30,18:04:00,Cash,Completed,Kenya,0,Latte,Coffee,3.5,Spain,City_66,True,CoffeeHouse_24,Airport,Kenya
+714,609,9,Frappuccino,1,4.5,4.5,110,27,2023-04-19,15:06:00,Online,Completed,United States,1,Frappuccino,Coffee,4.5,Colombia,City_220,True,CoffeeHouse_27,Airport,Spain
+715,609,6,Mocha,2,4.0,8.0,110,27,2023-04-19,15:06:00,Online,Completed,United States,1,Mocha,Coffee,4.0,Colombia,City_220,True,CoffeeHouse_27,Airport,Spain
+716,610,3,Latte,1,3.5,3.5,133,5,2021-06-23,13:25:00,Card,Completed,Vietnam,3,Latte,Coffee,3.5,Mexico,City_114,False,CoffeeHouse_5,DriveThru,Mexico
+719,612,4,Cappuccino,1,3.25,3.25,136,40,2021-10-28,21:18:00,Card,Completed,France,1,Cappuccino,Coffee,3.25,Guatemala,City_157,True,CoffeeHouse_40,DriveThru,Guatemala
+720,613,9,Frappuccino,1,4.5,4.5,167,26,2022-02-09,18:27:00,Card,Completed,Colombia,0,Frappuccino,Coffee,4.5,Peru,City_60,True,CoffeeHouse_26,Kiosk,UK
+721,613,3,Latte,1,3.5,3.5,167,26,2022-02-09,18:27:00,Card,Completed,Colombia,0,Latte,Coffee,3.5,Peru,City_60,True,CoffeeHouse_26,Kiosk,UK
+722,614,1,Espresso,1,1.5,1.5,80,34,2022-11-29,18:25:00,Card,Completed,Kenya,2,Espresso,Coffee,1.5,Spain,City_262,True,CoffeeHouse_34,Kiosk,France
+726,616,10,Cortado,1,2.0,2.0,189,1,2023-07-18,21:25:00,Card,Completed,Germany,0,Cortado,Coffee,2.0,Mexico,City_117,True,CoffeeHouse_1,DriveThru,Germany
+727,617,3,Latte,1,3.5,3.5,77,19,2024-09-27,17:44:00,Mobile Wallet,Completed,Ethiopia,0,Latte,Coffee,3.5,Honduras,City_261,False,CoffeeHouse_19,DriveThru,United States
+728,618,7,Cold Brew,1,3.25,3.25,150,13,2023-01-10,02:47:00,Card,Completed,Spain,2,Cold Brew,Coffee,3.25,Germany,City_51,False,CoffeeHouse_13,Kiosk,Vietnam
+729,619,7,Cold Brew,1,3.25,3.25,122,14,2023-07-03,17:42:00,Cash,Completed,Guatemala,0,Cold Brew,Coffee,3.25,Canada,City_220,False,CoffeeHouse_14,Retail,Costa Rica
+730,620,7,Cold Brew,1,3.25,3.25,163,28,2023-06-21,04:55:00,Online,Completed,Italy,1,Cold Brew,Coffee,3.25,UK,City_224,False,CoffeeHouse_28,DriveThru,Germany
+731,621,4,Cappuccino,1,3.25,3.25,34,46,2023-11-18,19:04:00,Card,Completed,Ethiopia,1,Cappuccino,Coffee,3.25,Honduras,City_225,True,CoffeeHouse_46,DriveThru,Italy
+732,621,1,Espresso,1,1.5,1.5,34,46,2023-11-18,19:04:00,Card,Completed,Ethiopia,1,Espresso,Coffee,1.5,Honduras,City_225,True,CoffeeHouse_46,DriveThru,Italy
+733,622,9,Frappuccino,1,4.5,4.5,105,8,2021-09-05,12:40:00,Card,Completed,Honduras,0,Frappuccino,Coffee,4.5,Italy,City_4,False,CoffeeHouse_8,DriveThru,India
+735,624,1,Espresso,1,1.5,1.5,190,32,2021-01-05,19:33:00,Card,Completed,France,3,Espresso,Coffee,1.5,France,City_86,True,CoffeeHouse_32,Retail,Canada
+736,625,8,Iced Latte,1,3.75,3.75,97,31,2024-05-25,22:46:00,Card,Completed,Peru,0,Iced Latte,Coffee,3.75,France,City_259,False,CoffeeHouse_31,DriveThru,Honduras
+738,627,5,Flat White,1,3.75,3.75,166,6,2021-12-06,04:13:00,Cash,Completed,Colombia,0,Flat White,Coffee,3.75,Canada,City_19,False,CoffeeHouse_6,DriveThru,Vietnam
+739,628,9,Frappuccino,1,4.5,4.5,159,35,2024-03-27,16:14:00,Online,Completed,United States,0,Frappuccino,Coffee,4.5,France,City_42,False,CoffeeHouse_35,DriveThru,Germany
+740,629,10,Cortado,1,2.0,2.0,137,12,2021-02-08,18:12:00,Card,Completed,Costa Rica,0,Cortado,Coffee,2.0,Peru,City_62,True,CoffeeHouse_12,Retail,Ethiopia
+741,630,9,Frappuccino,1,4.5,4.5,126,2,2022-11-28,08:46:00,Card,Completed,Ethiopia,0,Frappuccino,Coffee,4.5,Peru,City_126,False,CoffeeHouse_2,DriveThru,Kenya
+742,631,5,Flat White,2,3.75,7.5,74,10,2022-01-10,23:09:00,Card,Completed,Germany,5,Flat White,Coffee,3.75,Costa Rica,City_20,False,CoffeeHouse_10,Airport,Indonesia
+743,632,3,Latte,1,3.5,3.5,47,2,2021-04-30,11:03:00,Card,Completed,Ethiopia,0,Latte,Coffee,3.5,India,City_206,True,CoffeeHouse_2,DriveThru,Kenya
+744,633,9,Frappuccino,1,4.5,4.5,62,49,2024-05-07,03:55:00,Card,Completed,Peru,0,Frappuccino,Coffee,4.5,Ethiopia,City_55,False,CoffeeHouse_49,Retail,Australia
+745,634,1,Espresso,1,1.5,1.5,105,5,2023-09-19,20:00:00,Cash,Completed,Kenya,1,Espresso,Coffee,1.5,Italy,City_4,False,CoffeeHouse_5,DriveThru,Mexico
+746,635,9,Frappuccino,1,4.5,4.5,167,9,2022-09-16,04:51:00,Card,Completed,Indonesia,1,Frappuccino,Coffee,4.5,Peru,City_60,True,CoffeeHouse_9,DriveThru,Australia
+747,636,8,Iced Latte,2,3.75,7.5,138,28,2024-02-11,21:11:00,Card,Completed,Indonesia,0,Iced Latte,Coffee,3.75,India,City_111,False,CoffeeHouse_28,DriveThru,Germany
+748,637,6,Mocha,1,4.0,4.0,124,18,2024-05-09,07:15:00,Cash,Completed,Australia,0,Mocha,Coffee,4.0,France,City_79,False,CoffeeHouse_18,Airport,Ethiopia
+749,638,7,Cold Brew,1,3.25,3.25,42,48,2023-12-30,04:46:00,Card,Completed,Guatemala,2,Cold Brew,Coffee,3.25,Ethiopia,City_32,True,CoffeeHouse_48,Retail,Australia
+752,640,1,Espresso,1,1.5,1.5,154,22,2021-02-02,22:57:00,Card,Completed,Canada,2,Espresso,Coffee,1.5,France,City_37,True,CoffeeHouse_22,Retail,Ethiopia
+753,640,1,Espresso,2,1.5,3.0,154,22,2021-02-02,22:57:00,Card,Completed,Canada,2,Espresso,Coffee,1.5,France,City_37,True,CoffeeHouse_22,Retail,Ethiopia
+754,641,2,Americano,1,2.5,2.5,181,32,2023-03-16,22:55:00,Mobile Wallet,Completed,Ethiopia,0,Americano,Coffee,2.5,India,City_123,False,CoffeeHouse_32,Retail,Canada
+756,643,4,Cappuccino,1,3.25,3.25,191,2,2022-07-30,20:56:00,Mobile Wallet,Completed,Kenya,0,Cappuccino,Coffee,3.25,Peru,City_29,False,CoffeeHouse_2,DriveThru,Kenya
+758,645,10,Cortado,1,2.0,2.0,72,37,2023-10-22,20:34:00,Cash,Completed,Colombia,0,Cortado,Coffee,2.0,Indonesia,City_91,False,CoffeeHouse_37,Kiosk,Colombia
+759,646,4,Cappuccino,1,3.25,3.25,191,5,2021-09-18,09:21:00,Cash,Completed,United States,7,Cappuccino,Coffee,3.25,Peru,City_29,False,CoffeeHouse_5,DriveThru,Mexico
+760,647,8,Iced Latte,1,3.75,3.75,178,44,2023-12-28,14:34:00,Cash,Completed,Brazil,2,Iced Latte,Coffee,3.75,United States,City_145,False,CoffeeHouse_44,Airport,Guatemala
+761,648,8,Iced Latte,1,3.75,3.75,83,28,2023-04-14,17:39:00,Cash,Completed,Kenya,0,Iced Latte,Coffee,3.75,Germany,City_161,False,CoffeeHouse_28,DriveThru,Germany
+762,649,6,Mocha,1,4.0,4.0,108,35,2023-07-09,19:31:00,Card,Completed,Kenya,5,Mocha,Coffee,4.0,Costa Rica,City_173,False,CoffeeHouse_35,DriveThru,Germany
+763,650,2,Americano,1,2.5,2.5,109,5,2022-05-27,03:18:00,Card,Completed,Spain,2,Americano,Coffee,2.5,Vietnam,City_274,True,CoffeeHouse_5,DriveThru,Mexico
+764,651,8,Iced Latte,1,3.75,3.75,152,41,2022-11-16,11:23:00,Card,Completed,Kenya,3,Iced Latte,Coffee,3.75,Indonesia,City_2,False,CoffeeHouse_41,Retail,Indonesia
+765,651,6,Mocha,1,4.0,4.0,152,41,2022-11-16,11:23:00,Card,Completed,Kenya,3,Mocha,Coffee,4.0,Indonesia,City_2,False,CoffeeHouse_41,Retail,Indonesia
+767,653,1,Espresso,1,1.5,1.5,178,5,2021-09-19,21:22:00,Mobile Wallet,Completed,Ethiopia,1,Espresso,Coffee,1.5,United States,City_145,False,CoffeeHouse_5,DriveThru,Mexico
+768,654,10,Cortado,1,2.0,2.0,144,4,2022-08-27,22:31:00,Card,Completed,France,0,Cortado,Coffee,2.0,Guatemala,City_245,False,CoffeeHouse_4,Retail,Vietnam
+769,654,4,Cappuccino,1,3.25,3.25,144,4,2022-08-27,22:31:00,Card,Completed,France,0,Cappuccino,Coffee,3.25,Guatemala,City_245,False,CoffeeHouse_4,Retail,Vietnam
+770,655,1,Espresso,1,1.5,1.5,110,40,2024-06-22,11:12:00,Cash,Completed,Ethiopia,0,Espresso,Coffee,1.5,Colombia,City_220,True,CoffeeHouse_40,DriveThru,Guatemala
+771,656,10,Cortado,1,2.0,2.0,153,46,2021-05-19,17:22:00,Mobile Wallet,Completed,Spain,0,Cortado,Coffee,2.0,Mexico,City_17,False,CoffeeHouse_46,DriveThru,Italy
+772,657,1,Espresso,1,1.5,1.5,159,29,2022-01-16,19:57:00,Mobile Wallet,Completed,Honduras,0,Espresso,Coffee,1.5,France,City_42,False,CoffeeHouse_29,Kiosk,Brazil
+773,658,6,Mocha,1,4.0,4.0,139,50,2021-10-26,00:16:00,Card,Completed,Vietnam,0,Mocha,Coffee,4.0,Ethiopia,City_100,True,CoffeeHouse_50,Airport,Brazil
+774,659,4,Cappuccino,1,3.25,3.25,130,36,2021-04-22,06:52:00,Card,Completed,Peru,0,Cappuccino,Coffee,3.25,Guatemala,City_142,True,CoffeeHouse_36,Kiosk,Kenya
+775,660,10,Cortado,1,2.0,2.0,122,45,2023-08-16,11:27:00,Card,Completed,Spain,0,Cortado,Coffee,2.0,Canada,City_220,False,CoffeeHouse_45,Retail,Australia
+776,661,4,Cappuccino,1,3.25,3.25,27,30,2021-03-28,15:55:00,Online,Completed,Kenya,0,Cappuccino,Coffee,3.25,Mexico,City_260,False,CoffeeHouse_30,Kiosk,France
+777,662,1,Espresso,1,1.5,1.5,197,22,2023-02-09,02:31:00,Card,Completed,Canada,0,Espresso,Coffee,1.5,Honduras,City_154,False,CoffeeHouse_22,Retail,Ethiopia
+778,663,6,Mocha,1,4.0,4.0,75,29,2022-02-03,01:00:00,Online,Completed,Mexico,0,Mocha,Coffee,4.0,Honduras,City_157,True,CoffeeHouse_29,Kiosk,Brazil
+779,664,3,Latte,1,3.5,3.5,68,47,2021-12-23,06:00:00,Cash,Completed,Ethiopia,0,Latte,Coffee,3.5,Canada,City_19,True,CoffeeHouse_47,Airport,Australia
+780,665,6,Mocha,2,4.0,8.0,174,9,2023-02-16,10:24:00,Mobile Wallet,Completed,Honduras,2,Mocha,Coffee,4.0,Vietnam,City_256,False,CoffeeHouse_9,DriveThru,Australia
+781,666,7,Cold Brew,1,3.25,3.25,170,11,2023-12-16,04:27:00,Online,Completed,India,0,Cold Brew,Coffee,3.25,Guatemala,City_282,False,CoffeeHouse_11,DriveThru,Mexico
+782,666,2,Americano,1,2.5,2.5,170,11,2023-12-16,04:27:00,Online,Completed,India,0,Americano,Coffee,2.5,Guatemala,City_282,False,CoffeeHouse_11,DriveThru,Mexico
+783,667,4,Cappuccino,2,3.25,6.5,178,24,2022-10-14,21:01:00,Online,Completed,Canada,0,Cappuccino,Coffee,3.25,United States,City_145,False,CoffeeHouse_24,Airport,Kenya
+785,669,9,Frappuccino,1,4.5,4.5,121,43,2024-06-13,17:42:00,Cash,Completed,Peru,1,Frappuccino,Coffee,4.5,Germany,City_62,False,CoffeeHouse_43,Kiosk,UK
+787,671,4,Cappuccino,1,3.25,3.25,54,15,2022-02-20,12:52:00,Card,Completed,Honduras,0,Cappuccino,Coffee,3.25,UK,City_21,False,CoffeeHouse_15,Retail,Costa Rica
+788,672,4,Cappuccino,1,3.25,3.25,22,9,2021-06-22,15:52:00,Cash,Completed,Peru,0,Cappuccino,Coffee,3.25,Spain,City_33,False,CoffeeHouse_9,DriveThru,Australia
+789,673,5,Flat White,1,3.75,3.75,120,28,2023-04-18,06:07:00,Card,Completed,Guatemala,1,Flat White,Coffee,3.75,UK,City_125,False,CoffeeHouse_28,DriveThru,Germany
+790,674,2,Americano,1,2.5,2.5,92,6,2022-08-27,02:26:00,Cash,Completed,Canada,0,Americano,Coffee,2.5,France,City_213,False,CoffeeHouse_6,DriveThru,Vietnam
+791,674,4,Cappuccino,1,3.25,3.25,92,6,2022-08-27,02:26:00,Cash,Completed,Canada,0,Cappuccino,Coffee,3.25,France,City_213,False,CoffeeHouse_6,DriveThru,Vietnam
+793,676,7,Cold Brew,2,3.25,6.5,3,50,2022-09-06,19:47:00,Card,Completed,United States,0,Cold Brew,Coffee,3.25,United States,City_48,True,CoffeeHouse_50,Airport,Brazil
+794,677,4,Cappuccino,1,3.25,3.25,132,49,2021-11-02,18:51:00,Card,Completed,France,0,Cappuccino,Coffee,3.25,Italy,City_252,True,CoffeeHouse_49,Retail,Australia
+795,677,9,Frappuccino,1,4.5,4.5,132,49,2021-11-02,18:51:00,Card,Completed,France,0,Frappuccino,Coffee,4.5,Italy,City_252,True,CoffeeHouse_49,Retail,Australia
+797,679,6,Mocha,1,4.0,4.0,148,9,2022-09-18,13:46:00,Card,Completed,Canada,0,Mocha,Coffee,4.0,Australia,City_195,False,CoffeeHouse_9,DriveThru,Australia
+798,679,7,Cold Brew,1,3.25,3.25,148,9,2022-09-18,13:46:00,Card,Completed,Canada,0,Cold Brew,Coffee,3.25,Australia,City_195,False,CoffeeHouse_9,DriveThru,Australia
+799,680,3,Latte,2,3.5,7.0,151,2,2024-03-08,11:16:00,Online,Completed,Germany,3,Latte,Coffee,3.5,Colombia,City_81,True,CoffeeHouse_2,DriveThru,Kenya
+800,681,9,Frappuccino,1,4.5,4.5,147,26,2023-02-20,16:12:00,Card,Completed,UK,5,Frappuccino,Coffee,4.5,Ethiopia,City_286,True,CoffeeHouse_26,Kiosk,UK
+801,682,3,Latte,1,3.5,3.5,164,20,2021-07-10,23:31:00,Cash,Completed,United States,0,Latte,Coffee,3.5,Spain,City_171,True,CoffeeHouse_20,Retail,Germany
+802,683,9,Frappuccino,1,4.5,4.5,18,25,2022-08-05,01:57:00,Card,Completed,United States,0,Frappuccino,Coffee,4.5,Costa Rica,City_235,True,CoffeeHouse_25,Airport,France
+803,684,7,Cold Brew,1,3.25,3.25,106,26,2021-11-18,07:01:00,Card,Completed,Italy,0,Cold Brew,Coffee,3.25,Spain,City_276,True,CoffeeHouse_26,Kiosk,UK
+804,684,2,Americano,1,2.5,2.5,106,26,2021-11-18,07:01:00,Card,Completed,Italy,0,Americano,Coffee,2.5,Spain,City_276,True,CoffeeHouse_26,Kiosk,UK
+805,684,4,Cappuccino,1,3.25,3.25,106,26,2021-11-18,07:01:00,Card,Completed,Italy,0,Cappuccino,Coffee,3.25,Spain,City_276,True,CoffeeHouse_26,Kiosk,UK
+807,686,8,Iced Latte,1,3.75,3.75,103,39,2022-05-21,19:39:00,Online,Completed,Colombia,0,Iced Latte,Coffee,3.75,Peru,City_278,True,CoffeeHouse_39,Retail,Peru
+809,688,1,Espresso,1,1.5,1.5,169,12,2024-03-10,05:23:00,Cash,Completed,Canada,0,Espresso,Coffee,1.5,Germany,City_256,True,CoffeeHouse_12,Retail,Ethiopia
+810,689,9,Frappuccino,1,4.5,4.5,18,45,2022-03-21,03:35:00,Card,Completed,Peru,0,Frappuccino,Coffee,4.5,Costa Rica,City_235,True,CoffeeHouse_45,Retail,Australia
+811,689,6,Mocha,1,4.0,4.0,18,45,2022-03-21,03:35:00,Card,Completed,Peru,0,Mocha,Coffee,4.0,Costa Rica,City_235,True,CoffeeHouse_45,Retail,Australia
+812,690,2,Americano,1,2.5,2.5,43,17,2022-03-01,23:03:00,Card,Completed,Costa Rica,0,Americano,Coffee,2.5,Kenya,City_99,True,CoffeeHouse_17,DriveThru,UK
+813,691,3,Latte,1,3.5,3.5,103,13,2023-03-24,15:50:00,Card,Completed,Colombia,0,Latte,Coffee,3.5,Peru,City_278,True,CoffeeHouse_13,Kiosk,Vietnam
+814,692,3,Latte,1,3.5,3.5,169,16,2023-06-16,00:36:00,Mobile Wallet,Completed,Indonesia,0,Latte,Coffee,3.5,Germany,City_256,True,CoffeeHouse_16,DriveThru,France
+815,693,1,Espresso,1,1.5,1.5,137,48,2023-03-12,05:14:00,Cash,Completed,Indonesia,0,Espresso,Coffee,1.5,Peru,City_62,True,CoffeeHouse_48,Retail,Australia
+818,696,2,Americano,1,2.5,2.5,108,2,2021-01-30,03:17:00,Card,Completed,Indonesia,1,Americano,Coffee,2.5,Costa Rica,City_173,False,CoffeeHouse_2,DriveThru,Kenya
+819,697,9,Frappuccino,1,4.5,4.5,12,27,2023-11-16,21:19:00,Card,Completed,Canada,0,Frappuccino,Coffee,4.5,Guatemala,City_233,False,CoffeeHouse_27,Airport,Spain
+820,698,3,Latte,1,3.5,3.5,110,8,2022-04-21,22:19:00,Card,Completed,Costa Rica,0,Latte,Coffee,3.5,Colombia,City_220,True,CoffeeHouse_8,DriveThru,India
+821,699,6,Mocha,1,4.0,4.0,57,5,2024-09-09,20:26:00,Cash,Completed,Ethiopia,1,Mocha,Coffee,4.0,United States,City_235,True,CoffeeHouse_5,DriveThru,Mexico
+822,699,4,Cappuccino,1,3.25,3.25,57,5,2024-09-09,20:26:00,Cash,Completed,Ethiopia,1,Cappuccino,Coffee,3.25,United States,City_235,True,CoffeeHouse_5,DriveThru,Mexico
+823,700,7,Cold Brew,1,3.25,3.25,146,11,2022-05-31,21:41:00,Cash,Completed,Peru,5,Cold Brew,Coffee,3.25,Vietnam,City_77,True,CoffeeHouse_11,DriveThru,Mexico
+824,700,3,Latte,1,3.5,3.5,146,11,2022-05-31,21:41:00,Cash,Completed,Peru,5,Latte,Coffee,3.5,Vietnam,City_77,True,CoffeeHouse_11,DriveThru,Mexico
+825,701,10,Cortado,1,2.0,2.0,171,31,2021-05-19,17:26:00,Cash,Completed,Kenya,0,Cortado,Coffee,2.0,Italy,City_63,True,CoffeeHouse_31,DriveThru,Honduras
+826,702,2,Americano,1,2.5,2.5,181,1,2022-04-22,14:37:00,Mobile Wallet,Completed,Germany,0,Americano,Coffee,2.5,India,City_123,False,CoffeeHouse_1,DriveThru,Germany
+828,704,1,Espresso,1,1.5,1.5,114,48,2022-11-05,14:09:00,Card,Completed,Mexico,1,Espresso,Coffee,1.5,Honduras,City_115,True,CoffeeHouse_48,Retail,Australia
+831,707,4,Cappuccino,1,3.25,3.25,37,14,2021-09-15,02:40:00,Cash,Completed,France,0,Cappuccino,Coffee,3.25,Kenya,City_35,True,CoffeeHouse_14,Retail,Costa Rica
+833,709,8,Iced Latte,1,3.75,3.75,124,6,2023-01-07,20:48:00,Card,Completed,Vietnam,2,Iced Latte,Coffee,3.75,France,City_79,False,CoffeeHouse_6,DriveThru,Vietnam
+834,710,5,Flat White,1,3.75,3.75,124,2,2023-02-21,05:12:00,Card,Completed,Indonesia,0,Flat White,Coffee,3.75,France,City_79,False,CoffeeHouse_2,DriveThru,Kenya
+835,711,8,Iced Latte,1,3.75,3.75,119,20,2023-07-18,04:39:00,Cash,Completed,India,0,Iced Latte,Coffee,3.75,UK,City_193,True,CoffeeHouse_20,Retail,Germany
+836,712,6,Mocha,1,4.0,4.0,49,1,2021-01-27,12:44:00,Mobile Wallet,Completed,Mexico,1,Mocha,Coffee,4.0,Vietnam,City_98,True,CoffeeHouse_1,DriveThru,Germany
+837,712,7,Cold Brew,2,3.25,6.5,49,1,2021-01-27,12:44:00,Mobile Wallet,Completed,Mexico,1,Cold Brew,Coffee,3.25,Vietnam,City_98,True,CoffeeHouse_1,DriveThru,Germany
+840,714,7,Cold Brew,1,3.25,3.25,126,41,2023-01-25,08:16:00,Cash,Completed,Honduras,1,Cold Brew,Coffee,3.25,Peru,City_126,False,CoffeeHouse_41,Retail,Indonesia
+841,715,8,Iced Latte,2,3.75,7.5,174,2,2024-09-25,05:01:00,Card,Completed,Germany,0,Iced Latte,Coffee,3.75,Vietnam,City_256,False,CoffeeHouse_2,DriveThru,Kenya
+843,717,5,Flat White,1,3.75,3.75,49,28,2021-12-06,13:03:00,Card,Completed,Spain,1,Flat White,Coffee,3.75,Vietnam,City_98,True,CoffeeHouse_28,DriveThru,Germany
+844,717,9,Frappuccino,1,4.5,4.5,49,28,2021-12-06,13:03:00,Card,Completed,Spain,1,Frappuccino,Coffee,4.5,Vietnam,City_98,True,CoffeeHouse_28,DriveThru,Germany
+845,718,6,Mocha,1,4.0,4.0,187,6,2021-08-12,09:10:00,Mobile Wallet,Completed,Costa Rica,1,Mocha,Coffee,4.0,Colombia,City_169,False,CoffeeHouse_6,DriveThru,Vietnam
+846,719,7,Cold Brew,1,3.25,3.25,2,11,2023-10-05,22:20:00,Card,Completed,Spain,0,Cold Brew,Coffee,3.25,Ethiopia,City_280,True,CoffeeHouse_11,DriveThru,Mexico
+847,720,2,Americano,1,2.5,2.5,96,12,2021-10-03,07:15:00,Card,Completed,Brazil,1,Americano,Coffee,2.5,France,City_69,False,CoffeeHouse_12,Retail,Ethiopia
+848,721,8,Iced Latte,1,3.75,3.75,195,13,2022-06-16,02:55:00,Mobile Wallet,Completed,Guatemala,0,Iced Latte,Coffee,3.75,Kenya,City_237,True,CoffeeHouse_13,Kiosk,Vietnam
+849,721,10,Cortado,1,2.0,2.0,195,13,2022-06-16,02:55:00,Mobile Wallet,Completed,Guatemala,0,Cortado,Coffee,2.0,Kenya,City_237,True,CoffeeHouse_13,Kiosk,Vietnam
+850,721,3,Latte,1,3.5,3.5,195,13,2022-06-16,02:55:00,Mobile Wallet,Completed,Guatemala,0,Latte,Coffee,3.5,Kenya,City_237,True,CoffeeHouse_13,Kiosk,Vietnam
+851,722,2,Americano,1,2.5,2.5,8,38,2022-04-26,09:04:00,Cash,Completed,United States,1,Americano,Coffee,2.5,Germany,City_136,True,CoffeeHouse_38,Kiosk,UK
+853,724,6,Mocha,1,4.0,4.0,155,28,2022-11-21,12:19:00,Mobile Wallet,Completed,Costa Rica,1,Mocha,Coffee,4.0,Spain,City_59,True,CoffeeHouse_28,DriveThru,Germany
+854,725,7,Cold Brew,1,3.25,3.25,92,22,2021-07-25,04:44:00,Mobile Wallet,Completed,Ethiopia,2,Cold Brew,Coffee,3.25,France,City_213,False,CoffeeHouse_22,Retail,Ethiopia
+855,726,8,Iced Latte,1,3.75,3.75,72,45,2022-05-25,22:32:00,Cash,Completed,Peru,0,Iced Latte,Coffee,3.75,Indonesia,City_91,False,CoffeeHouse_45,Retail,Australia
+856,727,8,Iced Latte,1,3.75,3.75,93,3,2022-10-29,20:54:00,Card,Completed,Honduras,0,Iced Latte,Coffee,3.75,Italy,City_205,True,CoffeeHouse_3,DriveThru,Kenya
+858,729,8,Iced Latte,1,3.75,3.75,128,6,2022-09-10,16:27:00,Online,Completed,Kenya,0,Iced Latte,Coffee,3.75,Peru,City_15,True,CoffeeHouse_6,DriveThru,Vietnam
+859,729,8,Iced Latte,2,3.75,7.5,128,6,2022-09-10,16:27:00,Online,Completed,Kenya,0,Iced Latte,Coffee,3.75,Peru,City_15,True,CoffeeHouse_6,DriveThru,Vietnam
+861,731,3,Latte,2,3.5,7.0,66,43,2023-09-03,23:36:00,Cash,Completed,Kenya,3,Latte,Coffee,3.5,Vietnam,City_135,False,CoffeeHouse_43,Kiosk,UK
+862,731,8,Iced Latte,1,3.75,3.75,66,43,2023-09-03,23:36:00,Cash,Completed,Kenya,3,Iced Latte,Coffee,3.75,Vietnam,City_135,False,CoffeeHouse_43,Kiosk,UK
+864,733,6,Mocha,1,4.0,4.0,58,17,2021-08-25,06:25:00,Card,Completed,Ethiopia,0,Mocha,Coffee,4.0,Canada,City_110,False,CoffeeHouse_17,DriveThru,UK
+865,734,1,Espresso,1,1.5,1.5,33,21,2023-02-18,06:28:00,Card,Completed,Spain,0,Espresso,Coffee,1.5,India,City_277,False,CoffeeHouse_21,Airport,France
+866,735,4,Cappuccino,1,3.25,3.25,94,44,2021-09-16,00:18:00,Cash,Completed,France,0,Cappuccino,Coffee,3.25,Ethiopia,City_218,False,CoffeeHouse_44,Airport,Guatemala
+867,736,5,Flat White,1,3.75,3.75,76,15,2023-10-21,22:42:00,Card,Completed,Brazil,0,Flat White,Coffee,3.75,Costa Rica,City_169,False,CoffeeHouse_15,Retail,Costa Rica
+868,737,10,Cortado,1,2.0,2.0,80,33,2021-09-10,07:21:00,Mobile Wallet,Completed,Costa Rica,0,Cortado,Coffee,2.0,Spain,City_262,True,CoffeeHouse_33,Retail,Costa Rica
+871,739,8,Iced Latte,2,3.75,7.5,169,11,2021-02-14,13:21:00,Card,Completed,Australia,1,Iced Latte,Coffee,3.75,Germany,City_256,True,CoffeeHouse_11,DriveThru,Mexico
+874,742,10,Cortado,1,2.0,2.0,192,13,2024-08-26,05:02:00,Mobile Wallet,Completed,Spain,1,Cortado,Coffee,2.0,Vietnam,City_126,True,CoffeeHouse_13,Kiosk,Vietnam
+875,743,1,Espresso,1,1.5,1.5,44,4,2021-07-16,17:35:00,Card,Completed,UK,0,Espresso,Coffee,1.5,Spain,City_94,True,CoffeeHouse_4,Retail,Vietnam
+876,744,7,Cold Brew,1,3.25,3.25,39,41,2023-04-08,23:28:00,Card,Completed,Indonesia,1,Cold Brew,Coffee,3.25,Canada,City_68,True,CoffeeHouse_41,Retail,Indonesia
+877,745,7,Cold Brew,1,3.25,3.25,97,50,2024-10-05,22:17:00,Mobile Wallet,Completed,United States,0,Cold Brew,Coffee,3.25,France,City_259,False,CoffeeHouse_50,Airport,Brazil
+879,747,7,Cold Brew,1,3.25,3.25,191,7,2024-04-29,04:16:00,Card,Completed,Colombia,1,Cold Brew,Coffee,3.25,Peru,City_29,False,CoffeeHouse_7,Kiosk,Peru
+880,748,9,Frappuccino,1,4.5,4.5,138,12,2023-04-11,17:42:00,Card,Completed,Canada,1,Frappuccino,Coffee,4.5,India,City_111,False,CoffeeHouse_12,Retail,Ethiopia
+881,748,9,Frappuccino,1,4.5,4.5,138,12,2023-04-11,17:42:00,Card,Completed,Canada,1,Frappuccino,Coffee,4.5,India,City_111,False,CoffeeHouse_12,Retail,Ethiopia
+882,749,3,Latte,1,3.5,3.5,167,8,2022-03-01,15:15:00,Mobile Wallet,Completed,Ethiopia,0,Latte,Coffee,3.5,Peru,City_60,True,CoffeeHouse_8,DriveThru,India
+883,749,3,Latte,1,3.5,3.5,167,8,2022-03-01,15:15:00,Mobile Wallet,Completed,Ethiopia,0,Latte,Coffee,3.5,Peru,City_60,True,CoffeeHouse_8,DriveThru,India
+884,750,1,Espresso,1,1.5,1.5,148,14,2024-08-29,04:15:00,Cash,Completed,Honduras,5,Espresso,Coffee,1.5,Australia,City_195,False,CoffeeHouse_14,Retail,Costa Rica
+885,751,9,Frappuccino,2,4.5,9.0,44,28,2024-09-09,10:00:00,Card,Completed,France,0,Frappuccino,Coffee,4.5,Spain,City_94,True,CoffeeHouse_28,DriveThru,Germany
+886,752,6,Mocha,1,4.0,4.0,126,45,2022-10-03,17:25:00,Online,Completed,Ethiopia,1,Mocha,Coffee,4.0,Peru,City_126,False,CoffeeHouse_45,Retail,Australia
+887,753,4,Cappuccino,2,3.25,6.5,12,16,2021-03-17,20:33:00,Card,Completed,UK,0,Cappuccino,Coffee,3.25,Guatemala,City_233,False,CoffeeHouse_16,DriveThru,France
+888,754,5,Flat White,1,3.75,3.75,33,47,2024-06-28,05:34:00,Cash,Completed,Colombia,3,Flat White,Coffee,3.75,India,City_277,False,CoffeeHouse_47,Airport,Australia
+889,755,5,Flat White,2,3.75,7.5,174,28,2021-10-21,23:47:00,Card,Completed,Honduras,0,Flat White,Coffee,3.75,Vietnam,City_256,False,CoffeeHouse_28,DriveThru,Germany
+890,756,6,Mocha,2,4.0,8.0,166,33,2024-05-23,14:48:00,Mobile Wallet,Completed,Germany,0,Mocha,Coffee,4.0,Canada,City_19,False,CoffeeHouse_33,Retail,Costa Rica
+891,757,2,Americano,1,2.5,2.5,70,8,2023-12-25,03:02:00,Cash,Completed,Peru,1,Americano,Coffee,2.5,Honduras,City_108,False,CoffeeHouse_8,DriveThru,India
+892,758,4,Cappuccino,1,3.25,3.25,38,15,2022-07-15,03:35:00,Card,Completed,Ethiopia,0,Cappuccino,Coffee,3.25,Australia,City_122,True,CoffeeHouse_15,Retail,Costa Rica
+893,759,9,Frappuccino,1,4.5,4.5,187,20,2024-04-20,18:49:00,Card,Completed,Ethiopia,2,Frappuccino,Coffee,4.5,Colombia,City_169,False,CoffeeHouse_20,Retail,Germany
+894,759,10,Cortado,1,2.0,2.0,187,20,2024-04-20,18:49:00,Card,Completed,Ethiopia,2,Cortado,Coffee,2.0,Colombia,City_169,False,CoffeeHouse_20,Retail,Germany
+895,760,9,Frappuccino,1,4.5,4.5,44,21,2023-03-09,13:44:00,Mobile Wallet,Completed,Vietnam,0,Frappuccino,Coffee,4.5,Spain,City_94,True,CoffeeHouse_21,Airport,France
+897,762,8,Iced Latte,2,3.75,7.5,64,44,2024-05-31,15:59:00,Card,Completed,Guatemala,5,Iced Latte,Coffee,3.75,Australia,City_251,True,CoffeeHouse_44,Airport,Guatemala
+898,763,5,Flat White,1,3.75,3.75,134,46,2022-04-14,10:40:00,Mobile Wallet,Completed,Colombia,0,Flat White,Coffee,3.75,UK,City_189,False,CoffeeHouse_46,DriveThru,Italy
+899,764,5,Flat White,1,3.75,3.75,62,6,2021-12-05,16:49:00,Card,Completed,United States,5,Flat White,Coffee,3.75,Ethiopia,City_55,False,CoffeeHouse_6,DriveThru,Vietnam
+900,765,8,Iced Latte,1,3.75,3.75,109,44,2023-11-08,13:50:00,Card,Completed,India,3,Iced Latte,Coffee,3.75,Vietnam,City_274,True,CoffeeHouse_44,Airport,Guatemala
+901,765,9,Frappuccino,1,4.5,4.5,109,44,2023-11-08,13:50:00,Card,Completed,India,3,Frappuccino,Coffee,4.5,Vietnam,City_274,True,CoffeeHouse_44,Airport,Guatemala
+903,767,9,Frappuccino,2,4.5,9.0,11,39,2023-07-08,04:33:00,Cash,Completed,Brazil,0,Frappuccino,Coffee,4.5,Mexico,City_41,False,CoffeeHouse_39,Retail,Peru
+904,767,3,Latte,1,3.5,3.5,11,39,2023-07-08,04:33:00,Cash,Completed,Brazil,0,Latte,Coffee,3.5,Mexico,City_41,False,CoffeeHouse_39,Retail,Peru
+905,768,4,Cappuccino,1,3.25,3.25,98,11,2023-02-04,16:29:00,Card,Completed,India,0,Cappuccino,Coffee,3.25,Indonesia,City_244,True,CoffeeHouse_11,DriveThru,Mexico
+906,768,2,Americano,1,2.5,2.5,98,11,2023-02-04,16:29:00,Card,Completed,India,0,Americano,Coffee,2.5,Indonesia,City_244,True,CoffeeHouse_11,DriveThru,Mexico
+909,771,9,Frappuccino,1,4.5,4.5,3,7,2023-06-02,14:01:00,Card,Completed,Italy,0,Frappuccino,Coffee,4.5,United States,City_48,True,CoffeeHouse_7,Kiosk,Peru
+910,772,5,Flat White,1,3.75,3.75,197,43,2022-05-28,06:13:00,Card,Completed,Guatemala,0,Flat White,Coffee,3.75,Honduras,City_154,False,CoffeeHouse_43,Kiosk,UK
+911,773,7,Cold Brew,1,3.25,3.25,113,43,2023-06-19,06:46:00,Card,Completed,Mexico,0,Cold Brew,Coffee,3.25,Guatemala,City_42,True,CoffeeHouse_43,Kiosk,UK
+912,774,4,Cappuccino,2,3.25,6.5,102,27,2022-11-10,16:41:00,Card,Completed,Vietnam,0,Cappuccino,Coffee,3.25,Costa Rica,City_79,False,CoffeeHouse_27,Airport,Spain
+913,774,5,Flat White,1,3.75,3.75,102,27,2022-11-10,16:41:00,Card,Completed,Vietnam,0,Flat White,Coffee,3.75,Costa Rica,City_79,False,CoffeeHouse_27,Airport,Spain
+914,775,7,Cold Brew,1,3.25,3.25,196,50,2023-03-30,03:40:00,Online,Completed,Vietnam,0,Cold Brew,Coffee,3.25,France,City_148,False,CoffeeHouse_50,Airport,Brazil
+915,776,7,Cold Brew,2,3.25,6.5,129,1,2022-04-30,00:16:00,Mobile Wallet,Completed,Mexico,0,Cold Brew,Coffee,3.25,Italy,City_109,False,CoffeeHouse_1,DriveThru,Germany
+916,777,9,Frappuccino,1,4.5,4.5,22,49,2023-05-29,09:35:00,Card,Completed,Guatemala,7,Frappuccino,Coffee,4.5,Spain,City_33,False,CoffeeHouse_49,Retail,Australia
+917,778,2,Americano,1,2.5,2.5,64,43,2023-05-29,17:08:00,Mobile Wallet,Completed,India,7,Americano,Coffee,2.5,Australia,City_251,True,CoffeeHouse_43,Kiosk,UK
+919,780,4,Cappuccino,1,3.25,3.25,52,6,2021-04-15,14:32:00,Cash,Completed,Australia,0,Cappuccino,Coffee,3.25,Brazil,City_261,True,CoffeeHouse_6,DriveThru,Vietnam
+920,781,6,Mocha,1,4.0,4.0,14,20,2021-08-14,08:25:00,Card,Completed,Brazil,0,Mocha,Coffee,4.0,Canada,City_126,False,CoffeeHouse_20,Retail,Germany
+921,782,8,Iced Latte,1,3.75,3.75,1,4,2024-09-14,20:42:00,Card,Completed,Indonesia,0,Iced Latte,Coffee,3.75,Ethiopia,City_13,True,CoffeeHouse_4,Retail,Vietnam
+922,783,1,Espresso,1,1.5,1.5,126,24,2022-11-16,04:26:00,Card,Completed,Honduras,1,Espresso,Coffee,1.5,Peru,City_126,False,CoffeeHouse_24,Airport,Kenya
+925,786,4,Cappuccino,1,3.25,3.25,159,22,2022-09-10,05:14:00,Online,Completed,India,0,Cappuccino,Coffee,3.25,France,City_42,False,CoffeeHouse_22,Retail,Ethiopia
+926,787,8,Iced Latte,1,3.75,3.75,183,17,2024-02-22,02:18:00,Mobile Wallet,Completed,Australia,3,Iced Latte,Coffee,3.75,Costa Rica,City_78,False,CoffeeHouse_17,DriveThru,UK
+927,787,2,Americano,2,2.5,5.0,183,17,2024-02-22,02:18:00,Mobile Wallet,Completed,Australia,3,Americano,Coffee,2.5,Costa Rica,City_78,False,CoffeeHouse_17,DriveThru,UK
+928,788,3,Latte,1,3.5,3.5,129,2,2021-12-08,19:19:00,Cash,Completed,India,1,Latte,Coffee,3.5,Italy,City_109,False,CoffeeHouse_2,DriveThru,Kenya
+929,789,3,Latte,1,3.5,3.5,102,32,2023-12-27,13:19:00,Online,Completed,Guatemala,0,Latte,Coffee,3.5,Costa Rica,City_79,False,CoffeeHouse_32,Retail,Canada
+930,789,9,Frappuccino,1,4.5,4.5,102,32,2023-12-27,13:19:00,Online,Completed,Guatemala,0,Frappuccino,Coffee,4.5,Costa Rica,City_79,False,CoffeeHouse_32,Retail,Canada
+931,790,9,Frappuccino,1,4.5,4.5,1,11,2024-03-17,17:55:00,Cash,Completed,Kenya,0,Frappuccino,Coffee,4.5,Ethiopia,City_13,True,CoffeeHouse_11,DriveThru,Mexico
+932,791,4,Cappuccino,1,3.25,3.25,69,36,2021-09-01,21:49:00,Card,Completed,Guatemala,3,Cappuccino,Coffee,3.25,Spain,City_66,True,CoffeeHouse_36,Kiosk,Kenya
+933,792,4,Cappuccino,1,3.25,3.25,70,4,2024-08-08,11:04:00,Online,Completed,Canada,0,Cappuccino,Coffee,3.25,Honduras,City_108,False,CoffeeHouse_4,Retail,Vietnam
+934,792,1,Espresso,1,1.5,1.5,70,4,2024-08-08,11:04:00,Online,Completed,Canada,0,Espresso,Coffee,1.5,Honduras,City_108,False,CoffeeHouse_4,Retail,Vietnam
+935,792,10,Cortado,2,2.0,4.0,70,4,2024-08-08,11:04:00,Online,Completed,Canada,0,Cortado,Coffee,2.0,Honduras,City_108,False,CoffeeHouse_4,Retail,Vietnam
+936,793,1,Espresso,1,1.5,1.5,35,27,2024-06-06,07:29:00,Online,Completed,Guatemala,0,Espresso,Coffee,1.5,Kenya,City_33,True,CoffeeHouse_27,Airport,Spain
+939,795,7,Cold Brew,1,3.25,3.25,114,15,2022-10-27,07:54:00,Cash,Completed,Spain,0,Cold Brew,Coffee,3.25,Honduras,City_115,True,CoffeeHouse_15,Retail,Costa Rica
+941,797,10,Cortado,1,2.0,2.0,6,20,2021-11-30,08:22:00,Mobile Wallet,Completed,Costa Rica,0,Cortado,Coffee,2.0,Spain,City_175,False,CoffeeHouse_20,Retail,Germany
+942,797,3,Latte,1,3.5,3.5,6,20,2021-11-30,08:22:00,Mobile Wallet,Completed,Costa Rica,0,Latte,Coffee,3.5,Spain,City_175,False,CoffeeHouse_20,Retail,Germany
+943,798,1,Espresso,1,1.5,1.5,135,9,2021-01-25,00:27:00,Card,Completed,Brazil,0,Espresso,Coffee,1.5,Spain,City_282,False,CoffeeHouse_9,DriveThru,Australia
+945,800,10,Cortado,1,2.0,2.0,87,46,2021-06-24,05:34:00,Card,Completed,Italy,0,Cortado,Coffee,2.0,Mexico,City_147,False,CoffeeHouse_46,DriveThru,Italy
+946,801,1,Espresso,1,1.5,1.5,15,35,2022-07-02,10:07:00,Card,Completed,Spain,0,Espresso,Coffee,1.5,Canada,City_113,True,CoffeeHouse_35,DriveThru,Germany
+947,802,5,Flat White,1,3.75,3.75,58,2,2022-04-10,23:21:00,Card,Completed,Ethiopia,0,Flat White,Coffee,3.75,Canada,City_110,False,CoffeeHouse_2,DriveThru,Kenya
+950,804,3,Latte,1,3.5,3.5,110,34,2022-11-17,23:27:00,Cash,Completed,Mexico,0,Latte,Coffee,3.5,Colombia,City_220,True,CoffeeHouse_34,Kiosk,France
+951,805,2,Americano,1,2.5,2.5,27,18,2023-10-20,05:04:00,Online,Completed,Vietnam,0,Americano,Coffee,2.5,Mexico,City_260,False,CoffeeHouse_18,Airport,Ethiopia
+954,807,7,Cold Brew,1,3.25,3.25,91,21,2023-10-10,21:43:00,Cash,Completed,Kenya,0,Cold Brew,Coffee,3.25,Vietnam,City_13,True,CoffeeHouse_21,Airport,France
+955,808,4,Cappuccino,1,3.25,3.25,141,32,2024-01-09,19:49:00,Cash,Completed,Australia,0,Cappuccino,Coffee,3.25,Brazil,City_284,True,CoffeeHouse_32,Retail,Canada
+956,809,1,Espresso,1,1.5,1.5,178,48,2022-03-26,00:35:00,Card,Completed,Italy,5,Espresso,Coffee,1.5,United States,City_145,False,CoffeeHouse_48,Retail,Australia
+957,810,3,Latte,1,3.5,3.5,29,4,2022-12-17,04:55:00,Mobile Wallet,Completed,Canada,5,Latte,Coffee,3.5,Italy,City_10,False,CoffeeHouse_4,Retail,Vietnam
+958,811,3,Latte,1,3.5,3.5,108,16,2022-03-08,00:53:00,Card,Completed,Spain,0,Latte,Coffee,3.5,Costa Rica,City_173,False,CoffeeHouse_16,DriveThru,France
+959,811,3,Latte,1,3.5,3.5,108,16,2022-03-08,00:53:00,Card,Completed,Spain,0,Latte,Coffee,3.5,Costa Rica,City_173,False,CoffeeHouse_16,DriveThru,France
+960,812,10,Cortado,1,2.0,2.0,180,7,2024-09-19,01:01:00,Card,Completed,Vietnam,0,Cortado,Coffee,2.0,Canada,City_279,False,CoffeeHouse_7,Kiosk,Peru
+963,814,3,Latte,1,3.5,3.5,87,29,2024-08-13,21:55:00,Card,Completed,Indonesia,0,Latte,Coffee,3.5,Mexico,City_147,False,CoffeeHouse_29,Kiosk,Brazil
+965,816,7,Cold Brew,2,3.25,6.5,59,28,2021-11-18,04:16:00,Card,Completed,Costa Rica,1,Cold Brew,Coffee,3.25,Colombia,City_126,False,CoffeeHouse_28,DriveThru,Germany
+966,817,10,Cortado,1,2.0,2.0,57,26,2022-01-12,22:16:00,Online,Completed,Costa Rica,0,Cortado,Coffee,2.0,United States,City_235,True,CoffeeHouse_26,Kiosk,UK
+967,817,8,Iced Latte,1,3.75,3.75,57,26,2022-01-12,22:16:00,Online,Completed,Costa Rica,0,Iced Latte,Coffee,3.75,United States,City_235,True,CoffeeHouse_26,Kiosk,UK
+968,818,2,Americano,1,2.5,2.5,96,42,2023-05-19,11:27:00,Card,Completed,Mexico,0,Americano,Coffee,2.5,France,City_69,False,CoffeeHouse_42,Kiosk,Vietnam
+969,819,5,Flat White,1,3.75,3.75,28,5,2022-03-10,06:53:00,Mobile Wallet,Completed,Brazil,0,Flat White,Coffee,3.75,Indonesia,City_277,False,CoffeeHouse_5,DriveThru,Mexico
+970,820,8,Iced Latte,1,3.75,3.75,22,37,2024-03-02,10:44:00,Online,Completed,Mexico,0,Iced Latte,Coffee,3.75,Spain,City_33,False,CoffeeHouse_37,Kiosk,Colombia
+971,821,6,Mocha,1,4.0,4.0,92,49,2022-08-02,23:59:00,Cash,Completed,Peru,0,Mocha,Coffee,4.0,France,City_213,False,CoffeeHouse_49,Retail,Australia
+972,821,6,Mocha,2,4.0,8.0,92,49,2022-08-02,23:59:00,Cash,Completed,Peru,0,Mocha,Coffee,4.0,France,City_213,False,CoffeeHouse_49,Retail,Australia
+973,822,1,Espresso,1,1.5,1.5,190,33,2021-07-26,13:02:00,Mobile Wallet,Completed,Brazil,0,Espresso,Coffee,1.5,France,City_86,True,CoffeeHouse_33,Retail,Costa Rica
+974,823,4,Cappuccino,1,3.25,3.25,39,44,2023-08-07,23:15:00,Cash,Completed,Indonesia,7,Cappuccino,Coffee,3.25,Canada,City_68,True,CoffeeHouse_44,Airport,Guatemala
+975,824,6,Mocha,1,4.0,4.0,129,34,2024-05-31,04:28:00,Online,Completed,Honduras,1,Mocha,Coffee,4.0,Italy,City_109,False,CoffeeHouse_34,Kiosk,France
+976,825,10,Cortado,1,2.0,2.0,111,3,2024-10-30,05:12:00,Card,Completed,Italy,0,Cortado,Coffee,2.0,Brazil,City_134,False,CoffeeHouse_3,DriveThru,Kenya
+977,826,2,Americano,1,2.5,2.5,4,10,2022-09-26,15:31:00,Online,Completed,Mexico,0,Americano,Coffee,2.5,Canada,City_102,False,CoffeeHouse_10,Airport,Indonesia
+980,829,9,Frappuccino,1,4.5,4.5,132,40,2022-10-05,23:17:00,Cash,Completed,Brazil,1,Frappuccino,Coffee,4.5,Italy,City_252,True,CoffeeHouse_40,DriveThru,Guatemala
+981,830,5,Flat White,1,3.75,3.75,63,45,2024-02-23,19:27:00,Mobile Wallet,Completed,Colombia,0,Flat White,Coffee,3.75,Germany,City_108,False,CoffeeHouse_45,Retail,Australia
+982,831,9,Frappuccino,2,4.5,9.0,119,43,2021-07-11,15:52:00,Card,Completed,Indonesia,1,Frappuccino,Coffee,4.5,UK,City_193,True,CoffeeHouse_43,Kiosk,UK
+983,832,6,Mocha,1,4.0,4.0,102,50,2023-06-07,20:37:00,Card,Completed,Italy,0,Mocha,Coffee,4.0,Costa Rica,City_79,False,CoffeeHouse_50,Airport,Brazil
+985,834,1,Espresso,2,1.5,3.0,93,28,2023-08-28,23:20:00,Card,Completed,Guatemala,1,Espresso,Coffee,1.5,Italy,City_205,True,CoffeeHouse_28,DriveThru,Germany
+986,835,8,Iced Latte,1,3.75,3.75,22,10,2021-05-22,17:54:00,Card,Completed,Guatemala,0,Iced Latte,Coffee,3.75,Spain,City_33,False,CoffeeHouse_10,Airport,Indonesia
+987,836,3,Latte,1,3.5,3.5,14,6,2023-05-28,14:18:00,Mobile Wallet,Completed,Canada,1,Latte,Coffee,3.5,Canada,City_126,False,CoffeeHouse_6,DriveThru,Vietnam
+988,837,7,Cold Brew,1,3.25,3.25,42,45,2023-06-14,19:08:00,Cash,Completed,Germany,0,Cold Brew,Coffee,3.25,Ethiopia,City_32,True,CoffeeHouse_45,Retail,Australia
+990,839,8,Iced Latte,2,3.75,7.5,30,44,2023-04-13,04:17:00,Mobile Wallet,Completed,UK,0,Iced Latte,Coffee,3.75,Kenya,City_30,True,CoffeeHouse_44,Airport,Guatemala
+991,840,3,Latte,1,3.5,3.5,56,48,2022-01-20,07:22:00,Cash,Completed,India,5,Latte,Coffee,3.5,Vietnam,City_154,True,CoffeeHouse_48,Retail,Australia
+994,842,2,Americano,2,2.5,5.0,91,35,2023-05-23,15:39:00,Mobile Wallet,Completed,Indonesia,0,Americano,Coffee,2.5,Vietnam,City_13,True,CoffeeHouse_35,DriveThru,Germany
+995,843,7,Cold Brew,1,3.25,3.25,42,35,2023-06-12,23:57:00,Mobile Wallet,Completed,Ethiopia,7,Cold Brew,Coffee,3.25,Ethiopia,City_32,True,CoffeeHouse_35,DriveThru,Germany
+997,845,4,Cappuccino,1,3.25,3.25,129,38,2021-03-08,15:31:00,Mobile Wallet,Completed,Ethiopia,0,Cappuccino,Coffee,3.25,Italy,City_109,False,CoffeeHouse_38,Kiosk,UK
+998,846,7,Cold Brew,2,3.25,6.5,121,8,2022-12-20,12:47:00,Online,Completed,Australia,0,Cold Brew,Coffee,3.25,Germany,City_62,False,CoffeeHouse_8,DriveThru,India
+999,846,7,Cold Brew,1,3.25,3.25,121,8,2022-12-20,12:47:00,Online,Completed,Australia,0,Cold Brew,Coffee,3.25,Germany,City_62,False,CoffeeHouse_8,DriveThru,India
+1000,847,7,Cold Brew,1,3.25,3.25,169,17,2022-09-22,14:09:00,Mobile Wallet,Completed,United States,0,Cold Brew,Coffee,3.25,Germany,City_256,True,CoffeeHouse_17,DriveThru,UK
+1001,847,1,Espresso,2,1.5,3.0,169,17,2022-09-22,14:09:00,Mobile Wallet,Completed,United States,0,Espresso,Coffee,1.5,Germany,City_256,True,CoffeeHouse_17,DriveThru,UK
+1002,848,10,Cortado,2,2.0,4.0,96,34,2024-05-13,08:15:00,Card,Completed,Costa Rica,0,Cortado,Coffee,2.0,France,City_69,False,CoffeeHouse_34,Kiosk,France
+1003,849,3,Latte,2,3.5,7.0,165,26,2021-04-16,05:55:00,Cash,Completed,Peru,0,Latte,Coffee,3.5,Peru,City_211,False,CoffeeHouse_26,Kiosk,UK
+1004,849,7,Cold Brew,2,3.25,6.5,165,26,2021-04-16,05:55:00,Cash,Completed,Peru,0,Cold Brew,Coffee,3.25,Peru,City_211,False,CoffeeHouse_26,Kiosk,UK
+1005,850,2,Americano,1,2.5,2.5,112,15,2021-07-23,13:22:00,Card,Completed,Guatemala,2,Americano,Coffee,2.5,Peru,City_173,False,CoffeeHouse_15,Retail,Costa Rica
+1006,851,1,Espresso,1,1.5,1.5,41,21,2022-02-22,20:15:00,Card,Completed,Germany,1,Espresso,Coffee,1.5,Honduras,City_217,True,CoffeeHouse_21,Airport,France
+1007,852,8,Iced Latte,1,3.75,3.75,21,37,2023-02-23,12:13:00,Mobile Wallet,Completed,Kenya,0,Iced Latte,Coffee,3.75,Colombia,City_25,True,CoffeeHouse_37,Kiosk,Colombia
+1008,853,5,Flat White,1,3.75,3.75,138,16,2023-02-14,04:54:00,Cash,Completed,UK,2,Flat White,Coffee,3.75,India,City_111,False,CoffeeHouse_16,DriveThru,France
+1009,854,5,Flat White,1,3.75,3.75,29,30,2024-05-05,03:10:00,Card,Completed,Honduras,3,Flat White,Coffee,3.75,Italy,City_10,False,CoffeeHouse_30,Kiosk,France
+1010,855,2,Americano,1,2.5,2.5,54,26,2021-07-26,21:21:00,Card,Completed,Spain,0,Americano,Coffee,2.5,UK,City_21,False,CoffeeHouse_26,Kiosk,UK
+1011,856,1,Espresso,2,1.5,3.0,81,41,2023-07-13,01:04:00,Card,Completed,Peru,7,Espresso,Coffee,1.5,Guatemala,City_23,True,CoffeeHouse_41,Retail,Indonesia
+1012,856,10,Cortado,1,2.0,2.0,81,41,2023-07-13,01:04:00,Card,Completed,Peru,7,Cortado,Coffee,2.0,Guatemala,City_23,True,CoffeeHouse_41,Retail,Indonesia
+1013,857,5,Flat White,2,3.75,7.5,124,40,2024-05-13,06:34:00,Card,Completed,Canada,0,Flat White,Coffee,3.75,France,City_79,False,CoffeeHouse_40,DriveThru,Guatemala
+1014,858,4,Cappuccino,1,3.25,3.25,132,49,2021-11-09,04:43:00,Card,Completed,Vietnam,0,Cappuccino,Coffee,3.25,Italy,City_252,True,CoffeeHouse_49,Retail,Australia
+1015,859,5,Flat White,1,3.75,3.75,124,13,2021-07-08,16:55:00,Cash,Completed,Costa Rica,3,Flat White,Coffee,3.75,France,City_79,False,CoffeeHouse_13,Kiosk,Vietnam
+1016,860,5,Flat White,2,3.75,7.5,65,12,2022-02-10,03:30:00,Mobile Wallet,Completed,UK,0,Flat White,Coffee,3.75,Colombia,City_217,False,CoffeeHouse_12,Retail,Ethiopia
+1017,861,10,Cortado,1,2.0,2.0,53,47,2023-09-27,10:52:00,Card,Completed,Germany,0,Cortado,Coffee,2.0,Germany,City_35,True,CoffeeHouse_47,Airport,Australia
+1019,863,7,Cold Brew,1,3.25,3.25,76,39,2024-08-14,14:39:00,Cash,Completed,Honduras,0,Cold Brew,Coffee,3.25,Costa Rica,City_169,False,CoffeeHouse_39,Retail,Peru
+1020,863,3,Latte,1,3.5,3.5,76,39,2024-08-14,14:39:00,Cash,Completed,Honduras,0,Latte,Coffee,3.5,Costa Rica,City_169,False,CoffeeHouse_39,Retail,Peru
+1021,864,2,Americano,1,2.5,2.5,56,43,2023-02-01,23:29:00,Mobile Wallet,Completed,Peru,0,Americano,Coffee,2.5,Vietnam,City_154,True,CoffeeHouse_43,Kiosk,UK
+1022,865,10,Cortado,1,2.0,2.0,146,21,2022-04-22,07:25:00,Card,Completed,Guatemala,1,Cortado,Coffee,2.0,Vietnam,City_77,True,CoffeeHouse_21,Airport,France
+1023,866,7,Cold Brew,1,3.25,3.25,172,5,2024-03-21,01:41:00,Card,Completed,Italy,0,Cold Brew,Coffee,3.25,Indonesia,City_160,False,CoffeeHouse_5,DriveThru,Mexico
+1024,866,6,Mocha,1,4.0,4.0,172,5,2024-03-21,01:41:00,Card,Completed,Italy,0,Mocha,Coffee,4.0,Indonesia,City_160,False,CoffeeHouse_5,DriveThru,Mexico
+1025,867,6,Mocha,1,4.0,4.0,71,27,2021-09-02,08:04:00,Card,Completed,Mexico,0,Mocha,Coffee,4.0,Canada,City_209,True,CoffeeHouse_27,Airport,Spain
+1027,869,5,Flat White,1,3.75,3.75,5,5,2023-08-21,11:48:00,Mobile Wallet,Completed,Canada,1,Flat White,Coffee,3.75,UK,City_143,True,CoffeeHouse_5,DriveThru,Mexico
+1030,872,1,Espresso,2,1.5,3.0,23,13,2023-01-26,01:28:00,Cash,Completed,Mexico,0,Espresso,Coffee,1.5,Australia,City_129,True,CoffeeHouse_13,Kiosk,Vietnam
+1031,872,1,Espresso,1,1.5,1.5,23,13,2023-01-26,01:28:00,Cash,Completed,Mexico,0,Espresso,Coffee,1.5,Australia,City_129,True,CoffeeHouse_13,Kiosk,Vietnam
+1032,873,3,Latte,2,3.5,7.0,85,45,2024-06-08,19:54:00,Card,Completed,Vietnam,0,Latte,Coffee,3.5,Canada,City_66,False,CoffeeHouse_45,Retail,Australia
+1033,874,7,Cold Brew,1,3.25,3.25,38,49,2024-04-11,08:12:00,Online,Completed,Italy,5,Cold Brew,Coffee,3.25,Australia,City_122,True,CoffeeHouse_49,Retail,Australia
+1034,874,2,Americano,1,2.5,2.5,38,49,2024-04-11,08:12:00,Online,Completed,Italy,5,Americano,Coffee,2.5,Australia,City_122,True,CoffeeHouse_49,Retail,Australia
+1035,875,5,Flat White,1,3.75,3.75,83,50,2023-09-16,12:02:00,Card,Completed,Kenya,1,Flat White,Coffee,3.75,Germany,City_161,False,CoffeeHouse_50,Airport,Brazil
+1036,876,4,Cappuccino,1,3.25,3.25,189,14,2021-06-09,07:22:00,Card,Completed,Costa Rica,0,Cappuccino,Coffee,3.25,Mexico,City_117,True,CoffeeHouse_14,Retail,Costa Rica
+1037,877,9,Frappuccino,1,4.5,4.5,27,22,2022-03-04,22:22:00,Mobile Wallet,Completed,Australia,0,Frappuccino,Coffee,4.5,Mexico,City_260,False,CoffeeHouse_22,Retail,Ethiopia
+1038,877,5,Flat White,1,3.75,3.75,27,22,2022-03-04,22:22:00,Mobile Wallet,Completed,Australia,0,Flat White,Coffee,3.75,Mexico,City_260,False,CoffeeHouse_22,Retail,Ethiopia
+1039,878,10,Cortado,1,2.0,2.0,34,15,2023-01-15,13:39:00,Card,Completed,Guatemala,0,Cortado,Coffee,2.0,Honduras,City_225,True,CoffeeHouse_15,Retail,Costa Rica
+1040,879,2,Americano,1,2.5,2.5,176,20,2024-03-28,08:12:00,Card,Completed,France,0,Americano,Coffee,2.5,Costa Rica,City_98,True,CoffeeHouse_20,Retail,Germany
+1041,880,2,Americano,2,2.5,5.0,8,31,2024-09-17,02:52:00,Card,Completed,India,0,Americano,Coffee,2.5,Germany,City_136,True,CoffeeHouse_31,DriveThru,Honduras
+1042,881,6,Mocha,1,4.0,4.0,129,28,2023-11-07,22:08:00,Card,Completed,Spain,0,Mocha,Coffee,4.0,Italy,City_109,False,CoffeeHouse_28,DriveThru,Germany
+1043,882,8,Iced Latte,1,3.75,3.75,49,26,2021-12-28,03:43:00,Cash,Completed,Kenya,5,Iced Latte,Coffee,3.75,Vietnam,City_98,True,CoffeeHouse_26,Kiosk,UK
+1044,883,4,Cappuccino,1,3.25,3.25,57,8,2021-04-19,21:10:00,Cash,Completed,Costa Rica,0,Cappuccino,Coffee,3.25,United States,City_235,True,CoffeeHouse_8,DriveThru,India
+1045,883,2,Americano,1,2.5,2.5,57,8,2021-04-19,21:10:00,Cash,Completed,Costa Rica,0,Americano,Coffee,2.5,United States,City_235,True,CoffeeHouse_8,DriveThru,India
+1046,884,4,Cappuccino,1,3.25,3.25,26,15,2022-07-04,09:49:00,Card,Completed,Mexico,1,Cappuccino,Coffee,3.25,Guatemala,City_257,True,CoffeeHouse_15,Retail,Costa Rica
+1047,885,5,Flat White,1,3.75,3.75,25,12,2023-10-28,23:15:00,Cash,Completed,Indonesia,0,Flat White,Coffee,3.75,Ethiopia,City_151,True,CoffeeHouse_12,Retail,Ethiopia
+1048,885,4,Cappuccino,1,3.25,3.25,25,12,2023-10-28,23:15:00,Cash,Completed,Indonesia,0,Cappuccino,Coffee,3.25,Ethiopia,City_151,True,CoffeeHouse_12,Retail,Ethiopia
+1050,887,8,Iced Latte,1,3.75,3.75,3,39,2022-12-23,00:35:00,Cash,Completed,Mexico,2,Iced Latte,Coffee,3.75,United States,City_48,True,CoffeeHouse_39,Retail,Peru
+1051,887,8,Iced Latte,1,3.75,3.75,3,39,2022-12-23,00:35:00,Cash,Completed,Mexico,2,Iced Latte,Coffee,3.75,United States,City_48,True,CoffeeHouse_39,Retail,Peru
+1052,888,2,Americano,1,2.5,2.5,135,33,2021-12-09,11:27:00,Mobile Wallet,Completed,Honduras,7,Americano,Coffee,2.5,Spain,City_282,False,CoffeeHouse_33,Retail,Costa Rica
+1055,891,4,Cappuccino,2,3.25,6.5,63,37,2023-06-02,12:53:00,Mobile Wallet,Completed,Guatemala,2,Cappuccino,Coffee,3.25,Germany,City_108,False,CoffeeHouse_37,Kiosk,Colombia
+1056,892,3,Latte,1,3.5,3.5,174,35,2023-07-10,09:25:00,Mobile Wallet,Completed,Brazil,0,Latte,Coffee,3.5,Vietnam,City_256,False,CoffeeHouse_35,DriveThru,Germany
+1057,892,6,Mocha,1,4.0,4.0,174,35,2023-07-10,09:25:00,Mobile Wallet,Completed,Brazil,0,Mocha,Coffee,4.0,Vietnam,City_256,False,CoffeeHouse_35,DriveThru,Germany
+1058,892,7,Cold Brew,1,3.25,3.25,174,35,2023-07-10,09:25:00,Mobile Wallet,Completed,Brazil,0,Cold Brew,Coffee,3.25,Vietnam,City_256,False,CoffeeHouse_35,DriveThru,Germany
+1059,893,10,Cortado,2,2.0,4.0,180,22,2024-06-08,11:50:00,Mobile Wallet,Completed,United States,0,Cortado,Coffee,2.0,Canada,City_279,False,CoffeeHouse_22,Retail,Ethiopia
+1060,894,5,Flat White,1,3.75,3.75,176,10,2023-08-14,22:40:00,Cash,Completed,Italy,0,Flat White,Coffee,3.75,Costa Rica,City_98,True,CoffeeHouse_10,Airport,Indonesia
+1061,895,10,Cortado,1,2.0,2.0,76,1,2023-07-19,16:40:00,Card,Completed,Spain,0,Cortado,Coffee,2.0,Costa Rica,City_169,False,CoffeeHouse_1,DriveThru,Germany
+1062,896,9,Frappuccino,1,4.5,4.5,1,4,2022-05-30,19:08:00,Mobile Wallet,Completed,Colombia,1,Frappuccino,Coffee,4.5,Ethiopia,City_13,True,CoffeeHouse_4,Retail,Vietnam
+1064,898,5,Flat White,2,3.75,7.5,164,25,2023-05-16,20:22:00,Online,Completed,UK,0,Flat White,Coffee,3.75,Spain,City_171,True,CoffeeHouse_25,Airport,France
+1065,899,3,Latte,1,3.5,3.5,83,38,2021-10-13,06:48:00,Card,Completed,Colombia,0,Latte,Coffee,3.5,Germany,City_161,False,CoffeeHouse_38,Kiosk,UK
+1066,900,7,Cold Brew,1,3.25,3.25,161,30,2024-01-23,17:58:00,Mobile Wallet,Completed,Peru,0,Cold Brew,Coffee,3.25,Guatemala,City_296,True,CoffeeHouse_30,Kiosk,France
+1067,901,7,Cold Brew,2,3.25,6.5,176,46,2023-01-03,15:44:00,Card,Completed,Canada,0,Cold Brew,Coffee,3.25,Costa Rica,City_98,True,CoffeeHouse_46,DriveThru,Italy
+1068,902,5,Flat White,1,3.75,3.75,197,27,2021-07-01,19:48:00,Cash,Completed,Vietnam,1,Flat White,Coffee,3.75,Honduras,City_154,False,CoffeeHouse_27,Airport,Spain
+1069,903,7,Cold Brew,1,3.25,3.25,145,19,2021-04-20,15:47:00,Card,Completed,Australia,0,Cold Brew,Coffee,3.25,Italy,City_38,True,CoffeeHouse_19,DriveThru,United States
+1070,904,2,Americano,1,2.5,2.5,14,6,2021-04-23,03:19:00,Online,Completed,UK,0,Americano,Coffee,2.5,Canada,City_126,False,CoffeeHouse_6,DriveThru,Vietnam
+1071,905,1,Espresso,1,1.5,1.5,85,4,2021-09-06,17:37:00,Cash,Completed,Italy,0,Espresso,Coffee,1.5,Canada,City_66,False,CoffeeHouse_4,Retail,Vietnam
+1072,906,1,Espresso,1,1.5,1.5,173,41,2021-11-13,21:17:00,Card,Completed,Ethiopia,0,Espresso,Coffee,1.5,Colombia,City_116,True,CoffeeHouse_41,Retail,Indonesia
+1073,907,2,Americano,1,2.5,2.5,40,39,2021-09-05,17:15:00,Card,Completed,Brazil,3,Americano,Coffee,2.5,Italy,City_209,False,CoffeeHouse_39,Retail,Peru
+1074,908,9,Frappuccino,1,4.5,4.5,77,26,2023-09-18,04:59:00,Mobile Wallet,Completed,Indonesia,0,Frappuccino,Coffee,4.5,Honduras,City_261,False,CoffeeHouse_26,Kiosk,UK
+1075,908,10,Cortado,1,2.0,2.0,77,26,2023-09-18,04:59:00,Mobile Wallet,Completed,Indonesia,0,Cortado,Coffee,2.0,Honduras,City_261,False,CoffeeHouse_26,Kiosk,UK
+1076,908,10,Cortado,1,2.0,2.0,77,26,2023-09-18,04:59:00,Mobile Wallet,Completed,Indonesia,0,Cortado,Coffee,2.0,Honduras,City_261,False,CoffeeHouse_26,Kiosk,UK
+1077,909,9,Frappuccino,1,4.5,4.5,191,43,2022-05-08,16:23:00,Mobile Wallet,Completed,Ethiopia,5,Frappuccino,Coffee,4.5,Peru,City_29,False,CoffeeHouse_43,Kiosk,UK
+1078,910,2,Americano,1,2.5,2.5,127,24,2024-09-29,14:30:00,Card,Completed,Mexico,0,Americano,Coffee,2.5,Kenya,City_238,False,CoffeeHouse_24,Airport,Kenya
+1080,912,9,Frappuccino,1,4.5,4.5,118,18,2021-01-19,05:10:00,Card,Completed,UK,0,Frappuccino,Coffee,4.5,Indonesia,City_160,False,CoffeeHouse_18,Airport,Ethiopia
+1081,912,9,Frappuccino,1,4.5,4.5,118,18,2021-01-19,05:10:00,Card,Completed,UK,0,Frappuccino,Coffee,4.5,Indonesia,City_160,False,CoffeeHouse_18,Airport,Ethiopia
+1082,912,2,Americano,1,2.5,2.5,118,18,2021-01-19,05:10:00,Card,Completed,UK,0,Americano,Coffee,2.5,Indonesia,City_160,False,CoffeeHouse_18,Airport,Ethiopia
+1083,913,7,Cold Brew,1,3.25,3.25,184,9,2022-07-25,22:01:00,Cash,Completed,Italy,1,Cold Brew,Coffee,3.25,Ethiopia,City_226,False,CoffeeHouse_9,DriveThru,Australia
+1085,915,4,Cappuccino,1,3.25,3.25,104,5,2021-04-03,03:37:00,Mobile Wallet,Completed,Italy,0,Cappuccino,Coffee,3.25,Spain,City_200,False,CoffeeHouse_5,DriveThru,Mexico
+1087,917,1,Espresso,2,1.5,3.0,30,3,2021-05-30,10:57:00,Card,Completed,France,0,Espresso,Coffee,1.5,Kenya,City_30,True,CoffeeHouse_3,DriveThru,Kenya
+1088,918,8,Iced Latte,1,3.75,3.75,164,37,2024-02-14,07:41:00,Card,Completed,Indonesia,0,Iced Latte,Coffee,3.75,Spain,City_171,True,CoffeeHouse_37,Kiosk,Colombia
+1090,920,9,Frappuccino,1,4.5,4.5,146,35,2021-05-28,07:04:00,Cash,Completed,Italy,0,Frappuccino,Coffee,4.5,Vietnam,City_77,True,CoffeeHouse_35,DriveThru,Germany
+1091,921,8,Iced Latte,1,3.75,3.75,92,40,2024-02-19,19:25:00,Mobile Wallet,Completed,Australia,0,Iced Latte,Coffee,3.75,France,City_213,False,CoffeeHouse_40,DriveThru,Guatemala
+1092,921,7,Cold Brew,1,3.25,3.25,92,40,2024-02-19,19:25:00,Mobile Wallet,Completed,Australia,0,Cold Brew,Coffee,3.25,France,City_213,False,CoffeeHouse_40,DriveThru,Guatemala
+1094,923,10,Cortado,1,2.0,2.0,92,5,2021-11-20,17:04:00,Card,Completed,Germany,0,Cortado,Coffee,2.0,France,City_213,False,CoffeeHouse_5,DriveThru,Mexico
+1095,923,9,Frappuccino,2,4.5,9.0,92,5,2021-11-20,17:04:00,Card,Completed,Germany,0,Frappuccino,Coffee,4.5,France,City_213,False,CoffeeHouse_5,DriveThru,Mexico
+1096,924,5,Flat White,1,3.75,3.75,179,8,2024-04-08,01:06:00,Online,Completed,Guatemala,0,Flat White,Coffee,3.75,Vietnam,City_229,False,CoffeeHouse_8,DriveThru,India
+1099,927,1,Espresso,1,1.5,1.5,21,36,2023-09-08,22:11:00,Card,Completed,Italy,0,Espresso,Coffee,1.5,Colombia,City_25,True,CoffeeHouse_36,Kiosk,Kenya
+1100,927,8,Iced Latte,1,3.75,3.75,21,36,2023-09-08,22:11:00,Card,Completed,Italy,0,Iced Latte,Coffee,3.75,Colombia,City_25,True,CoffeeHouse_36,Kiosk,Kenya
+1101,928,4,Cappuccino,1,3.25,3.25,59,2,2021-04-24,12:56:00,Mobile Wallet,Completed,United States,0,Cappuccino,Coffee,3.25,Colombia,City_126,False,CoffeeHouse_2,DriveThru,Kenya
+1102,929,7,Cold Brew,1,3.25,3.25,14,25,2023-02-12,03:56:00,Card,Completed,Germany,7,Cold Brew,Coffee,3.25,Canada,City_126,False,CoffeeHouse_25,Airport,France
+1103,930,4,Cappuccino,1,3.25,3.25,95,23,2022-02-01,20:05:00,Online,Completed,Spain,1,Cappuccino,Coffee,3.25,Brazil,City_286,True,CoffeeHouse_23,Retail,Mexico
+1104,931,4,Cappuccino,1,3.25,3.25,138,37,2021-04-04,01:29:00,Card,Completed,Germany,1,Cappuccino,Coffee,3.25,India,City_111,False,CoffeeHouse_37,Kiosk,Colombia
+1105,931,2,Americano,1,2.5,2.5,138,37,2021-04-04,01:29:00,Card,Completed,Germany,1,Americano,Coffee,2.5,India,City_111,False,CoffeeHouse_37,Kiosk,Colombia
+1106,931,8,Iced Latte,1,3.75,3.75,138,37,2021-04-04,01:29:00,Card,Completed,Germany,1,Iced Latte,Coffee,3.75,India,City_111,False,CoffeeHouse_37,Kiosk,Colombia
+1107,932,2,Americano,1,2.5,2.5,63,19,2021-09-23,02:36:00,Card,Completed,Canada,0,Americano,Coffee,2.5,Germany,City_108,False,CoffeeHouse_19,DriveThru,United States
+1110,934,7,Cold Brew,1,3.25,3.25,69,21,2024-01-14,21:13:00,Card,Completed,Colombia,0,Cold Brew,Coffee,3.25,Spain,City_66,True,CoffeeHouse_21,Airport,France
+1111,935,2,Americano,1,2.5,2.5,36,34,2022-04-18,04:50:00,Cash,Completed,Kenya,1,Americano,Coffee,2.5,UK,City_113,True,CoffeeHouse_34,Kiosk,France
+1112,936,1,Espresso,1,1.5,1.5,167,49,2023-07-19,02:53:00,Card,Completed,Germany,0,Espresso,Coffee,1.5,Peru,City_60,True,CoffeeHouse_49,Retail,Australia
+1113,936,10,Cortado,1,2.0,2.0,167,49,2023-07-19,02:53:00,Card,Completed,Germany,0,Cortado,Coffee,2.0,Peru,City_60,True,CoffeeHouse_49,Retail,Australia
+1114,937,7,Cold Brew,1,3.25,3.25,5,25,2023-02-27,14:42:00,Card,Completed,Mexico,0,Cold Brew,Coffee,3.25,UK,City_143,True,CoffeeHouse_25,Airport,France
+1115,938,6,Mocha,2,4.0,8.0,196,23,2021-02-23,20:10:00,Mobile Wallet,Completed,United States,0,Mocha,Coffee,4.0,France,City_148,False,CoffeeHouse_23,Retail,Mexico
+1116,938,5,Flat White,1,3.75,3.75,196,23,2021-02-23,20:10:00,Mobile Wallet,Completed,United States,0,Flat White,Coffee,3.75,France,City_148,False,CoffeeHouse_23,Retail,Mexico
+1117,939,1,Espresso,1,1.5,1.5,160,28,2023-05-26,18:53:00,Online,Completed,Mexico,2,Espresso,Coffee,1.5,Peru,City_129,True,CoffeeHouse_28,DriveThru,Germany
+1118,940,9,Frappuccino,1,4.5,4.5,137,30,2023-05-19,13:00:00,Cash,Completed,Kenya,0,Frappuccino,Coffee,4.5,Peru,City_62,True,CoffeeHouse_30,Kiosk,France
+1119,941,4,Cappuccino,1,3.25,3.25,4,18,2024-10-29,13:28:00,Card,Completed,Guatemala,0,Cappuccino,Coffee,3.25,Canada,City_102,False,CoffeeHouse_18,Airport,Ethiopia
+1120,941,5,Flat White,1,3.75,3.75,4,18,2024-10-29,13:28:00,Card,Completed,Guatemala,0,Flat White,Coffee,3.75,Canada,City_102,False,CoffeeHouse_18,Airport,Ethiopia
+1121,942,2,Americano,1,2.5,2.5,169,17,2024-08-30,06:06:00,Cash,Completed,United States,0,Americano,Coffee,2.5,Germany,City_256,True,CoffeeHouse_17,DriveThru,UK
+1122,942,6,Mocha,1,4.0,4.0,169,17,2024-08-30,06:06:00,Cash,Completed,United States,0,Mocha,Coffee,4.0,Germany,City_256,True,CoffeeHouse_17,DriveThru,UK
+1124,944,5,Flat White,1,3.75,3.75,142,21,2021-05-12,16:53:00,Card,Completed,Indonesia,0,Flat White,Coffee,3.75,Italy,City_53,False,CoffeeHouse_21,Airport,France
+1125,945,3,Latte,1,3.5,3.5,159,42,2021-04-12,15:01:00,Cash,Completed,Brazil,0,Latte,Coffee,3.5,France,City_42,False,CoffeeHouse_42,Kiosk,Vietnam
+1126,946,6,Mocha,1,4.0,4.0,59,4,2022-06-15,11:56:00,Card,Completed,Australia,0,Mocha,Coffee,4.0,Colombia,City_126,False,CoffeeHouse_4,Retail,Vietnam
+1127,946,1,Espresso,1,1.5,1.5,59,4,2022-06-15,11:56:00,Card,Completed,Australia,0,Espresso,Coffee,1.5,Colombia,City_126,False,CoffeeHouse_4,Retail,Vietnam
+1129,948,6,Mocha,1,4.0,4.0,156,24,2022-11-18,05:28:00,Mobile Wallet,Completed,Mexico,3,Mocha,Coffee,4.0,Guatemala,City_73,False,CoffeeHouse_24,Airport,Kenya
+1130,948,5,Flat White,1,3.75,3.75,156,24,2022-11-18,05:28:00,Mobile Wallet,Completed,Mexico,3,Flat White,Coffee,3.75,Guatemala,City_73,False,CoffeeHouse_24,Airport,Kenya
+1131,949,9,Frappuccino,1,4.5,4.5,152,2,2021-08-06,17:20:00,Mobile Wallet,Completed,Honduras,3,Frappuccino,Coffee,4.5,Indonesia,City_2,False,CoffeeHouse_2,DriveThru,Kenya
+1132,950,2,Americano,2,2.5,5.0,97,38,2021-03-08,07:39:00,Card,Completed,UK,1,Americano,Coffee,2.5,France,City_259,False,CoffeeHouse_38,Kiosk,UK
+1133,951,9,Frappuccino,1,4.5,4.5,188,27,2024-01-09,20:43:00,Mobile Wallet,Completed,Australia,0,Frappuccino,Coffee,4.5,Italy,City_278,True,CoffeeHouse_27,Airport,Spain
+1134,952,4,Cappuccino,1,3.25,3.25,82,18,2022-02-04,10:44:00,Card,Completed,Ethiopia,1,Cappuccino,Coffee,3.25,Honduras,City_221,False,CoffeeHouse_18,Airport,Ethiopia
+1135,952,6,Mocha,1,4.0,4.0,82,18,2022-02-04,10:44:00,Card,Completed,Ethiopia,1,Mocha,Coffee,4.0,Honduras,City_221,False,CoffeeHouse_18,Airport,Ethiopia
+1136,953,9,Frappuccino,1,4.5,4.5,114,47,2023-04-20,12:21:00,Card,Completed,Germany,0,Frappuccino,Coffee,4.5,Honduras,City_115,True,CoffeeHouse_47,Airport,Australia
+1137,954,9,Frappuccino,1,4.5,4.5,108,15,2024-03-12,22:43:00,Online,Completed,Guatemala,1,Frappuccino,Coffee,4.5,Costa Rica,City_173,False,CoffeeHouse_15,Retail,Costa Rica
+1138,954,7,Cold Brew,1,3.25,3.25,108,15,2024-03-12,22:43:00,Online,Completed,Guatemala,1,Cold Brew,Coffee,3.25,Costa Rica,City_173,False,CoffeeHouse_15,Retail,Costa Rica
+1140,956,9,Frappuccino,1,4.5,4.5,117,1,2021-12-08,16:02:00,Card,Completed,Vietnam,2,Frappuccino,Coffee,4.5,France,City_132,True,CoffeeHouse_1,DriveThru,Germany
+1141,957,9,Frappuccino,2,4.5,9.0,111,2,2021-12-08,08:14:00,Card,Completed,Ethiopia,0,Frappuccino,Coffee,4.5,Brazil,City_134,False,CoffeeHouse_2,DriveThru,Kenya
+1142,957,7,Cold Brew,1,3.25,3.25,111,2,2021-12-08,08:14:00,Card,Completed,Ethiopia,0,Cold Brew,Coffee,3.25,Brazil,City_134,False,CoffeeHouse_2,DriveThru,Kenya
+1143,957,7,Cold Brew,1,3.25,3.25,111,2,2021-12-08,08:14:00,Card,Completed,Ethiopia,0,Cold Brew,Coffee,3.25,Brazil,City_134,False,CoffeeHouse_2,DriveThru,Kenya
+1146,960,7,Cold Brew,1,3.25,3.25,2,38,2024-04-29,06:01:00,Cash,Completed,UK,0,Cold Brew,Coffee,3.25,Ethiopia,City_280,True,CoffeeHouse_38,Kiosk,UK
+1147,961,10,Cortado,1,2.0,2.0,198,7,2022-04-21,17:55:00,Card,Completed,Spain,0,Cortado,Coffee,2.0,Mexico,City_102,True,CoffeeHouse_7,Kiosk,Peru
+1148,962,4,Cappuccino,1,3.25,3.25,99,21,2022-01-01,21:00:00,Card,Completed,Honduras,0,Cappuccino,Coffee,3.25,Guatemala,City_267,False,CoffeeHouse_21,Airport,France
+1149,962,5,Flat White,1,3.75,3.75,99,21,2022-01-01,21:00:00,Card,Completed,Honduras,0,Flat White,Coffee,3.75,Guatemala,City_267,False,CoffeeHouse_21,Airport,France
+1151,964,9,Frappuccino,1,4.5,4.5,171,18,2021-10-16,00:56:00,Cash,Completed,Brazil,5,Frappuccino,Coffee,4.5,Italy,City_63,True,CoffeeHouse_18,Airport,Ethiopia
+1153,966,2,Americano,1,2.5,2.5,114,34,2021-09-16,14:45:00,Card,Completed,Colombia,2,Americano,Coffee,2.5,Honduras,City_115,True,CoffeeHouse_34,Kiosk,France
+1154,966,2,Americano,1,2.5,2.5,114,34,2021-09-16,14:45:00,Card,Completed,Colombia,2,Americano,Coffee,2.5,Honduras,City_115,True,CoffeeHouse_34,Kiosk,France
+1155,967,2,Americano,1,2.5,2.5,72,47,2024-10-01,07:35:00,Card,Completed,Peru,0,Americano,Coffee,2.5,Indonesia,City_91,False,CoffeeHouse_47,Airport,Australia
+1157,969,1,Espresso,2,1.5,3.0,181,34,2022-10-13,21:24:00,Cash,Completed,Vietnam,0,Espresso,Coffee,1.5,India,City_123,False,CoffeeHouse_34,Kiosk,France
+1158,970,3,Latte,1,3.5,3.5,57,44,2022-02-05,09:38:00,Card,Completed,Colombia,5,Latte,Coffee,3.5,United States,City_235,True,CoffeeHouse_44,Airport,Guatemala
+1159,971,9,Frappuccino,1,4.5,4.5,186,48,2022-03-15,06:04:00,Card,Completed,Guatemala,1,Frappuccino,Coffee,4.5,Colombia,City_241,False,CoffeeHouse_48,Retail,Australia
+1161,973,2,Americano,1,2.5,2.5,162,26,2024-05-09,09:48:00,Card,Completed,France,0,Americano,Coffee,2.5,Italy,City_266,True,CoffeeHouse_26,Kiosk,UK
+1162,974,2,Americano,1,2.5,2.5,170,28,2021-08-26,13:35:00,Online,Completed,Italy,2,Americano,Coffee,2.5,Guatemala,City_282,False,CoffeeHouse_28,DriveThru,Germany
+1163,975,5,Flat White,1,3.75,3.75,126,39,2023-04-24,13:57:00,Card,Completed,Peru,0,Flat White,Coffee,3.75,Peru,City_126,False,CoffeeHouse_39,Retail,Peru
+1164,976,5,Flat White,2,3.75,7.5,82,27,2023-03-13,07:28:00,Card,Completed,Brazil,0,Flat White,Coffee,3.75,Honduras,City_221,False,CoffeeHouse_27,Airport,Spain
+1165,976,5,Flat White,1,3.75,3.75,82,27,2023-03-13,07:28:00,Card,Completed,Brazil,0,Flat White,Coffee,3.75,Honduras,City_221,False,CoffeeHouse_27,Airport,Spain
+1166,977,2,Americano,2,2.5,5.0,105,15,2024-03-18,04:24:00,Cash,Completed,United States,5,Americano,Coffee,2.5,Italy,City_4,False,CoffeeHouse_15,Retail,Costa Rica
+1167,977,10,Cortado,1,2.0,2.0,105,15,2024-03-18,04:24:00,Cash,Completed,United States,5,Cortado,Coffee,2.0,Italy,City_4,False,CoffeeHouse_15,Retail,Costa Rica
+1168,978,6,Mocha,1,4.0,4.0,6,25,2021-07-04,18:52:00,Card,Completed,Brazil,0,Mocha,Coffee,4.0,Spain,City_175,False,CoffeeHouse_25,Airport,France
+1169,979,7,Cold Brew,1,3.25,3.25,93,35,2022-02-11,11:18:00,Mobile Wallet,Completed,Canada,1,Cold Brew,Coffee,3.25,Italy,City_205,True,CoffeeHouse_35,DriveThru,Germany
+1170,979,4,Cappuccino,1,3.25,3.25,93,35,2022-02-11,11:18:00,Mobile Wallet,Completed,Canada,1,Cappuccino,Coffee,3.25,Italy,City_205,True,CoffeeHouse_35,DriveThru,Germany
+1171,979,3,Latte,2,3.5,7.0,93,35,2022-02-11,11:18:00,Mobile Wallet,Completed,Canada,1,Latte,Coffee,3.5,Italy,City_205,True,CoffeeHouse_35,DriveThru,Germany
+1172,980,9,Frappuccino,1,4.5,4.5,4,3,2021-02-11,16:33:00,Cash,Completed,Mexico,0,Frappuccino,Coffee,4.5,Canada,City_102,False,CoffeeHouse_3,DriveThru,Kenya
+1173,981,7,Cold Brew,1,3.25,3.25,59,41,2022-05-22,04:28:00,Mobile Wallet,Completed,Guatemala,2,Cold Brew,Coffee,3.25,Colombia,City_126,False,CoffeeHouse_41,Retail,Indonesia
+1174,982,7,Cold Brew,1,3.25,3.25,20,5,2023-10-31,18:29:00,Mobile Wallet,Completed,Vietnam,0,Cold Brew,Coffee,3.25,UK,City_205,False,CoffeeHouse_5,DriveThru,Mexico
+1175,983,6,Mocha,1,4.0,4.0,151,26,2022-02-02,15:39:00,Mobile Wallet,Completed,Guatemala,5,Mocha,Coffee,4.0,Colombia,City_81,True,CoffeeHouse_26,Kiosk,UK
+1176,983,1,Espresso,1,1.5,1.5,151,26,2022-02-02,15:39:00,Mobile Wallet,Completed,Guatemala,5,Espresso,Coffee,1.5,Colombia,City_81,True,CoffeeHouse_26,Kiosk,UK
+1177,984,7,Cold Brew,1,3.25,3.25,148,31,2023-02-11,16:29:00,Card,Completed,Canada,0,Cold Brew,Coffee,3.25,Australia,City_195,False,CoffeeHouse_31,DriveThru,Honduras
+1178,985,9,Frappuccino,1,4.5,4.5,98,2,2023-10-15,15:26:00,Online,Completed,United States,0,Frappuccino,Coffee,4.5,Indonesia,City_244,True,CoffeeHouse_2,DriveThru,Kenya
+1180,987,10,Cortado,1,2.0,2.0,54,32,2024-04-30,17:51:00,Card,Completed,UK,1,Cortado,Coffee,2.0,UK,City_21,False,CoffeeHouse_32,Retail,Canada
+1181,988,6,Mocha,1,4.0,4.0,16,50,2023-10-08,01:14:00,Card,Completed,UK,0,Mocha,Coffee,4.0,Kenya,City_17,True,CoffeeHouse_50,Airport,Brazil
+1182,989,9,Frappuccino,1,4.5,4.5,2,18,2022-03-05,22:15:00,Mobile Wallet,Completed,France,1,Frappuccino,Coffee,4.5,Ethiopia,City_280,True,CoffeeHouse_18,Airport,Ethiopia
+1183,990,2,Americano,1,2.5,2.5,132,36,2021-06-16,04:08:00,Card,Completed,France,2,Americano,Coffee,2.5,Italy,City_252,True,CoffeeHouse_36,Kiosk,Kenya
+1184,990,1,Espresso,1,1.5,1.5,132,36,2021-06-16,04:08:00,Card,Completed,France,2,Espresso,Coffee,1.5,Italy,City_252,True,CoffeeHouse_36,Kiosk,Kenya
+1185,991,9,Frappuccino,1,4.5,4.5,30,3,2023-05-19,18:40:00,Cash,Completed,United States,0,Frappuccino,Coffee,4.5,Kenya,City_30,True,CoffeeHouse_3,DriveThru,Kenya
+1186,992,6,Mocha,1,4.0,4.0,112,19,2024-10-17,05:39:00,Card,Completed,Australia,1,Mocha,Coffee,4.0,Peru,City_173,False,CoffeeHouse_19,DriveThru,United States
+1188,994,8,Iced Latte,1,3.75,3.75,184,31,2021-01-21,00:11:00,Card,Completed,India,0,Iced Latte,Coffee,3.75,Ethiopia,City_226,False,CoffeeHouse_31,DriveThru,Honduras
+1189,995,8,Iced Latte,1,3.75,3.75,25,35,2023-07-29,02:16:00,Card,Completed,Canada,2,Iced Latte,Coffee,3.75,Ethiopia,City_151,True,CoffeeHouse_35,DriveThru,Germany
+1192,997,4,Cappuccino,1,3.25,3.25,169,13,2021-06-08,08:58:00,Card,Completed,Vietnam,1,Cappuccino,Coffee,3.25,Germany,City_256,True,CoffeeHouse_13,Kiosk,Vietnam
+1193,998,10,Cortado,1,2.0,2.0,151,42,2023-02-24,21:01:00,Mobile Wallet,Completed,Italy,0,Cortado,Coffee,2.0,Colombia,City_81,True,CoffeeHouse_42,Kiosk,Vietnam
+1195,1000,8,Iced Latte,1,3.75,3.75,14,9,2023-11-14,08:13:00,Card,Completed,Costa Rica,1,Iced Latte,Coffee,3.75,Canada,City_126,False,CoffeeHouse_9,DriveThru,Australia
+1196,1000,9,Frappuccino,1,4.5,4.5,14,9,2023-11-14,08:13:00,Card,Completed,Costa Rica,1,Frappuccino,Coffee,4.5,Canada,City_126,False,CoffeeHouse_9,DriveThru,Australia
